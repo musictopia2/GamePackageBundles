@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicControlsAndWindowsCore" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <!--beginmulti-->
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXWindowsAndControlsCore">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\BaseGPXWindowsAndControlsCore\bin\Release\netcoreapp3.0\BaseGPXWindowsAndControlsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderWPF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\GameLoaderWPF\bin\Release\netcoreapp3.0\GameLoaderWPF.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="Blackjack">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BlackjackWPF\bin\Release\netcoreapp3.0\BlackjackWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BuncoDiceGame">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BuncoDiceGameWPF\bin\Release\netcoreapp3.0\BuncoDiceGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Froggies">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FroggiesWPF\bin\Release\netcoreapp3.0\FroggiesWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Mastermind">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MastermindWPF\bin\Release\netcoreapp3.0\MastermindWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Minesweeper">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MinesweeperWPF\bin\Release\netcoreapp3.0\MinesweeperWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Poker">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PokerWPF\bin\Release\netcoreapp3.0\PokerWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SolitaireBoardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SolitaireBoardGameWPF\bin\Release\netcoreapp3.0\SolitaireBoardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="XPuzzle">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\XPuzzleWPF\bin\Release\netcoreapp3.0\XPuzzleWPF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+
+</Project>

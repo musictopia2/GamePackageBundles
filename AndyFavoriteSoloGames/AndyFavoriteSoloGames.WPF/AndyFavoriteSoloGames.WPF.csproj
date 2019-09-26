@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicControlsAndWindowsCore" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <!--beginmulti-->
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXWindowsAndControlsCore">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\BaseGPXWindowsAndControlsCore\bin\Release\netcoreapp3.0\BaseGPXWindowsAndControlsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderWPF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\GameLoaderWPF\bin\Release\netcoreapp3.0\GameLoaderWPF.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="MahJongSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MahJongSolitaireWPF\bin\Release\netcoreapp3.0\MahJongSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="KlondikeSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\KlondikeSolitaireWPF\bin\Release\netcoreapp3.0\KlondikeSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BisleySolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BisleySolitaireWPF\bin\Release\netcoreapp3.0\BisleySolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FlorentineSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FlorentineSolitaireWPF\bin\Release\netcoreapp3.0\FlorentineSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeCellSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FreeCellSolitaireWPF\bin\Release\netcoreapp3.0\FreeCellSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BakersDozenSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BakersDozenSolitaireWPF\bin\Release\netcoreapp3.0\BakersDozenSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BeleaguredCastle">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BeleaguredCastleWPF\bin\Release\netcoreapp3.0\BeleaguredCastleWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="EightOffSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\EightOffSolitaireWPF\bin\Release\netcoreapp3.0\EightOffSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SpiderSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SpiderSolitaireWPF\bin\Release\netcoreapp3.0\SpiderSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MarthaSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MarthaSolitaireWPF\bin\Release\netcoreapp3.0\MarthaSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PersianSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PersianSolitaireWPF\bin\Release\netcoreapp3.0\PersianSolitaireWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GrandfathersClock">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GrandfathersClockWPF\bin\Release\netcoreapp3.0\GrandfathersClockWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PyramidSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PyramidSolitaireWPF\bin\Release\netcoreapp3.0\PyramidSolitaireWPF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+
+</Project>

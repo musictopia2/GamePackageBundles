@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="Blackjack">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BlackjackXF\bin\Release\netstandard2.0\BlackjackXF.dll</HintPath>
+    </Reference>
+    <Reference Include="ClockSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\ClockSolitaireXF\bin\Release\netstandard2.0\ClockSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="CarpetSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CarpetSolitaireXF\bin\Release\netstandard2.0\CarpetSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyGoSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\EasyGoSolitaireXF\bin\Release\netstandard2.0\EasyGoSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Froggies">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\FroggiesXF\bin\Release\netstandard2.0\FroggiesXF.dll</HintPath>
+    </Reference>
+    <Reference Include="KlondikeSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\KlondikeSolitaireXF\bin\Release\netstandard2.0\KlondikeSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="MahJongSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MahJongSolitaireXF\bin\Release\netstandard2.0\MahJongSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Mastermind">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MastermindXF\bin\Release\netstandard2.0\MastermindXF.dll</HintPath>
+    </Reference>
+    <Reference Include="SpiderSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SpiderSolitaireXF\bin\Release\netstandard2.0\SpiderSolitaireXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>

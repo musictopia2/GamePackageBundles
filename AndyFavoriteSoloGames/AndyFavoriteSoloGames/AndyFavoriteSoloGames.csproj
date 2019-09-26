@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="MahJongSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MahJongSolitaireXF\bin\Release\netstandard2.0\MahJongSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="KlondikeSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\KlondikeSolitaireXF\bin\Release\netstandard2.0\KlondikeSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BisleySolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BisleySolitaireXF\bin\Release\netstandard2.0\BisleySolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="FlorentineSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\FlorentineSolitaireXF\bin\Release\netstandard2.0\FlorentineSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeCellSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\FreeCellSolitaireXF\bin\Release\netstandard2.0\FreeCellSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BakersDozenSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BakersDozenSolitaireXF\bin\Release\netstandard2.0\BakersDozenSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BeleaguredCastle">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BeleaguredCastleXF\bin\Release\netstandard2.0\BeleaguredCastleXF.dll</HintPath>
+    </Reference>
+    <Reference Include="EightOffSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\EightOffSolitaireXF\bin\Release\netstandard2.0\EightOffSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="SpiderSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SpiderSolitaireXF\bin\Release\netstandard2.0\SpiderSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="MarthaSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MarthaSolitaireXF\bin\Release\netstandard2.0\MarthaSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="PersianSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\PersianSolitaireXF\bin\Release\netstandard2.0\PersianSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GrandfathersClock">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\GrandfathersClockXF\bin\Release\netstandard2.0\GrandfathersClockXF.dll</HintPath>
+    </Reference>
+    <Reference Include="PyramidSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\PyramidSolitaireXF\bin\Release\netstandard2.0\PyramidSolitaireXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="AccordianSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\AccordianSolitaireXF\bin\Release\netstandard2.0\AccordianSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="AgnesSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\AgnesSolitaireXF\bin\Release\netstandard2.0\AgnesSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="AlternationSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\AlternationSolitaireXF\bin\Release\netstandard2.0\AlternationSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BlockElevenSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BlockElevenSolitaireXF\bin\Release\netstandard2.0\BlockElevenSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="CalculationSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CalculationSolitaireXF\bin\Release\netstandard2.0\CalculationSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="CaptiveQueensSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CaptiveQueensSolitaireXF\bin\Release\netstandard2.0\CaptiveQueensSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="DemonSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\DemonSolitaireXF\bin\Release\netstandard2.0\DemonSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="LittleSpiderSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\LittleSpiderSolitaireXF\bin\Release\netstandard2.0\LittleSpiderSolitaireXF.dll</HintPath>
+    </Reference>
+    <Reference Include="RaglanSolitaire">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\RaglanSolitaireXF\bin\Release\netstandard2.0\RaglanSolitaireXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>
