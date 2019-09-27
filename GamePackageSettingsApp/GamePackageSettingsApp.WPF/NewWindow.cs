@@ -16,7 +16,7 @@ namespace GamePackageSettingsApp.WPF
             //if i attempted to fix, then it ruins the nuget package for now.
             //probably for now not as important.
             //can fix for .net 5 though.
-
+            
             
 
             await ThisMod.InitAsync(); //i think.

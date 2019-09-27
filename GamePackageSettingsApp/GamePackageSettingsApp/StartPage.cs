@@ -17,7 +17,7 @@ namespace GamePackageSettingsApp
         }
         private async void Init()
         {
-            GlobalDataViewModel thisMod = new GlobalDataViewModel(new GlobalDataLoaderClass(this));
+            GlobalDataViewModel thisMod = new GlobalDataViewModel(new GlobalDataLoaderClass(this), this);
             await thisMod.InitAsync();
             DataEntryHelper helps = new DataEntryHelper(thisMod);
             BindingContext = thisMod;

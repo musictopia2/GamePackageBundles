@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="BladesOfSteel">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BladesOfSteelXF\bin\Release\netstandard2.0\BladesOfSteelXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Millebournes">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MillebournesXF\bin\Release\netstandard2.0\MillebournesXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Opetong">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\OpetongXF\bin\Release\netstandard2.0\OpetongXF.dll</HintPath>
+    </Reference>
+    <Reference Include="TileRummy">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\TileRummyXF\bin\Release\netstandard2.0\TileRummyXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>
