@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="Battleship">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BattleshipXF\bin\Release\netstandard2.0\BattleshipXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Bingo">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BingoXF\bin\Release\netstandard2.0\BingoXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BladesOfSteel">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BladesOfSteelXF\bin\Release\netstandard2.0\BladesOfSteelXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Concentration">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\ConcentrationXF\bin\Release\netstandard2.0\ConcentrationXF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrazyEights">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CrazyEightsXF\bin\Release\netstandard2.0\CrazyEightsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Cribbage">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CribbageXF\bin\Release\netstandard2.0\CribbageXF.dll</HintPath>
+    </Reference>
+    <Reference Include="DiceDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\DiceDominosXF\bin\Release\netstandard2.0\DiceDominosXF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosMexicanTrain">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\DominosMexicanTrainXF\bin\Release\netstandard2.0\DominosMexicanTrainXF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosRegular">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\DominosRegularXF\bin\Release\netstandard2.0\DominosRegularXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GoFish">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\GoFishXF\bin\Release\netstandard2.0\GoFishXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GolfCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\GolfCardGameXF\bin\Release\netstandard2.0\GolfCardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="ItalianDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\ItalianDominosXF\bin\Release\netstandard2.0\ItalianDominosXF.dll</HintPath>
+    </Reference>
+    <Reference Include="LottoDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\LottoDominosXF\bin\Release\netstandard2.0\LottoDominosXF.dll</HintPath>
+    </Reference>
+    <Reference Include="OldMaid">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\OldMaidXF\bin\Release\netstandard2.0\OldMaidXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Racko">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\RackoXF\bin\Release\netstandard2.0\RackoXF.dll</HintPath>
+    </Reference>
+    <Reference Include="ThreeLetterFun">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\ThreeLetterFunXF\bin\Release\netstandard2.0\ThreeLetterFunXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>

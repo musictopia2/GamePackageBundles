@@ -1,0 +1,554 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicControlsAndWindowsCore" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXWindowsAndControlsCore">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\BaseGPXWindowsAndControlsCore\bin\Release\netcoreapp3.0\BaseGPXWindowsAndControlsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderWPF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\GameLoaderWPF\bin\Release\netcoreapp3.0\GameLoaderWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="A21DiceGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\A21DiceGameWPF\bin\Release\netcoreapp3.0\A21DiceGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="A8RoundRummyWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\A8RoundRummyWPF\bin\Release\netcoreapp3.0\A8RoundRummyWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="AggravationWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\AggravationWPF\bin\Release\netcoreapp3.0\AggravationWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BackgammonWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BackgammonWPF\bin\Release\netcoreapp3.0\BackgammonWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BattleshipWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BattleshipWPF\bin\Release\netcoreapp3.0\BattleshipWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BingoWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BingoWPF\bin\Release\netcoreapp3.0\BingoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BladesOfSteelWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BladesOfSteelWPF\bin\Release\netcoreapp3.0\BladesOfSteelWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BowlingDiceGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BowlingDiceGameWPF\bin\Release\netcoreapp3.0\BowlingDiceGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliforniaJackWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CaliforniaJackWPF\bin\Release\netcoreapp3.0\CaliforniaJackWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CandylandWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CandylandWPF\bin\Release\netcoreapp3.0\CandylandWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CheckersWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CheckersWPF\bin\Release\netcoreapp3.0\CheckersWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ChessWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ChessWPF\bin\Release\netcoreapp3.0\ChessWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ChinazoWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ChinazoWPF\bin\Release\netcoreapp3.0\ChinazoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ChineseCheckersWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ChineseCheckersWPF\bin\Release\netcoreapp3.0\ChineseCheckersWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ClueBoardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ClueBoardGameWPF\bin\Release\netcoreapp3.0\ClueBoardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ConcentrationWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ConcentrationWPF\bin\Release\netcoreapp3.0\ConcentrationWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectFourWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ConnectFourWPF\bin\Release\netcoreapp3.0\ConnectFourWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectTheDotsWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ConnectTheDotsWPF\bin\Release\netcoreapp3.0\ConnectTheDotsWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CountdownWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CountdownWPF\bin\Release\netcoreapp3.0\CountdownWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CousinRummyWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CousinRummyWPF\bin\Release\netcoreapp3.0\CousinRummyWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrazyEightsWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CrazyEightsWPF\bin\Release\netcoreapp3.0\CrazyEightsWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CribbageWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CribbageWPF\bin\Release\netcoreapp3.0\CribbageWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DeadDie96WPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DeadDie96WPF\bin\Release\netcoreapp3.0\DeadDie96WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DiceDominosWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DiceDominosWPF\bin\Release\netcoreapp3.0\DiceDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosMexicanTrainWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DominosMexicanTrainWPF\bin\Release\netcoreapp3.0\DominosMexicanTrainWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosRegularWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DominosRegularWPF\bin\Release\netcoreapp3.0\DominosRegularWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DummyRummyWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DummyRummyWPF\bin\Release\netcoreapp3.0\DummyRummyWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DutchBlitzWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DutchBlitzWPF\bin\Release\netcoreapp3.0\DutchBlitzWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FillOrBustWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FillOrBustWPF\bin\Release\netcoreapp3.0\FillOrBustWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FiveCrownsWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FiveCrownsWPF\bin\Release\netcoreapp3.0\FiveCrownsWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FlinchWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FlinchWPF\bin\Release\netcoreapp3.0\FlinchWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FluxxWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FluxxWPF\bin\Release\netcoreapp3.0\FluxxWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="FourSuitRummyWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\FourSuitRummyWPF\bin\Release\netcoreapp3.0\FourSuitRummyWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaxyCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GalaxyCardGameWPF\bin\Release\netcoreapp3.0\GalaxyCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GermanWhistWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GermanWhistWPF\bin\Release\netcoreapp3.0\GermanWhistWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GoFishWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GoFishWPF\bin\Release\netcoreapp3.0\GoFishWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GolfCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GolfCardGameWPF\bin\Release\netcoreapp3.0\GolfCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="HitTheDeckWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\HitTheDeckWPF\bin\Release\netcoreapp3.0\HitTheDeckWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="HorseshoeCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\HorseshoeCardGameWPF\bin\Release\netcoreapp3.0\HorseshoeCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="HuseHeartsWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\HuseHeartsWPF\bin\Release\netcoreapp3.0\HuseHeartsWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ItalianDominosWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ItalianDominosWPF\bin\Release\netcoreapp3.0\ItalianDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="KismetWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\KismetWPF\bin\Release\netcoreapp3.0\KismetWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBoardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\LifeBoardGameWPF\bin\Release\netcoreapp3.0\LifeBoardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\LifeCardGameWPF\bin\Release\netcoreapp3.0\LifeCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="LottoDominosWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\LottoDominosWPF\bin\Release\netcoreapp3.0\LottoDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MancalaWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MancalaWPF\bin\Release\netcoreapp3.0\MancalaWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MilkRunWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MilkRunWPF\bin\Release\netcoreapp3.0\MilkRunWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MillebournesWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MillebournesWPF\bin\Release\netcoreapp3.0\MillebournesWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MonasteryCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MonasteryCardGameWPF\bin\Release\netcoreapp3.0\MonasteryCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MonopolyCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\MonopolyCardGameWPF\bin\Release\netcoreapp3.0\MonopolyCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="OldMaidWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\OldMaidWPF\bin\Release\netcoreapp3.0\OldMaidWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="OpetongWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\OpetongWPF\bin\Release\netcoreapp3.0\OpetongWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PassOutDiceGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PassOutDiceGameWPF\bin\Release\netcoreapp3.0\PassOutDiceGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PaydayWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PaydayWPF\bin\Release\netcoreapp3.0\PaydayWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Phase10WPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\Phase10WPF\bin\Release\netcoreapp3.0\Phase10WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PickelCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PickelCardGameWPF\bin\Release\netcoreapp3.0\PickelCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Pinochle2PlayerWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\Pinochle2PlayerWPF\bin\Release\netcoreapp3.0\Pinochle2PlayerWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RackoWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RackoWPF\bin\Release\netcoreapp3.0\RackoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RageCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RageCardGameWPF\bin\Release\netcoreapp3.0\RageCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RollEmWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RollEmWPF\bin\Release\netcoreapp3.0\RollEmWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RookWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RookWPF\bin\Release\netcoreapp3.0\RookWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RoundsCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RoundsCardGameWPF\bin\Release\netcoreapp3.0\RoundsCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Rummy500WPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\Rummy500WPF\bin\Release\netcoreapp3.0\Rummy500WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="RummyDiceWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RummyDiceWPF\bin\Release\netcoreapp3.0\RummyDiceWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SequenceDiceWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SequenceDiceWPF\bin\Release\netcoreapp3.0\SequenceDiceWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ShipCaptainCrewWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ShipCaptainCrewWPF\bin\Release\netcoreapp3.0\ShipCaptainCrewWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SinisterSixWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SinisterSixWPF\bin\Release\netcoreapp3.0\SinisterSixWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SixtySix2PlayerWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SixtySix2PlayerWPF\bin\Release\netcoreapp3.0\SixtySix2PlayerWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SkipboWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SkipboWPF\bin\Release\netcoreapp3.0\SkipboWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SkuckCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SkuckCardGameWPF\bin\Release\netcoreapp3.0\SkuckCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SnagCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SnagCardGameWPF\bin\Release\netcoreapp3.0\SnagCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SnakesAndLaddersWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SnakesAndLaddersWPF\bin\Release\netcoreapp3.0\SnakesAndLaddersWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SorryWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SorryWPF\bin\Release\netcoreapp3.0\SorryWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SorryCardGameWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SorryCardGameWPF\bin\Release\netcoreapp3.0\SorryCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Spades2PlayerWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\Spades2PlayerWPF\bin\Release\netcoreapp3.0\Spades2PlayerWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeItUpWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\TeeItUpWPF\bin\Release\netcoreapp3.0\TeeItUpWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ThinkTwiceWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ThinkTwiceWPF\bin\Release\netcoreapp3.0\ThinkTwiceWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ThreeLetterFunWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ThreeLetterFunWPF\bin\Release\netcoreapp3.0\ThreeLetterFunWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="TicTacToeWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\TicTacToeWPF\bin\Release\netcoreapp3.0\TicTacToeWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="TileRummyWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\TileRummyWPF\bin\Release\netcoreapp3.0\TileRummyWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="TroubleWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\TroubleWPF\bin\Release\netcoreapp3.0\TroubleWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="UnoWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\UnoWPF\bin\Release\netcoreapp3.0\UnoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="XactikaWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\XactikaWPF\bin\Release\netcoreapp3.0\XactikaWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="YachtRaceWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\YachtRaceWPF\bin\Release\netcoreapp3.0\YachtRaceWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="YahtzeeWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\YahtzeeWPF\bin\Release\netcoreapp3.0\YahtzeeWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="YahtzeeHandsDownWPF">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\YahtzeeHandsDownWPF\bin\Release\netcoreapp3.0\YahtzeeHandsDownWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="A21DiceGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\A21DiceGameCP\bin\Release\netstandard2.0\A21DiceGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="A8RoundRummyCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\A8RoundRummyCP\bin\Release\netstandard2.0\A8RoundRummyCP.dll</HintPath>
+    </Reference>
+    <Reference Include="AggravationCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\AggravationCP\bin\Release\netstandard2.0\AggravationCP.dll</HintPath>
+    </Reference>
+    <Reference Include="BackgammonCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\BackgammonCP\bin\Release\netstandard2.0\BackgammonCP.dll</HintPath>
+    </Reference>
+    <Reference Include="BattleshipCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\BattleshipCP\bin\Release\netstandard2.0\BattleshipCP.dll</HintPath>
+    </Reference>
+    <Reference Include="BingoCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\BingoCP\bin\Release\netstandard2.0\BingoCP.dll</HintPath>
+    </Reference>
+    <Reference Include="BladesOfSteelCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\BladesOfSteelCP\bin\Release\netstandard2.0\BladesOfSteelCP.dll</HintPath>
+    </Reference>
+    <Reference Include="BowlingDiceGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\BowlingDiceGameCP\bin\Release\netstandard2.0\BowlingDiceGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CaliforniaJackCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CaliforniaJackCP\bin\Release\netstandard2.0\CaliforniaJackCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CandylandCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CandylandCP\bin\Release\netstandard2.0\CandylandCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CheckersCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CheckersCP\bin\Release\netstandard2.0\CheckersCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChessCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ChessCP\bin\Release\netstandard2.0\ChessCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChinazoCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ChinazoCP\bin\Release\netstandard2.0\ChinazoCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChineseCheckersCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ChineseCheckersCP\bin\Release\netstandard2.0\ChineseCheckersCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ClueBoardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ClueBoardGameCP\bin\Release\netstandard2.0\ClueBoardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ConcentrationCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ConcentrationCP\bin\Release\netstandard2.0\ConcentrationCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectFourCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ConnectFourCP\bin\Release\netstandard2.0\ConnectFourCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectTheDotsCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ConnectTheDotsCP\bin\Release\netstandard2.0\ConnectTheDotsCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CountdownCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CountdownCP\bin\Release\netstandard2.0\CountdownCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CousinRummyCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CousinRummyCP\bin\Release\netstandard2.0\CousinRummyCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CrazyEightsCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CrazyEightsCP\bin\Release\netstandard2.0\CrazyEightsCP.dll</HintPath>
+    </Reference>
+    <Reference Include="CribbageCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\CribbageCP\bin\Release\netstandard2.0\CribbageCP.dll</HintPath>
+    </Reference>
+    <Reference Include="DeadDie96CP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DeadDie96CP\bin\Release\netstandard2.0\DeadDie96CP.dll</HintPath>
+    </Reference>
+    <Reference Include="DiceDominosCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DiceDominosCP\bin\Release\netstandard2.0\DiceDominosCP.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosMexicanTrainCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DominosMexicanTrainCP\bin\Release\netstandard2.0\DominosMexicanTrainCP.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosRegularCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DominosRegularCP\bin\Release\netstandard2.0\DominosRegularCP.dll</HintPath>
+    </Reference>
+    <Reference Include="DummyRummyCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DummyRummyCP\bin\Release\netstandard2.0\DummyRummyCP.dll</HintPath>
+    </Reference>
+    <Reference Include="DutchBlitzCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\DutchBlitzCP\bin\Release\netstandard2.0\DutchBlitzCP.dll</HintPath>
+    </Reference>
+    <Reference Include="FillOrBustCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\FillOrBustCP\bin\Release\netstandard2.0\FillOrBustCP.dll</HintPath>
+    </Reference>
+    <Reference Include="FiveCrownsCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\FiveCrownsCP\bin\Release\netstandard2.0\FiveCrownsCP.dll</HintPath>
+    </Reference>
+    <Reference Include="FlinchCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\FlinchCP\bin\Release\netstandard2.0\FlinchCP.dll</HintPath>
+    </Reference>
+    <Reference Include="FluxxCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\FluxxCP\bin\Release\netstandard2.0\FluxxCP.dll</HintPath>
+    </Reference>
+    <Reference Include="FourSuitRummyCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\FourSuitRummyCP\bin\Release\netstandard2.0\FourSuitRummyCP.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaxyCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\GalaxyCardGameCP\bin\Release\netstandard2.0\GalaxyCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="GermanWhistCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\GermanWhistCP\bin\Release\netstandard2.0\GermanWhistCP.dll</HintPath>
+    </Reference>
+    <Reference Include="GoFishCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\GoFishCP\bin\Release\netstandard2.0\GoFishCP.dll</HintPath>
+    </Reference>
+    <Reference Include="GolfCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\GolfCardGameCP\bin\Release\netstandard2.0\GolfCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="HitTheDeckCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\HitTheDeckCP\bin\Release\netstandard2.0\HitTheDeckCP.dll</HintPath>
+    </Reference>
+    <Reference Include="HorseshoeCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\HorseshoeCardGameCP\bin\Release\netstandard2.0\HorseshoeCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="HuseHeartsCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\HuseHeartsCP\bin\Release\netstandard2.0\HuseHeartsCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ItalianDominosCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ItalianDominosCP\bin\Release\netstandard2.0\ItalianDominosCP.dll</HintPath>
+    </Reference>
+    <Reference Include="KismetCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\KismetCP\bin\Release\netstandard2.0\KismetCP.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBoardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\LifeBoardGameCP\bin\Release\netstandard2.0\LifeBoardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\LifeCardGameCP\bin\Release\netstandard2.0\LifeCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="LottoDominosCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\LottoDominosCP\bin\Release\netstandard2.0\LottoDominosCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MancalaCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\MancalaCP\bin\Release\netstandard2.0\MancalaCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MilkRunCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\MilkRunCP\bin\Release\netstandard2.0\MilkRunCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MillebournesCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\MillebournesCP\bin\Release\netstandard2.0\MillebournesCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MonasteryCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\MonasteryCardGameCP\bin\Release\netstandard2.0\MonasteryCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MonopolyCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\MonopolyCardGameCP\bin\Release\netstandard2.0\MonopolyCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="OldMaidCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\OldMaidCP\bin\Release\netstandard2.0\OldMaidCP.dll</HintPath>
+    </Reference>
+    <Reference Include="OpetongCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\OpetongCP\bin\Release\netstandard2.0\OpetongCP.dll</HintPath>
+    </Reference>
+    <Reference Include="PassOutDiceGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\PassOutDiceGameCP\bin\Release\netstandard2.0\PassOutDiceGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="PaydayCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\PaydayCP\bin\Release\netstandard2.0\PaydayCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Phase10CP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\Phase10CP\bin\Release\netstandard2.0\Phase10CP.dll</HintPath>
+    </Reference>
+    <Reference Include="PickelCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\PickelCardGameCP\bin\Release\netstandard2.0\PickelCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Pinochle2PlayerCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\Pinochle2PlayerCP\bin\Release\netstandard2.0\Pinochle2PlayerCP.dll</HintPath>
+    </Reference>
+    <Reference Include="RackoCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RackoCP\bin\Release\netstandard2.0\RackoCP.dll</HintPath>
+    </Reference>
+    <Reference Include="RageCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RageCardGameCP\bin\Release\netstandard2.0\RageCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="RollEmCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RollEmCP\bin\Release\netstandard2.0\RollEmCP.dll</HintPath>
+    </Reference>
+    <Reference Include="RookCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RookCP\bin\Release\netstandard2.0\RookCP.dll</HintPath>
+    </Reference>
+    <Reference Include="RoundsCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RoundsCardGameCP\bin\Release\netstandard2.0\RoundsCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Rummy500CP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\Rummy500CP\bin\Release\netstandard2.0\Rummy500CP.dll</HintPath>
+    </Reference>
+    <Reference Include="RummyDiceCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\RummyDiceCP\bin\Release\netstandard2.0\RummyDiceCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SequenceDiceCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SequenceDiceCP\bin\Release\netstandard2.0\SequenceDiceCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ShipCaptainCrewCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ShipCaptainCrewCP\bin\Release\netstandard2.0\ShipCaptainCrewCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SinisterSixCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SinisterSixCP\bin\Release\netstandard2.0\SinisterSixCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SixtySix2PlayerCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SixtySix2PlayerCP\bin\Release\netstandard2.0\SixtySix2PlayerCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SkipboCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SkipboCP\bin\Release\netstandard2.0\SkipboCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SkuckCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SkuckCardGameCP\bin\Release\netstandard2.0\SkuckCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SnagCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SnagCardGameCP\bin\Release\netstandard2.0\SnagCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SnakesAndLaddersCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SnakesAndLaddersCP\bin\Release\netstandard2.0\SnakesAndLaddersCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SorryCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SorryCP\bin\Release\netstandard2.0\SorryCP.dll</HintPath>
+    </Reference>
+    <Reference Include="SorryCardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\SorryCardGameCP\bin\Release\netstandard2.0\SorryCardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Spades2PlayerCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\Spades2PlayerCP\bin\Release\netstandard2.0\Spades2PlayerCP.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeItUpCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\TeeItUpCP\bin\Release\netstandard2.0\TeeItUpCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ThinkTwiceCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ThinkTwiceCP\bin\Release\netstandard2.0\ThinkTwiceCP.dll</HintPath>
+    </Reference>
+    <Reference Include="ThreeLetterFunCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\ThreeLetterFunCP\bin\Release\netstandard2.0\ThreeLetterFunCP.dll</HintPath>
+    </Reference>
+    <Reference Include="TicTacToeCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\TicTacToeCP\bin\Release\netstandard2.0\TicTacToeCP.dll</HintPath>
+    </Reference>
+    <Reference Include="TileRummyCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\TileRummyCP\bin\Release\netstandard2.0\TileRummyCP.dll</HintPath>
+    </Reference>
+    <Reference Include="TroubleCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\TroubleCP\bin\Release\netstandard2.0\TroubleCP.dll</HintPath>
+    </Reference>
+    <Reference Include="UnoCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\UnoCP\bin\Release\netstandard2.0\UnoCP.dll</HintPath>
+    </Reference>
+    <Reference Include="XactikaCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\XactikaCP\bin\Release\netstandard2.0\XactikaCP.dll</HintPath>
+    </Reference>
+    <Reference Include="YachtRaceCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\YachtRaceCP\bin\Release\netstandard2.0\YachtRaceCP.dll</HintPath>
+    </Reference>
+    <Reference Include="YahtzeeCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\YahtzeeCP\bin\Release\netstandard2.0\YahtzeeCP.dll</HintPath>
+    </Reference>
+    <Reference Include="YahtzeeHandsDownCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\YahtzeeHandsDownCP\bin\Release\netstandard2.0\YahtzeeHandsDownCP.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+
+</Project>

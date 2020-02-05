@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicControlsAndWindowsCore" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXWindowsAndControlsCore">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\BaseGPXWindowsAndControlsCore\bin\Release\netcoreapp3.0\BaseGPXWindowsAndControlsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderWPF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\GameLoaderWPF\bin\Release\netcoreapp3.0\GameLoaderWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="Battleship">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BattleshipWPF\bin\Release\netcoreapp3.0\BattleshipWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Bingo">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BingoWPF\bin\Release\netcoreapp3.0\BingoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="BladesOfSteel">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BladesOfSteelWPF\bin\Release\netcoreapp3.0\BladesOfSteelWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Concentration">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ConcentrationWPF\bin\Release\netcoreapp3.0\ConcentrationWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CrazyEights">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CrazyEightsWPF\bin\Release\netcoreapp3.0\CrazyEightsWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Cribbage">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CribbageWPF\bin\Release\netcoreapp3.0\CribbageWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DiceDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DiceDominosWPF\bin\Release\netcoreapp3.0\DiceDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosMexicanTrain">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DominosMexicanTrainWPF\bin\Release\netcoreapp3.0\DominosMexicanTrainWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="DominosRegular">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\DominosRegularWPF\bin\Release\netcoreapp3.0\DominosRegularWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GoFish">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GoFishWPF\bin\Release\netcoreapp3.0\GoFishWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GolfCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\GolfCardGameWPF\bin\Release\netcoreapp3.0\GolfCardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ItalianDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ItalianDominosWPF\bin\Release\netcoreapp3.0\ItalianDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="LottoDominos">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\LottoDominosWPF\bin\Release\netcoreapp3.0\LottoDominosWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="OldMaid">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\OldMaidWPF\bin\Release\netcoreapp3.0\OldMaidWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Racko">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\RackoWPF\bin\Release\netcoreapp3.0\RackoWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ThreeLetterFun">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ThreeLetterFunWPF\bin\Release\netcoreapp3.0\ThreeLetterFunWPF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+
+</Project>

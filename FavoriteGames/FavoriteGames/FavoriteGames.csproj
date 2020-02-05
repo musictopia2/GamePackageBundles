@@ -1,0 +1,122 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicXFControlsAndPages" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXPagesAndControlsXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\BaseGPXPagesAndControlsXF\bin\Release\netstandard2.0\BaseGPXPagesAndControlsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderXF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\XF\GameLoaderXF\bin\Release\netstandard2.0\GameLoaderXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="A8RoundRummy">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\A8RoundRummyXF\bin\Release\netstandard2.0\A8RoundRummyXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Aggravation">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\AggravationXF\bin\Release\netstandard2.0\AggravationXF.dll</HintPath>
+    </Reference>
+    <Reference Include="BladesOfSteel">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\BladesOfSteelXF\bin\Release\netstandard2.0\BladesOfSteelXF.dll</HintPath>
+    </Reference>
+    <Reference Include="CousinRummy">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\CousinRummyXF\bin\Release\netstandard2.0\CousinRummyXF.dll</HintPath>
+    </Reference>
+    <Reference Include="FillOrBust">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\FillOrBustXF\bin\Release\netstandard2.0\FillOrBustXF.dll</HintPath>
+    </Reference>
+    <Reference Include="FiveCrowns">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\FiveCrownsXF\bin\Release\netstandard2.0\FiveCrownsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="GermanWhist">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\GermanWhistXF\bin\Release\netstandard2.0\GermanWhistXF.dll</HintPath>
+    </Reference>
+    <Reference Include="HitTheDeck">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\HitTheDeckXF\bin\Release\netstandard2.0\HitTheDeckXF.dll</HintPath>
+    </Reference>
+    <Reference Include="HuseHearts">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\HuseHeartsXF\bin\Release\netstandard2.0\HuseHeartsXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Kismet">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\KismetXF\bin\Release\netstandard2.0\KismetXF.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBoardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\LifeBoardGameXF\bin\Release\netstandard2.0\LifeBoardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBoardGameCP">
+      <HintPath>..\..\..\IndividualGameLibraries\CrossPlatform\LifeBoardGameCP\bin\Release\netstandard2.0\LifeBoardGameCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Millebournes">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\MillebournesXF\bin\Release\netstandard2.0\MillebournesXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Payday">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\PaydayXF\bin\Release\netstandard2.0\PaydayXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Phase10">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\Phase10XF\bin\Release\netstandard2.0\Phase10XF.dll</HintPath>
+    </Reference>
+    <Reference Include="PickelCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\PickelCardGameXF\bin\Release\netstandard2.0\PickelCardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="RageCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\RageCardGameXF\bin\Release\netstandard2.0\RageCardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Rummy500">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\Rummy500XF\bin\Release\netstandard2.0\Rummy500XF.dll</HintPath>
+    </Reference>
+    <Reference Include="RummyDice">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\RummyDiceXF\bin\Release\netstandard2.0\RummyDiceXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Skipbo">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SkipboXF\bin\Release\netstandard2.0\SkipboXF.dll</HintPath>
+    </Reference>
+    <Reference Include="SkuckCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SkuckCardGameXF\bin\Release\netstandard2.0\SkuckCardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="SorryCardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SorryCardGameXF\bin\Release\netstandard2.0\SorryCardGameXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Sorry">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\SorryXF\bin\Release\netstandard2.0\SorryXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Spades2Player">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\Spades2PlayerXF\bin\Release\netstandard2.0\Spades2PlayerXF.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeItUp">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\TeeItUpXF\bin\Release\netstandard2.0\TeeItUpXF.dll</HintPath>
+    </Reference>
+    <Reference Include="ThinkTwice">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\ThinkTwiceXF\bin\Release\netstandard2.0\ThinkTwiceXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Trouble">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\TroubleXF\bin\Release\netstandard2.0\TroubleXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Uno">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\UnoXF\bin\Release\netstandard2.0\UnoXF.dll</HintPath>
+    </Reference>
+    <Reference Include="Xactika">
+      <HintPath>..\..\..\IndividualGameLibraries\XamarinForms\XactikaXF\bin\Release\netstandard2.0\XactikaXF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+</Project>

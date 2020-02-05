@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BasicControlsAndWindowsCore" Version="1.0.0" />
+    <PackageReference Include="CommonBasicStandardLibraries" Version="1.0.80" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <!--beginmulti-->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <!--endmulti-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaseGPXWindowsAndControlsCore">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\BaseGPXWindowsAndControlsCore\bin\Release\netcoreapp3.0\BaseGPXWindowsAndControlsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicGameFramework">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\BasicGameFramework\bin\Release\netstandard2.0\BasicGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLoaderWPF">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\WPF\GameLoaderWPF\bin\Release\netcoreapp3.0\GameLoaderWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="GamePackageSignalRClasses">
+      <HintPath>..\..\..\GamingPackXBasicLibraries\CP\GamePackageSignalRClasses\bin\Release\netstandard2.0\GamePackageSignalRClasses.dll</HintPath>
+    </Reference>
+    <!--start-->
+    <Reference Include="Aggravation">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\AggravationWPF\bin\Release\netcoreapp3.0\AggravationWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Backgammon">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\BackgammonWPF\bin\Release\netcoreapp3.0\BackgammonWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Candyland">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\CandylandWPF\bin\Release\netcoreapp3.0\CandylandWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ClueBoardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\ClueBoardGameWPF\bin\Release\netcoreapp3.0\ClueBoardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="LifeBoardGame">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\LifeBoardGameWPF\bin\Release\netcoreapp3.0\LifeBoardGameWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Payday">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\PaydayWPF\bin\Release\netcoreapp3.0\PaydayWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Sorry">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\SorryWPF\bin\Release\netcoreapp3.0\SorryWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Trouble">
+      <HintPath>..\..\..\IndividualGameLibraries\WPFCore\TroubleWPF\bin\Release\netcoreapp3.0\TroubleWPF.dll</HintPath>
+    </Reference>
+    <!--end-->
+  </ItemGroup>
+
+</Project>
