@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="A21DiceGame" Version="1.0.1" />
+    <PackageReference Include="A8RoundRummy" Version="1.0.1" />
+    <PackageReference Include="Aggravation" Version="1.0.1" />
+    <PackageReference Include="Backgammon" Version="1.0.1" />
+    <PackageReference Include="BasicBlazorLibrary" Version="4.0.3" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="1.0.1" />
+    <PackageReference Include="BattleshipLite" Version="1.0.1" />
+    <PackageReference Include="BladesOfSteel" Version="1.0.1" />
+    <PackageReference Include="BowlingDiceGame" Version="1.0.1" />
+    <PackageReference Include="CaliforniaJack" Version="1.0.1" />
+    <PackageReference Include="Candyland" Version="1.0.1" />
+    <PackageReference Include="Chinazo" Version="1.0.1" />
+    <PackageReference Include="ChineseCheckers" Version="1.0.1" />
+    <PackageReference Include="ClueBoardGame" Version="1.0.1" />
+    <PackageReference Include="Concentration" Version="1.0.1" />
+    <PackageReference Include="ConnectFour" Version="1.0.1" />
+    <PackageReference Include="ConnectTheDots" Version="1.0.1" />
+    <PackageReference Include="CousinRummy" Version="1.0.1" />
+    <PackageReference Include="CoveredUp" Version="1.0.1" />
+    <PackageReference Include="CrazyEights" Version="1.0.1" />
+    <PackageReference Include="Cribbage" Version="1.0.1" />
+    <PackageReference Include="DeadDie96" Version="1.0.1" />
+    <PackageReference Include="DiceDominos" Version="1.0.1" />
+    <PackageReference Include="DominosMexicanTrain" Version="1.0.1" />
+    <PackageReference Include="DominosRegular" Version="1.0.1" />
+    <PackageReference Include="DummyRummy" Version="1.0.1" />
+    <PackageReference Include="DutchBlitz" Version="1.0.1" />
+    <PackageReference Include="FillOrBust" Version="1.0.1" />
+    <PackageReference Include="FiveCrowns" Version="1.0.1" />
+    <PackageReference Include="Flinch" Version="1.0.1" />
+    <PackageReference Include="Fluxx" Version="1.0.1" />
+    <PackageReference Include="FourSuitRummy" Version="1.0.1" />
+    <PackageReference Include="GalaxyCardGame" Version="1.0.1" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="1.0.2" />
+    <PackageReference Include="GermanWhist" Version="1.0.1" />
+    <PackageReference Include="GoFish" Version="1.0.1" />
+    <PackageReference Include="GolfCardGame" Version="1.0.1" />
+    <PackageReference Include="HitTheDeck" Version="1.0.1" />
+    <PackageReference Include="HorseshoeCardGame" Version="1.0.1" />
+    <PackageReference Include="HuseHearts" Version="1.0.1" />
+    <PackageReference Include="ItalianDominos" Version="1.0.1" />
+    <PackageReference Include="Kismet" Version="1.0.1" />
+    <PackageReference Include="LifeBoardGame" Version="1.0.1" />
+    <PackageReference Include="LifeCardGame" Version="1.0.1" />
+    <PackageReference Include="LottoDominos" Version="1.0.1" />
+    <PackageReference Include="Mancala" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.8" PrivateAssets="all" />
+    <PackageReference Include="MilkRun" Version="1.0.1" />
+    <PackageReference Include="Millebournes" Version="1.0.1" />
+    <PackageReference Include="MonasteryCardGame" Version="1.0.1" />
+    <PackageReference Include="MonopolyCardGame" Version="1.0.1" />
+    <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="1.0.1" />
+    <PackageReference Include="Musictopia.Battleship" Version="1.0.1" />
+    <PackageReference Include="Musictopia.Bingo" Version="1.0.1" />
+    <PackageReference Include="Musictopia.Checkers" Version="1.0.1" />
+    <PackageReference Include="Musictopia.Chess" Version="1.0.1" />
+    <PackageReference Include="Musictopia.Countdown" Version="1.0.1" />
+    <PackageReference Include="Musictopia.SnakesAndLadders" Version="1.0.1" />
+    <PackageReference Include="Musictopia.TicTacToe" Version="1.0.1" />
+    <PackageReference Include="OldMaid" Version="1.0.1" />
+    <PackageReference Include="Opetong" Version="1.0.1" />
+    <PackageReference Include="PassOutDiceGame" Version="1.0.1" />
+    <PackageReference Include="Payday" Version="1.0.1" />
+    <PackageReference Include="Phase10" Version="1.0.1" />
+    <PackageReference Include="PickelCardGame" Version="1.0.1" />
+    <PackageReference Include="Pinochle2Player" Version="1.0.1" />
+    <PackageReference Include="Racko" Version="1.0.1" />
+    <PackageReference Include="RageCardGame" Version="1.0.1" />
+    <PackageReference Include="Risk" Version="1.0.1" />
+    <PackageReference Include="RollEm" Version="1.0.1" />
+    <PackageReference Include="Rook" Version="1.0.1" />
+    <PackageReference Include="RoundsCardGame" Version="1.0.1" />
+    <PackageReference Include="Rummy500" Version="1.0.1" />
+    <PackageReference Include="RummyDice" Version="1.0.1" />
+    <PackageReference Include="Savannah" Version="1.0.1" />
+    <PackageReference Include="SequenceDice" Version="1.0.1" />
+    <PackageReference Include="ShipCaptainCrew" Version="1.0.1" />
+    <PackageReference Include="SinisterSix" Version="1.0.1" />
+    <PackageReference Include="SixtySix2Player" Version="1.0.1" />
+    <PackageReference Include="Skipbo" Version="1.0.1" />
+    <PackageReference Include="SkuckCardGame" Version="1.0.1" />
+    <PackageReference Include="SnagCardGame" Version="1.0.1" />
+    <PackageReference Include="Sorry" Version="1.0.1" />
+    <PackageReference Include="SorryCardGame" Version="1.0.1" />
+    <PackageReference Include="Spades2Player" Version="1.0.1" />
+    <PackageReference Include="TeeItUp" Version="1.0.1" />
+    <PackageReference Include="ThinkTwice" Version="1.0.1" />
+    <PackageReference Include="ThreeLetterFun" Version="1.0.1" />
+    <PackageReference Include="TileRummy" Version="1.0.1" />
+    <PackageReference Include="Trouble" Version="1.0.1" />
+    <PackageReference Include="Uno" Version="1.0.1" />
+    <PackageReference Include="Xactika" Version="1.0.1" />
+    <PackageReference Include="YaBlewIt" Version="1.0.1" />
+    <PackageReference Include="YachtRace" Version="1.0.1" />
+    <PackageReference Include="Yahtzee" Version="1.0.1" />
+    <PackageReference Include="YahtzeeHandsDown" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+</Project>

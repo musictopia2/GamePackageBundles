@@ -1,0 +1,10 @@
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.Services.RegisterBlazorBeginningClasses();
+builder.RootComponents.Add<App>("#app");
+builder.RootComponents.Add<HeadOutlet>("head::after");
+bb.OS = bb.EnumOS.Wasm;
+ss.IsWasm = true;
+LoaderGlobalClass.LoadSettingsAsync = GlobalSettingsExtensions.LoadGlobalDataAsync;
+LoaderGlobalClass.SaveSettingsAsync = GlobalSettingsExtensions.SaveGlobalDataAsync;
+builder.Services.RegisterDefaultMultiplayerProcesses<BasicViewModel>();
+await builder.Build().RunAsync();
