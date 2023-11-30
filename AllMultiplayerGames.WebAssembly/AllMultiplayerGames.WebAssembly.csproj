@@ -45,6 +45,7 @@
     <PackageReference Include="GermanWhist" Version="8.0.1" />
     <PackageReference Include="GoFish" Version="8.0.1" />
     <PackageReference Include="GolfCardGame" Version="8.0.1" />
+    <PackageReference Include="Hearts" Version="8.0.1" />
     <PackageReference Include="HitTheDeck" Version="8.0.1" />
     <PackageReference Include="HorseshoeCardGame" Version="8.0.1" />
     <PackageReference Include="HuseHearts" Version="8.0.1" />
@@ -94,6 +95,7 @@
     <PackageReference Include="Sorry" Version="8.0.1" />
     <PackageReference Include="SorryCardGame" Version="8.0.1" />
     <PackageReference Include="Spades2Player" Version="8.0.1" />
+    <PackageReference Include="Spades4Player" Version="8.0.1" />
     <PackageReference Include="TeeItUp" Version="8.0.1" />
     <PackageReference Include="ThinkTwice" Version="8.0.1" />
     <PackageReference Include="ThreeLetterFun" Version="8.0.1" />

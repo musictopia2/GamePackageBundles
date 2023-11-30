@@ -7,7 +7,7 @@ public class BasicViewModel : LoaderViewModel
     public override string Title => "AllMultiplayerGames.WebAssembly";
     protected override void GenerateGameList()
     {
-        GameList = new () { "21 Dice Game", "8 Round Rummy", "Aggravation", "Backgammon", "Battleship", "Battleship Lite", "Bingo", "Blades Of Steel", "Bowling Dice Game", "California Jack", "Candyland", "Checkers", "Chess", "Chinazo", "Chinese Checkers", "Clue Board Game", "Concentration", "Connect Four", "Connect The Dots", "Countdown", "Cousin Rummy", "Covered Up", "Crazy Eights", "Cribbage", "Dead Die 96", "Dice Dominos", "Dominos (Mexican Train)", "Dominos (Regular)", "Dummy Rummy", "Dutch Blitz", "Fill Or Bust", "Five Crowns", "Flinch", "Fluxx", "Four Suit Rummy", "Galaxy Card Game", "German Whist", "Go Fish", "Golf Card Game", "Hit The Deck", "Horseshoe", "Huse Hearts", "Italian Dominos", "Kismet", "Life Board Game", "Life Card Game", "Lotto Dominos", "Mancala", "Milk Run", "Millebournes", "Monastery Card Game", "Monopoly Card Game", "Old Maid", "Opetong", "Pass Out Dice Game", "Payday", "Phase 10", "Pickel Card Game", "Pinochle (2 Player)", "Racko", "Rage Card Game", "Risk", "Roll Em", "Rook", "Rounds Card Game", "Rummy 500", "Rummy Dice", "Savannah", "Sequence Dice", "Ship Captain Crew", "Sinister Six", "Sixty Six (2 Player)", "SkipBo", "Skuck Card Game", "Snag Card Game", "Snakes And Ladders", "Sorry", "Sorry Card Game", "Spades (2 Player)", "Tee It Up", "Think Twice", "Three Letter Fun", "Tic Tac Toe", "Tile Rummy", "Trouble", "Uno", "Xactika", "Ya Blew It", "Yacht Race", "Yahtzee", "Yahtzee Hands Down"};
+        GameList = new () { "21 Dice Game", "8 Round Rummy", "Aggravation", "Backgammon", "Battleship", "Battleship Lite", "Bingo", "Blades Of Steel", "Bowling Dice Game", "California Jack", "Candyland", "Checkers", "Chess", "Chinazo", "Chinese Checkers", "Clue Board Game", "Concentration", "Connect Four", "Connect The Dots", "Countdown", "Cousin Rummy", "Covered Up", "Crazy Eights", "Cribbage", "Dead Die 96", "Dice Dominos", "Dominos (Mexican Train)", "Dominos (Regular)", "Dummy Rummy", "Dutch Blitz", "Fill Or Bust", "Five Crowns", "Flinch", "Fluxx", "Four Suit Rummy", "Galaxy Card Game", "German Whist", "Go Fish", "Golf Card Game", "Hearts", "Hit The Deck", "Horseshoe", "Huse Hearts", "Italian Dominos", "Kismet", "Life Board Game", "Life Card Game", "Lotto Dominos", "Mancala", "Milk Run", "Millebournes", "Monastery Card Game", "Monopoly Card Game", "Old Maid", "Opetong", "Pass Out Dice Game", "Payday", "Phase 10", "Pickel Card Game", "Pinochle (2 Player)", "Racko", "Rage Card Game", "Risk", "Roll Em", "Rook", "Rounds Card Game", "Rummy 500", "Rummy Dice", "Savannah", "Sequence Dice", "Ship Captain Crew", "Sinister Six", "Sixty Six (2 Player)", "SkipBo", "Skuck Card Game", "Snag Card Game", "Snakes And Ladders", "Sorry", "Sorry Card Game", "Spades (2 Player)", "Spades", "Tee It Up", "Think Twice", "Three Letter Fun", "Tic Tac Toe", "Tile Rummy", "Trouble", "Uno", "Xactika", "Ya Blew It", "Yacht Race", "Yahtzee", "Yahtzee Hands Down"};
     }
     protected override Type GetGameType()
     {
@@ -166,6 +166,10 @@ public class BasicViewModel : LoaderViewModel
         if (GameName == "Golf Card Game")
         {
             return typeof(GolfCardGame.Blazor.Index);
+        }
+        if (GameName == "Hearts")
+        {
+            return typeof(Hearts.Blazor.Index);
         }
         if (GameName == "Hit The Deck")
         {
@@ -326,6 +330,10 @@ public class BasicViewModel : LoaderViewModel
         if (GameName == "Spades (2 Player)")
         {
             return typeof(Spades2Player.Blazor.Index);
+        }
+        if (GameName == "Spades")
+        {
+            return typeof(Spades4Player.Blazor.Index);
         }
         if (GameName == "Tee It Up")
         {
@@ -535,6 +543,10 @@ public class BasicViewModel : LoaderViewModel
         {
             return new GolfCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
+        if (GameName == "Hearts")
+        {
+            return new Hearts.Blazor.Bootstrapper(Starts, Mode);
+        }
         if (GameName == "Hit The Deck")
         {
             return new HitTheDeck.Blazor.Bootstrapper(Starts, Mode);
@@ -694,6 +706,10 @@ public class BasicViewModel : LoaderViewModel
         if (GameName == "Spades (2 Player)")
         {
             return new Spades2Player.Blazor.Bootstrapper(Starts, Mode);
+        }
+        if (GameName == "Spades")
+        {
+            return new Spades4Player.Blazor.Bootstrapper(Starts, Mode);
         }
         if (GameName == "Tee It Up")
         {
