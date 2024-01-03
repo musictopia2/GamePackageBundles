@@ -12,7 +12,7 @@
     <PackageReference Include="A8RoundRummy" Version="8.0.1" />
     <PackageReference Include="Aggravation" Version="8.0.1" />
     <PackageReference Include="Backgammon" Version="8.0.1" />
-    <PackageReference Include="BasicBlazorLibrary" Version="8.0.1" />
+    <PackageReference Include="BasicBlazorLibrary" Version="8.0.4" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.1" />
     <PackageReference Include="BattleshipLite" Version="8.0.1" />
     <PackageReference Include="BladesOfSteel" Version="8.0.1" />
@@ -41,7 +41,7 @@
     <PackageReference Include="Fluxx" Version="8.0.1" />
     <PackageReference Include="FourSuitRummy" Version="8.0.1" />
     <PackageReference Include="GalaxyCardGame" Version="8.0.1" />
-    <PackageReference Include="GameLoaderBlazorLibrary" Version="8.0.1" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="8.0.3" />
     <PackageReference Include="GermanWhist" Version="8.0.1" />
     <PackageReference Include="GoFish" Version="8.0.1" />
     <PackageReference Include="GolfCardGame" Version="8.0.1" />
