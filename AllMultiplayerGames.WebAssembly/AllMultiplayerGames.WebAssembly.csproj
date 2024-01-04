@@ -50,14 +50,14 @@
     <PackageReference Include="HorseshoeCardGame" Version="8.0.1" />
     <PackageReference Include="HuseHearts" Version="8.0.1" />
     <PackageReference Include="ItalianDominos" Version="8.0.1" />
-    <PackageReference Include="Kismet" Version="8.0.1" />
+    <PackageReference Include="Kismet" Version="8.0.2" />
     <PackageReference Include="LifeBoardGame" Version="8.0.1" />
     <PackageReference Include="LifeCardGame" Version="8.0.1" />
     <PackageReference Include="LottoDominos" Version="8.0.1" />
     <PackageReference Include="Mancala" Version="8.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
-    <PackageReference Include="MilkRun" Version="8.0.1" />
+    <PackageReference Include="MilkRun" Version="8.0.2" />
     <PackageReference Include="Millebournes" Version="8.0.1" />
     <PackageReference Include="MonasteryCardGame" Version="8.0.1" />
     <PackageReference Include="MonopolyCardGame" Version="8.0.1" />
@@ -72,7 +72,7 @@
     <PackageReference Include="OldMaid" Version="8.0.1" />
     <PackageReference Include="Opetong" Version="8.0.1" />
     <PackageReference Include="PassOutDiceGame" Version="8.0.1" />
-    <PackageReference Include="Payday" Version="8.0.1" />
+    <PackageReference Include="Payday" Version="8.0.2" />
     <PackageReference Include="Phase10" Version="8.0.1" />
     <PackageReference Include="PickelCardGame" Version="8.0.1" />
     <PackageReference Include="Pinochle2Player" Version="8.0.1" />
@@ -90,7 +90,7 @@
     <PackageReference Include="SinisterSix" Version="8.0.1" />
     <PackageReference Include="SixtySix2Player" Version="8.0.1" />
     <PackageReference Include="Skipbo" Version="8.0.1" />
-    <PackageReference Include="SkuckCardGame" Version="8.0.1" />
+    <PackageReference Include="SkuckCardGame" Version="8.0.2" />
     <PackageReference Include="SnagCardGame" Version="8.0.1" />
     <PackageReference Include="Sorry" Version="8.0.1" />
     <PackageReference Include="SorryCardGame" Version="8.0.1" />
@@ -105,7 +105,7 @@
     <PackageReference Include="Xactika" Version="8.0.1" />
     <PackageReference Include="YaBlewIt" Version="8.0.1" />
     <PackageReference Include="YachtRace" Version="8.0.1" />
-    <PackageReference Include="Yahtzee" Version="8.0.1" />
+    <PackageReference Include="Yahtzee" Version="8.0.2" />
     <PackageReference Include="YahtzeeHandsDown" Version="8.0.1" />
   </ItemGroup>
 
