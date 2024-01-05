@@ -21,7 +21,7 @@
     <PackageReference Include="Candyland" Version="8.0.1" />
     <PackageReference Include="Chinazo" Version="8.0.1" />
     <PackageReference Include="ChineseCheckers" Version="8.0.1" />
-    <PackageReference Include="ClueBoardGame" Version="8.0.1" />
+    <PackageReference Include="ClueBoardGame" Version="8.0.2" />
     <PackageReference Include="Concentration" Version="8.0.1" />
     <PackageReference Include="ConnectFour" Version="8.0.1" />
     <PackageReference Include="ConnectTheDots" Version="8.0.1" />
