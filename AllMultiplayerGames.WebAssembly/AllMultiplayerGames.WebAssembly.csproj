@@ -12,8 +12,8 @@
     <PackageReference Include="A8RoundRummy" Version="8.0.1" />
     <PackageReference Include="Aggravation" Version="8.0.1" />
     <PackageReference Include="Backgammon" Version="8.0.1" />
-    <PackageReference Include="BasicBlazorLibrary" Version="8.0.4" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.1" />
+    <PackageReference Include="BasicBlazorLibrary" Version="8.0.7" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.2" />
     <PackageReference Include="BattleshipLite" Version="8.0.1" />
     <PackageReference Include="BladesOfSteel" Version="8.0.1" />
     <PackageReference Include="BowlingDiceGame" Version="8.0.1" />
@@ -55,8 +55,8 @@
     <PackageReference Include="LifeCardGame" Version="8.0.1" />
     <PackageReference Include="LottoDominos" Version="8.0.1" />
     <PackageReference Include="Mancala" Version="8.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.2" PrivateAssets="all" />
     <PackageReference Include="MilkRun" Version="8.0.2" />
     <PackageReference Include="Millebournes" Version="8.0.1" />
     <PackageReference Include="MonasteryCardGame" Version="8.0.1" />
@@ -84,7 +84,7 @@
     <PackageReference Include="RoundsCardGame" Version="8.0.1" />
     <PackageReference Include="Rummy500" Version="8.0.1" />
     <PackageReference Include="RummyDice" Version="8.0.1" />
-    <PackageReference Include="Savannah" Version="8.0.1" />
+    <PackageReference Include="Savannah" Version="8.0.2" />
     <PackageReference Include="SequenceDice" Version="8.0.1" />
     <PackageReference Include="ShipCaptainCrew" Version="8.0.1" />
     <PackageReference Include="SinisterSix" Version="8.0.1" />
