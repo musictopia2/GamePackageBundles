@@ -19,3 +19,4 @@ global using MultiplayerGamesBlazorLoaderLibrary;
 global using Microsoft.AspNetCore.Components.Web;
 global using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 global using ss1 = MultiplayerGamesBlazorLoaderLibrary.MainStartUp;
+global using aa1 = BasicGameFrameworkLibrary.Core.AutoResumeContexts.GlobalRegistrations;

@@ -13,7 +13,7 @@
     <PackageReference Include="Aggravation" Version="8.0.1" />
     <PackageReference Include="Backgammon" Version="8.0.1" />
     <PackageReference Include="BasicBlazorLibrary" Version="8.0.7" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.2" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.5" />
     <PackageReference Include="BattleshipLite" Version="8.0.1" />
     <PackageReference Include="BladesOfSteel" Version="8.0.1" />
     <PackageReference Include="BowlingDiceGame" Version="8.0.1" />
@@ -21,7 +21,7 @@
     <PackageReference Include="Candyland" Version="8.0.1" />
     <PackageReference Include="Chinazo" Version="8.0.1" />
     <PackageReference Include="ChineseCheckers" Version="8.0.1" />
-    <PackageReference Include="ClueBoardGame" Version="8.0.2" />
+    <PackageReference Include="ClueBoardGame" Version="8.0.3" />
     <PackageReference Include="Concentration" Version="8.0.1" />
     <PackageReference Include="ConnectFour" Version="8.0.1" />
     <PackageReference Include="ConnectTheDots" Version="8.0.1" />
@@ -41,7 +41,8 @@
     <PackageReference Include="Fluxx" Version="8.0.1" />
     <PackageReference Include="FourSuitRummy" Version="8.0.1" />
     <PackageReference Include="GalaxyCardGame" Version="8.0.1" />
-    <PackageReference Include="GameLoaderBlazorLibrary" Version="8.0.3" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="8.0.5" />
+    <PackageReference Include="GamePackageSignalRClasses" Version="8.0.4" />
     <PackageReference Include="GermanWhist" Version="8.0.1" />
     <PackageReference Include="GoFish" Version="8.0.1" />
     <PackageReference Include="GolfCardGame" Version="8.0.1" />
@@ -51,7 +52,7 @@
     <PackageReference Include="HuseHearts" Version="8.0.1" />
     <PackageReference Include="ItalianDominos" Version="8.0.1" />
     <PackageReference Include="Kismet" Version="8.0.2" />
-    <PackageReference Include="LifeBoardGame" Version="8.0.1" />
+    <PackageReference Include="LifeBoardGame" Version="8.0.2" />
     <PackageReference Include="LifeCardGame" Version="8.0.1" />
     <PackageReference Include="LottoDominos" Version="8.0.1" />
     <PackageReference Include="Mancala" Version="8.0.1" />
@@ -68,17 +69,17 @@
     <PackageReference Include="Musictopia.Chess" Version="8.0.1" />
     <PackageReference Include="Musictopia.Countdown" Version="8.0.1" />
     <PackageReference Include="Musictopia.SnakesAndLadders" Version="8.0.1" />
-    <PackageReference Include="Musictopia.TicTacToe" Version="8.0.1" />
+    <PackageReference Include="Musictopia.TicTacToe" Version="8.0.2" />
     <PackageReference Include="OldMaid" Version="8.0.1" />
     <PackageReference Include="Opetong" Version="8.0.1" />
     <PackageReference Include="PassOutDiceGame" Version="8.0.1" />
-    <PackageReference Include="Payday" Version="8.0.2" />
+    <PackageReference Include="Payday" Version="8.0.3" />
     <PackageReference Include="Phase10" Version="8.0.1" />
     <PackageReference Include="PickelCardGame" Version="8.0.1" />
     <PackageReference Include="Pinochle2Player" Version="8.0.1" />
     <PackageReference Include="Racko" Version="8.0.1" />
     <PackageReference Include="RageCardGame" Version="8.0.1" />
-    <PackageReference Include="Risk" Version="8.0.1" />
+    <PackageReference Include="Risk" Version="8.0.2" />
     <PackageReference Include="RollEm" Version="8.0.1" />
     <PackageReference Include="Rook" Version="8.0.1" />
     <PackageReference Include="RoundsCardGame" Version="8.0.1" />
