@@ -21,7 +21,7 @@
     <PackageReference Include="Candyland" Version="8.0.1" />
     <PackageReference Include="Chinazo" Version="8.0.1" />
     <PackageReference Include="ChineseCheckers" Version="8.0.1" />
-    <PackageReference Include="ClueBoardGame" Version="8.0.3" />
+    <PackageReference Include="ClueBoardGame" Version="8.0.4" />
     <PackageReference Include="Concentration" Version="8.0.1" />
     <PackageReference Include="ConnectFour" Version="8.0.1" />
     <PackageReference Include="ConnectTheDots" Version="8.0.1" />
@@ -52,7 +52,7 @@
     <PackageReference Include="HuseHearts" Version="8.0.1" />
     <PackageReference Include="ItalianDominos" Version="8.0.1" />
     <PackageReference Include="Kismet" Version="8.0.2" />
-    <PackageReference Include="LifeBoardGame" Version="8.0.2" />
+    <PackageReference Include="LifeBoardGame" Version="8.0.3" />
     <PackageReference Include="LifeCardGame" Version="8.0.1" />
     <PackageReference Include="LottoDominos" Version="8.0.1" />
     <PackageReference Include="Mancala" Version="8.0.1" />
@@ -61,8 +61,8 @@
     <PackageReference Include="MilkRun" Version="8.0.2" />
     <PackageReference Include="Millebournes" Version="8.0.1" />
     <PackageReference Include="MonasteryCardGame" Version="8.0.1" />
-    <PackageReference Include="MonopolyCardGame" Version="8.0.1" />
-    <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="8.0.1" />
+    <PackageReference Include="MonopolyCardGame" Version="8.0.2" />
+    <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="8.0.2" />
     <PackageReference Include="Musictopia.Battleship" Version="8.0.1" />
     <PackageReference Include="Musictopia.Bingo" Version="8.0.1" />
     <PackageReference Include="Musictopia.Checkers" Version="8.0.1" />
@@ -73,13 +73,13 @@
     <PackageReference Include="OldMaid" Version="8.0.1" />
     <PackageReference Include="Opetong" Version="8.0.1" />
     <PackageReference Include="PassOutDiceGame" Version="8.0.1" />
-    <PackageReference Include="Payday" Version="8.0.3" />
+    <PackageReference Include="Payday" Version="8.0.4" />
     <PackageReference Include="Phase10" Version="8.0.1" />
     <PackageReference Include="PickelCardGame" Version="8.0.1" />
     <PackageReference Include="Pinochle2Player" Version="8.0.1" />
     <PackageReference Include="Racko" Version="8.0.1" />
     <PackageReference Include="RageCardGame" Version="8.0.1" />
-    <PackageReference Include="Risk" Version="8.0.2" />
+    <PackageReference Include="Risk" Version="8.0.3" />
     <PackageReference Include="RollEm" Version="8.0.1" />
     <PackageReference Include="Rook" Version="8.0.1" />
     <PackageReference Include="RoundsCardGame" Version="8.0.1" />
