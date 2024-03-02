@@ -1,12 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="A21DiceGame" Version="8.0.2" />
     <PackageReference Include="A8RoundRummy" Version="8.0.2" />
@@ -108,10 +107,9 @@
     <PackageReference Include="YachtRace" Version="8.0.2" />
     <PackageReference Include="Yahtzee" Version="8.0.3" />
     <PackageReference Include="YahtzeeHandsDown" Version="8.0.2" />
+    <PackageReference Include="MonopolyDicedGame" Version="8.0.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
-
 </Project>
