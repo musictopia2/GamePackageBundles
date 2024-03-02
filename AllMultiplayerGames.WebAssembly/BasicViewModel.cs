@@ -4,15 +4,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
     public override string Title => "AllMultiplayerGames.WebAssembly";
     protected override void GenerateGameList()
     {
-        GameList = [ "A21DiceGame", "A8RoundRummy", "Aggravation", "Backgammon", "Battleship", "BattleshipLite", "Bingo", "BladesOfSteel", "BowlingDiceGame", "CaliforniaJack", "Candyland", "Checkers", "Chess", "Chinazo", "ChineseCheckers", "ClueBoardGame", "Concentration", "ConnectFour", "ConnectTheDots", "Countdown", "CousinRummy", "CoveredUp", "CrazyEights", "Cribbage", "DeadDie96", "DiceDominos", "DominosMexicanTrain", "DominosRegular", "DummyRummy", "DutchBlitz", "FillOrBust", "FiveCrowns", "Flinch", "Fluxx", "FourSuitRummy", "GalaxyCardGame", "GermanWhist", "GoFish", "GolfCardGame", "Hearts", "HitTheDeck", "HorseshoeCardGame", "HuseHearts", "ItalianDominos", "Kismet", "LifeBoardGame", "LifeCardGame", "LottoDominos", "Mancala", "MilkRun", "Millebournes", "MonasteryCardGame", "MonopolyCardGame", "MonopolyDicedGame", "OldMaid", "Opetong", "PassOutDiceGame", "Payday", "Phase10", "PickelCardGame", "Pinochle2Player", "Racko", "RageCardGame", "Risk", "RollEm", "Rook", "RoundsCardGame", "Rummy500", "RummyDice", "Savannah", "SequenceDice", "ShipCaptainCrew", "SinisterSix", "SixtySix2Player", "Skipbo", "SkuckCardGame", "SnagCardGame", "SnakesAndLadders", "Sorry", "SorryCardGame", "Spades4Player", "Spades2Player", "TeeItUp", "ThinkTwice", "ThreeLetterFun", "TicTacToe", "TileRummy", "Trouble", "Uno", "Xactika", "YaBlewIt", "YachtRace", "Yahtzee", "YahtzeeHandsDown"];
+        GameList = [ "21 Dice Game", "8 Round Rummy", "Aggravation", "Backgammon", "Battleship", "Battleship Lite", "Bingo", "Blades Of Steel", "Bowling Dice Game", "California Jack", "Candyland", "Checkers", "Chess", "Chinazo", "Chinese Checkers", "Clue Board Game", "Concentration", "Connect Four", "Connect The Dots", "Countdown", "Cousin Rummy", "Covered Up", "Crazy Eights", "Cribbage", "Dead Die 96", "Dice Dominos", "Dominos (Mexican Train)", "Dominos (Regular)", "Dummy Rummy", "Dutch Blitz", "Fill Or Bust", "Five Crowns", "Flinch", "Fluxx", "Four Suit Rummy", "Galaxy Card Game", "German Whist", "Go Fish", "Golf Card Game", "Hearts", "Hit The Deck", "Horseshoe", "Huse Hearts", "Italian Dominos", "Kismet", "Life Board Game", "Life Card Game", "Lotto Dominos", "Mancala", "Milk Run", "Millebournes", "Monastery Card Game", "Monopoly Card Game", "Monopoly Diced Game", "Old Maid", "Opetong", "Pass Out Dice Game", "Payday", "Phase 10", "Pickel Card Game", "Pinochle (2 Player)", "Racko", "Rage Card Game", "Risk", "Roll Em", "Rook", "Rounds Card Game", "Rummy 500", "Rummy Dice", "Savannah", "Sequence Dice", "Ship Captain Crew", "Sinister Six", "Sixty Six (2 Player)", "SkipBo", "Skuck Card Game", "Snag Card Game", "Snakes And Ladders", "Sorry", "Sorry Card Game", "Spades", "Spades (2 Player)", "Tee It Up", "Think Twice", "Three Letter Fun", "Tic Tac Toe", "Tile Rummy", "Trouble", "Uno", "Xactika", "Ya Blew It", "Yacht Race", "Yahtzee", "Yahtzee Hands Down"];
     }
     protected override Type GetGameType()
     {
-        if (GameName == "A21DiceGame")
+        if (GameName == "21 Dice Game")
         {
             return typeof(A21DiceGame.Blazor.Index);
         }
-        if (GameName == "A8RoundRummy")
+        if (GameName == "8 Round Rummy")
         {
             return typeof(A8RoundRummy.Blazor.Index);
         }
@@ -28,7 +28,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Battleship.Blazor.Index);
         }
-        if (GameName == "BattleshipLite")
+        if (GameName == "Battleship Lite")
         {
             return typeof(BattleshipLite.Blazor.Index);
         }
@@ -36,15 +36,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Bingo.Blazor.Index);
         }
-        if (GameName == "BladesOfSteel")
+        if (GameName == "Blades Of Steel")
         {
             return typeof(BladesOfSteel.Blazor.Index);
         }
-        if (GameName == "BowlingDiceGame")
+        if (GameName == "Bowling Dice Game")
         {
             return typeof(BowlingDiceGame.Blazor.Index);
         }
-        if (GameName == "CaliforniaJack")
+        if (GameName == "California Jack")
         {
             return typeof(CaliforniaJack.Blazor.Index);
         }
@@ -64,11 +64,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Chinazo.Blazor.Index);
         }
-        if (GameName == "ChineseCheckers")
+        if (GameName == "Chinese Checkers")
         {
             return typeof(ChineseCheckers.Blazor.Index);
         }
-        if (GameName == "ClueBoardGame")
+        if (GameName == "Clue Board Game")
         {
             return typeof(ClueBoardGame.Blazor.Index);
         }
@@ -76,11 +76,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Concentration.Blazor.Index);
         }
-        if (GameName == "ConnectFour")
+        if (GameName == "Connect Four")
         {
             return typeof(ConnectFour.Blazor.Index);
         }
-        if (GameName == "ConnectTheDots")
+        if (GameName == "Connect The Dots")
         {
             return typeof(ConnectTheDots.Blazor.Index);
         }
@@ -88,15 +88,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Countdown.Blazor.Index);
         }
-        if (GameName == "CousinRummy")
+        if (GameName == "Cousin Rummy")
         {
             return typeof(CousinRummy.Blazor.Index);
         }
-        if (GameName == "CoveredUp")
+        if (GameName == "Covered Up")
         {
             return typeof(CoveredUp.Blazor.Index);
         }
-        if (GameName == "CrazyEights")
+        if (GameName == "Crazy Eights")
         {
             return typeof(CrazyEights.Blazor.Index);
         }
@@ -104,35 +104,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Cribbage.Blazor.Index);
         }
-        if (GameName == "DeadDie96")
+        if (GameName == "Dead Die 96")
         {
             return typeof(DeadDie96.Blazor.Index);
         }
-        if (GameName == "DiceDominos")
+        if (GameName == "Dice Dominos")
         {
             return typeof(DiceDominos.Blazor.Index);
         }
-        if (GameName == "DominosMexicanTrain")
+        if (GameName == "Dominos (Mexican Train)")
         {
             return typeof(DominosMexicanTrain.Blazor.Index);
         }
-        if (GameName == "DominosRegular")
+        if (GameName == "Dominos (Regular)")
         {
             return typeof(DominosRegular.Blazor.Index);
         }
-        if (GameName == "DummyRummy")
+        if (GameName == "Dummy Rummy")
         {
             return typeof(DummyRummy.Blazor.Index);
         }
-        if (GameName == "DutchBlitz")
+        if (GameName == "Dutch Blitz")
         {
             return typeof(DutchBlitz.Blazor.Index);
         }
-        if (GameName == "FillOrBust")
+        if (GameName == "Fill Or Bust")
         {
             return typeof(FillOrBust.Blazor.Index);
         }
-        if (GameName == "FiveCrowns")
+        if (GameName == "Five Crowns")
         {
             return typeof(FiveCrowns.Blazor.Index);
         }
@@ -144,23 +144,23 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Fluxx.Blazor.Index);
         }
-        if (GameName == "FourSuitRummy")
+        if (GameName == "Four Suit Rummy")
         {
             return typeof(FourSuitRummy.Blazor.Index);
         }
-        if (GameName == "GalaxyCardGame")
+        if (GameName == "Galaxy Card Game")
         {
             return typeof(GalaxyCardGame.Blazor.Index);
         }
-        if (GameName == "GermanWhist")
+        if (GameName == "German Whist")
         {
             return typeof(GermanWhist.Blazor.Index);
         }
-        if (GameName == "GoFish")
+        if (GameName == "Go Fish")
         {
             return typeof(GoFish.Blazor.Index);
         }
-        if (GameName == "GolfCardGame")
+        if (GameName == "Golf Card Game")
         {
             return typeof(GolfCardGame.Blazor.Index);
         }
@@ -168,19 +168,19 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Hearts.Blazor.Index);
         }
-        if (GameName == "HitTheDeck")
+        if (GameName == "Hit The Deck")
         {
             return typeof(HitTheDeck.Blazor.Index);
         }
-        if (GameName == "HorseshoeCardGame")
+        if (GameName == "Horseshoe")
         {
             return typeof(HorseshoeCardGame.Blazor.Index);
         }
-        if (GameName == "HuseHearts")
+        if (GameName == "Huse Hearts")
         {
             return typeof(HuseHearts.Blazor.Index);
         }
-        if (GameName == "ItalianDominos")
+        if (GameName == "Italian Dominos")
         {
             return typeof(ItalianDominos.Blazor.Index);
         }
@@ -188,15 +188,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Kismet.Blazor.Index);
         }
-        if (GameName == "LifeBoardGame")
+        if (GameName == "Life Board Game")
         {
             return typeof(LifeBoardGame.Blazor.Index);
         }
-        if (GameName == "LifeCardGame")
+        if (GameName == "Life Card Game")
         {
             return typeof(LifeCardGame.Blazor.Index);
         }
-        if (GameName == "LottoDominos")
+        if (GameName == "Lotto Dominos")
         {
             return typeof(LottoDominos.Blazor.Index);
         }
@@ -204,7 +204,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Mancala.Blazor.Index);
         }
-        if (GameName == "MilkRun")
+        if (GameName == "Milk Run")
         {
             return typeof(MilkRun.Blazor.Index);
         }
@@ -212,19 +212,19 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Millebournes.Blazor.Index);
         }
-        if (GameName == "MonasteryCardGame")
+        if (GameName == "Monastery Card Game")
         {
             return typeof(MonasteryCardGame.Blazor.Index);
         }
-        if (GameName == "MonopolyCardGame")
+        if (GameName == "Monopoly Card Game")
         {
             return typeof(MonopolyCardGame.Blazor.Index);
         }
-        if (GameName == "MonopolyDicedGame")
+        if (GameName == "Monopoly Diced Game")
         {
             return typeof(MonopolyDicedGame.Blazor.Index);
         }
-        if (GameName == "OldMaid")
+        if (GameName == "Old Maid")
         {
             return typeof(OldMaid.Blazor.Index);
         }
@@ -232,7 +232,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Opetong.Blazor.Index);
         }
-        if (GameName == "PassOutDiceGame")
+        if (GameName == "Pass Out Dice Game")
         {
             return typeof(PassOutDiceGame.Blazor.Index);
         }
@@ -240,15 +240,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Payday.Blazor.Index);
         }
-        if (GameName == "Phase10")
+        if (GameName == "Phase 10")
         {
             return typeof(Phase10.Blazor.Index);
         }
-        if (GameName == "PickelCardGame")
+        if (GameName == "Pickel Card Game")
         {
             return typeof(PickelCardGame.Blazor.Index);
         }
-        if (GameName == "Pinochle2Player")
+        if (GameName == "Pinochle (2 Player)")
         {
             return typeof(Pinochle2Player.Blazor.Index);
         }
@@ -256,7 +256,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Racko.Blazor.Index);
         }
-        if (GameName == "RageCardGame")
+        if (GameName == "Rage Card Game")
         {
             return typeof(RageCardGame.Blazor.Index);
         }
@@ -264,7 +264,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Risk.Blazor.Index);
         }
-        if (GameName == "RollEm")
+        if (GameName == "Roll Em")
         {
             return typeof(RollEm.Blazor.Index);
         }
@@ -272,15 +272,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Rook.Blazor.Index);
         }
-        if (GameName == "RoundsCardGame")
+        if (GameName == "Rounds Card Game")
         {
             return typeof(RoundsCardGame.Blazor.Index);
         }
-        if (GameName == "Rummy500")
+        if (GameName == "Rummy 500")
         {
             return typeof(Rummy500.Blazor.Index);
         }
-        if (GameName == "RummyDice")
+        if (GameName == "Rummy Dice")
         {
             return typeof(RummyDice.Blazor.Index);
         }
@@ -288,35 +288,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Savannah.Blazor.Index);
         }
-        if (GameName == "SequenceDice")
+        if (GameName == "Sequence Dice")
         {
             return typeof(SequenceDice.Blazor.Index);
         }
-        if (GameName == "ShipCaptainCrew")
+        if (GameName == "Ship Captain Crew")
         {
             return typeof(ShipCaptainCrew.Blazor.Index);
         }
-        if (GameName == "SinisterSix")
+        if (GameName == "Sinister Six")
         {
             return typeof(SinisterSix.Blazor.Index);
         }
-        if (GameName == "SixtySix2Player")
+        if (GameName == "Sixty Six (2 Player)")
         {
             return typeof(SixtySix2Player.Blazor.Index);
         }
-        if (GameName == "Skipbo")
+        if (GameName == "SkipBo")
         {
             return typeof(Skipbo.Blazor.Index);
         }
-        if (GameName == "SkuckCardGame")
+        if (GameName == "Skuck Card Game")
         {
             return typeof(SkuckCardGame.Blazor.Index);
         }
-        if (GameName == "SnagCardGame")
+        if (GameName == "Snag Card Game")
         {
             return typeof(SnagCardGame.Blazor.Index);
         }
-        if (GameName == "SnakesAndLadders")
+        if (GameName == "Snakes And Ladders")
         {
             return typeof(SnakesAndLadders.Blazor.Index);
         }
@@ -324,35 +324,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Sorry.Blazor.Index);
         }
-        if (GameName == "SorryCardGame")
+        if (GameName == "Sorry Card Game")
         {
             return typeof(SorryCardGame.Blazor.Index);
         }
-        if (GameName == "Spades4Player")
+        if (GameName == "Spades")
         {
             return typeof(Spades4Player.Blazor.Index);
         }
-        if (GameName == "Spades2Player")
+        if (GameName == "Spades (2 Player)")
         {
             return typeof(Spades2Player.Blazor.Index);
         }
-        if (GameName == "TeeItUp")
+        if (GameName == "Tee It Up")
         {
             return typeof(TeeItUp.Blazor.Index);
         }
-        if (GameName == "ThinkTwice")
+        if (GameName == "Think Twice")
         {
             return typeof(ThinkTwice.Blazor.Index);
         }
-        if (GameName == "ThreeLetterFun")
+        if (GameName == "Three Letter Fun")
         {
             return typeof(ThreeLetterFun.Blazor.Index);
         }
-        if (GameName == "TicTacToe")
+        if (GameName == "Tic Tac Toe")
         {
             return typeof(TicTacToe.Blazor.Index);
         }
-        if (GameName == "TileRummy")
+        if (GameName == "Tile Rummy")
         {
             return typeof(TileRummy.Blazor.Index);
         }
@@ -368,11 +368,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Xactika.Blazor.Index);
         }
-        if (GameName == "YaBlewIt")
+        if (GameName == "Ya Blew It")
         {
             return typeof(YaBlewIt.Blazor.Index);
         }
-        if (GameName == "YachtRace")
+        if (GameName == "Yacht Race")
         {
             return typeof(YachtRace.Blazor.Index);
         }
@@ -380,7 +380,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return typeof(Yahtzee.Blazor.Index);
         }
-        if (GameName == "YahtzeeHandsDown")
+        if (GameName == "Yahtzee Hands Down")
         {
             return typeof(YahtzeeHandsDown.Blazor.Index);
         }
@@ -388,11 +388,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
     }
     protected override IGameBootstrapper ChooseGame()
     {
-        if (GameName == "A21DiceGame")
+        if (GameName == "21 Dice Game")
         {
             return new A21DiceGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "A8RoundRummy")
+        if (GameName == "8 Round Rummy")
         {
             return new A8RoundRummy.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -408,7 +408,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Battleship.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "BattleshipLite")
+        if (GameName == "Battleship Lite")
         {
             return new BattleshipLite.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -416,15 +416,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Bingo.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "BladesOfSteel")
+        if (GameName == "Blades Of Steel")
         {
             return new BladesOfSteel.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "BowlingDiceGame")
+        if (GameName == "Bowling Dice Game")
         {
             return new BowlingDiceGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "CaliforniaJack")
+        if (GameName == "California Jack")
         {
             return new CaliforniaJack.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -444,11 +444,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Chinazo.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ChineseCheckers")
+        if (GameName == "Chinese Checkers")
         {
             return new ChineseCheckers.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ClueBoardGame")
+        if (GameName == "Clue Board Game")
         {
             return new ClueBoardGame.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -456,11 +456,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Concentration.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ConnectFour")
+        if (GameName == "Connect Four")
         {
             return new ConnectFour.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ConnectTheDots")
+        if (GameName == "Connect The Dots")
         {
             return new ConnectTheDots.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -468,15 +468,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Countdown.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "CousinRummy")
+        if (GameName == "Cousin Rummy")
         {
             return new CousinRummy.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "CoveredUp")
+        if (GameName == "Covered Up")
         {
             return new CoveredUp.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "CrazyEights")
+        if (GameName == "Crazy Eights")
         {
             return new CrazyEights.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -484,35 +484,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Cribbage.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DeadDie96")
+        if (GameName == "Dead Die 96")
         {
             return new DeadDie96.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DiceDominos")
+        if (GameName == "Dice Dominos")
         {
             return new DiceDominos.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DominosMexicanTrain")
+        if (GameName == "Dominos (Mexican Train)")
         {
             return new DominosMexicanTrain.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DominosRegular")
+        if (GameName == "Dominos (Regular)")
         {
             return new DominosRegular.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DummyRummy")
+        if (GameName == "Dummy Rummy")
         {
             return new DummyRummy.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "DutchBlitz")
+        if (GameName == "Dutch Blitz")
         {
             return new DutchBlitz.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "FillOrBust")
+        if (GameName == "Fill Or Bust")
         {
             return new FillOrBust.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "FiveCrowns")
+        if (GameName == "Five Crowns")
         {
             return new FiveCrowns.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -524,23 +524,23 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Fluxx.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "FourSuitRummy")
+        if (GameName == "Four Suit Rummy")
         {
             return new FourSuitRummy.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "GalaxyCardGame")
+        if (GameName == "Galaxy Card Game")
         {
             return new GalaxyCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "GermanWhist")
+        if (GameName == "German Whist")
         {
             return new GermanWhist.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "GoFish")
+        if (GameName == "Go Fish")
         {
             return new GoFish.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "GolfCardGame")
+        if (GameName == "Golf Card Game")
         {
             return new GolfCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -548,19 +548,19 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Hearts.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "HitTheDeck")
+        if (GameName == "Hit The Deck")
         {
             return new HitTheDeck.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "HorseshoeCardGame")
+        if (GameName == "Horseshoe")
         {
             return new HorseshoeCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "HuseHearts")
+        if (GameName == "Huse Hearts")
         {
             return new HuseHearts.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ItalianDominos")
+        if (GameName == "Italian Dominos")
         {
             return new ItalianDominos.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -568,15 +568,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Kismet.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "LifeBoardGame")
+        if (GameName == "Life Board Game")
         {
             return new LifeBoardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "LifeCardGame")
+        if (GameName == "Life Card Game")
         {
             return new LifeCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "LottoDominos")
+        if (GameName == "Lotto Dominos")
         {
             return new LottoDominos.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -584,7 +584,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Mancala.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "MilkRun")
+        if (GameName == "Milk Run")
         {
             return new MilkRun.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -592,19 +592,19 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Millebournes.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "MonasteryCardGame")
+        if (GameName == "Monastery Card Game")
         {
             return new MonasteryCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "MonopolyCardGame")
+        if (GameName == "Monopoly Card Game")
         {
             return new MonopolyCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "MonopolyDicedGame")
+        if (GameName == "Monopoly Diced Game")
         {
             return new MonopolyDicedGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "OldMaid")
+        if (GameName == "Old Maid")
         {
             return new OldMaid.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -612,7 +612,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Opetong.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "PassOutDiceGame")
+        if (GameName == "Pass Out Dice Game")
         {
             return new PassOutDiceGame.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -620,15 +620,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Payday.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Phase10")
+        if (GameName == "Phase 10")
         {
             return new Phase10.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "PickelCardGame")
+        if (GameName == "Pickel Card Game")
         {
             return new PickelCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Pinochle2Player")
+        if (GameName == "Pinochle (2 Player)")
         {
             return new Pinochle2Player.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -636,7 +636,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Racko.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "RageCardGame")
+        if (GameName == "Rage Card Game")
         {
             return new RageCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -644,7 +644,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Risk.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "RollEm")
+        if (GameName == "Roll Em")
         {
             return new RollEm.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -652,15 +652,15 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Rook.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "RoundsCardGame")
+        if (GameName == "Rounds Card Game")
         {
             return new RoundsCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Rummy500")
+        if (GameName == "Rummy 500")
         {
             return new Rummy500.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "RummyDice")
+        if (GameName == "Rummy Dice")
         {
             return new RummyDice.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -668,35 +668,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Savannah.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SequenceDice")
+        if (GameName == "Sequence Dice")
         {
             return new SequenceDice.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ShipCaptainCrew")
+        if (GameName == "Ship Captain Crew")
         {
             return new ShipCaptainCrew.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SinisterSix")
+        if (GameName == "Sinister Six")
         {
             return new SinisterSix.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SixtySix2Player")
+        if (GameName == "Sixty Six (2 Player)")
         {
             return new SixtySix2Player.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Skipbo")
+        if (GameName == "SkipBo")
         {
             return new Skipbo.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SkuckCardGame")
+        if (GameName == "Skuck Card Game")
         {
             return new SkuckCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SnagCardGame")
+        if (GameName == "Snag Card Game")
         {
             return new SnagCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SnakesAndLadders")
+        if (GameName == "Snakes And Ladders")
         {
             return new SnakesAndLadders.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -704,35 +704,35 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Sorry.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "SorryCardGame")
+        if (GameName == "Sorry Card Game")
         {
             return new SorryCardGame.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Spades4Player")
+        if (GameName == "Spades")
         {
             return new Spades4Player.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "Spades2Player")
+        if (GameName == "Spades (2 Player)")
         {
             return new Spades2Player.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "TeeItUp")
+        if (GameName == "Tee It Up")
         {
             return new TeeItUp.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ThinkTwice")
+        if (GameName == "Think Twice")
         {
             return new ThinkTwice.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "ThreeLetterFun")
+        if (GameName == "Three Letter Fun")
         {
             return new ThreeLetterFun.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "TicTacToe")
+        if (GameName == "Tic Tac Toe")
         {
             return new TicTacToe.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "TileRummy")
+        if (GameName == "Tile Rummy")
         {
             return new TileRummy.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -748,11 +748,11 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Xactika.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "YaBlewIt")
+        if (GameName == "Ya Blew It")
         {
             return new YaBlewIt.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "YachtRace")
+        if (GameName == "Yacht Race")
         {
             return new YachtRace.Blazor.Bootstrapper(Starts, Mode);
         }
@@ -760,7 +760,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         {
             return new Yahtzee.Blazor.Bootstrapper(Starts, Mode);
         }
-        if (GameName == "YahtzeeHandsDown")
+        if (GameName == "Yahtzee Hands Down")
         {
             return new YahtzeeHandsDown.Blazor.Bootstrapper(Starts, Mode);
         }
