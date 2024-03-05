@@ -46,7 +46,7 @@
     <PackageReference Include="GoFish" Version="8.0.2" />
     <PackageReference Include="GolfCardGame" Version="8.0.2" />
     <PackageReference Include="Hearts" Version="8.0.2" />
-    <PackageReference Include="HitTheDeck" Version="8.0.2" />
+    <PackageReference Include="HitTheDeck" Version="8.0.3" />
     <PackageReference Include="HorseshoeCardGame" Version="8.0.2" />
     <PackageReference Include="HuseHearts" Version="8.0.2" />
     <PackageReference Include="ItalianDominos" Version="8.0.2" />
@@ -108,6 +108,7 @@
     <PackageReference Include="Yahtzee" Version="8.0.3" />
     <PackageReference Include="YahtzeeHandsDown" Version="8.0.2" />
     <PackageReference Include="MonopolyDicedGame" Version="8.0.1" />
+    <PackageReference Include="ClueCardGame" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
