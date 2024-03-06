@@ -4,7 +4,7 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
     public override string Title => "AllMultiplayerGames.WebAssembly";
     protected override void GenerateGameList()
     {
-        GameList = [ "21 Dice Game", "8 Round Rummy", "Aggravation", "Backgammon", "Battleship", "Battleship Lite", "Bingo", "Blades Of Steel", "Bowling Dice Game", "California Jack", "Candyland", "Checkers", "Chess", "Chinazo", "Chinese Checkers", "Clue Board Game", "Clue Card Game", "Concentration", "Connect Four", "Connect The Dots", "Countdown", "Cousin Rummy", "Covered Up", "Crazy Eights", "Cribbage", "Dead Die 96", "Dice Dominos", "Dominos (Mexican Train)", "Dominos (Regular)", "Dummy Rummy", "Dutch Blitz", "Fill Or Bust", "Five Crowns", "Flinch", "Fluxx", "Four Suit Rummy", "Galaxy Card Game", "German Whist", "Go Fish", "Golf Card Game", "Hearts", "Hit The Deck", "Horseshoe", "Huse Hearts", "Italian Dominos", "Kismet", "Life Board Game", "Life Card Game", "Lotto Dominos", "Mancala", "Milk Run", "Millebournes", "Monastery Card Game", "Monopoly Card Game", "Monopoly Diced Game", "Old Maid", "Opetong", "Pass Out Dice Game", "Payday", "Phase 10", "Pickel Card Game", "Pinochle (2 Player)", "Racko", "Rage Card Game", "Risk", "Roll Em", "Rook", "Rounds Card Game", "Rummy 500", "Rummy Dice", "Savannah", "Sequence Dice", "Ship Captain Crew", "Sinister Six", "Sixty Six (2 Player)", "SkipBo", "Skuck Card Game", "Snag Card Game", "Snakes And Ladders", "Sorry", "Sorry Card Game", "Spades", "Spades (2 Player)", "Tee It Up", "Think Twice", "Three Letter Fun", "Tic Tac Toe", "Tile Rummy", "Trouble", "Uno", "Xactika", "Ya Blew It", "Yacht Race", "Yahtzee", "Yahtzee Hands Down"];
+        GameList = [ "21 Dice Game", "8 Round Rummy", "Aggravation", "Backgammon", "Battleship", "Battleship Lite", "Bingo", "Blades Of Steel", "Bowling Dice Game", "California Jack", "Candyland", "Checkers", "Chess", "Chinazo", "Chinese Checkers", "Clue Board Game", "Clue Card Game", "Concentration", "Connect Four", "Connect The Dots", "Countdown", "Cousin Rummy", "Covered Up", "Crazy Eights", "Cribbage", "Dead Die 96", "Dice Dominos", "Dominos (Mexican Train)", "Dominos (Regular)", "Dummy Rummy", "Dutch Blitz", "Fill Or Bust", "Five Crowns", "Flinch", "Fluxx", "Four Suit Rummy", "Galaxy Card Game", "German Whist", "Go Fish", "Golf Card Game", "Hearts", "Hit The Deck", "Horseshoe", "Huse Hearts", "Italian Dominos", "Kismet", "Life Board Game", "Life Card Game", "Lotto Dominos", "Mancala", "Milk Run", "Millebournes", "Monastery Card Game", "Monopoly Card Game", "Monopoly Diced Game", "Old Maid", "Opetong", "Pass Out Dice Game", "Payday", "Phase 10", "Pickel Card Game", "Pinochle (2 Player)", "Racko", "Rage Card Game", "Risk", "Roll Em", "Rook", "Rounds Card Game", "Rummy 500", "Rummy Dice", "Savannah", "Sequence Dice", "Ship Captain Crew", "Sinister Six", "Sixty Six (2 Player)", "SkipBo", "Skuck Card Game", "Snag Card Game", "Snakes And Ladders", "Sorry", "Sorry Card Game", "Sorry Diced Game", "Spades", "Spades (2 Player)", "Tee It Up", "Think Twice", "Three Letter Fun", "Tic Tac Toe", "Tile Rummy", "Trouble", "Uno", "Xactika", "Ya Blew It", "Yacht Race", "Yahtzee", "Yahtzee Hands Down"];
     }
     protected override Type GetGameType()
     {
@@ -331,6 +331,10 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         if (GameName == "Sorry Card Game")
         {
             return typeof(SorryCardGame.Blazor.Index);
+        }
+        if (GameName == "Sorry Diced Game")
+        {
+            return typeof(SorryDicedGame.Blazor.Index);
         }
         if (GameName == "Spades")
         {
@@ -715,6 +719,10 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
         if (GameName == "Sorry Card Game")
         {
             return new SorryCardGame.Blazor.Bootstrapper(Starts, Mode);
+        }
+        if (GameName == "Sorry Diced Game")
+        {
+            return new SorryDicedGame.Blazor.Bootstrapper(Starts, Mode);
         }
         if (GameName == "Spades")
         {
