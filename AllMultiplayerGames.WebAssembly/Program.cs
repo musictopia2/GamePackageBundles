@@ -5,7 +5,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 bb1.OS = bb1.EnumOS.Wasm;
 ss1.IsWasm = true;
 //start
-GlobalClass.Version = "8.14";
+GlobalClass.Version = "8.15";
 //end
 LoaderGlobalClass.LoadSettingsAsync = GlobalSettingsExtensions.LoadGlobalDataAsync;
 LoaderGlobalClass.SaveSettingsAsync = GlobalSettingsExtensions.SaveGlobalDataAsync;
