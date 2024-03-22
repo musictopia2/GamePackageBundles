@@ -44,7 +44,7 @@
     <PackageReference Include="GamePackageSignalRClasses" Version="8.0.5" />
     <PackageReference Include="GermanWhist" Version="8.0.3" />
     <PackageReference Include="GoFish" Version="8.0.3" />
-    <PackageReference Include="GolfCardGame" Version="8.0.3" />
+    <PackageReference Include="GolfCardGame" Version="8.0.5" />
     <PackageReference Include="Hearts" Version="8.0.3" />
     <PackageReference Include="HitTheDeck" Version="8.0.4" />
     <PackageReference Include="HorseshoeCardGame" Version="8.0.3" />
@@ -52,12 +52,12 @@
     <PackageReference Include="ItalianDominos" Version="8.0.3" />
     <PackageReference Include="Kismet" Version="8.0.4" />
     <PackageReference Include="LifeBoardGame" Version="8.0.5" />
-    <PackageReference Include="LifeCardGame" Version="8.0.3" />
+    <PackageReference Include="LifeCardGame" Version="8.0.5" />
     <PackageReference Include="LottoDominos" Version="8.0.3" />
     <PackageReference Include="Mancala" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" PrivateAssets="all" />
-    <PackageReference Include="MilkRun" Version="8.0.4" />
+    <PackageReference Include="MilkRun" Version="8.0.6" />
     <PackageReference Include="Millebournes" Version="8.0.3" />
     <PackageReference Include="MonasteryCardGame" Version="8.0.4" />
     <PackageReference Include="MonopolyCardGame" Version="8.0.5" />
