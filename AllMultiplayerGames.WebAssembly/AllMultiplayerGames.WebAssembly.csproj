@@ -44,7 +44,7 @@
     <PackageReference Include="GamePackageSignalRClasses" Version="8.0.5" />
     <PackageReference Include="GermanWhist" Version="8.0.3" />
     <PackageReference Include="GoFish" Version="8.0.3" />
-    <PackageReference Include="GolfCardGame" Version="8.0.5" />
+    <PackageReference Include="GolfCardGame" Version="8.0.6" />
     <PackageReference Include="Hearts" Version="8.0.3" />
     <PackageReference Include="HitTheDeck" Version="8.0.4" />
     <PackageReference Include="HorseshoeCardGame" Version="8.0.3" />
@@ -107,7 +107,7 @@
     <PackageReference Include="YachtRace" Version="8.0.3" />
     <PackageReference Include="Yahtzee" Version="8.0.4" />
     <PackageReference Include="YahtzeeHandsDown" Version="8.0.3" />
-    <PackageReference Include="MonopolyDicedGame" Version="8.0.2" />
+    <PackageReference Include="MonopolyDicedGame" Version="8.0.4" />
     <PackageReference Include="ClueCardGame" Version="8.0.2" />
     <PackageReference Include="SorryDicedGame" Version="8.0.2" />
     <PackageReference Include="DealCardGame" Version="8.0.3" />
