@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="8.0.3" />
     <PackageReference Include="Backgammon" Version="8.0.3" />
     <PackageReference Include="BasicBlazorLibrary" Version="8.0.8" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.20" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="8.0.21" />
     <PackageReference Include="BattleshipLite" Version="8.0.3" />
     <PackageReference Include="BladesOfSteel" Version="8.0.3" />
     <PackageReference Include="BowlingDiceGame" Version="8.0.3" />
@@ -52,7 +52,7 @@
     <PackageReference Include="ItalianDominos" Version="8.0.3" />
     <PackageReference Include="Kismet" Version="8.0.4" />
     <PackageReference Include="LifeBoardGame" Version="8.0.5" />
-    <PackageReference Include="LifeCardGame" Version="8.0.5" />
+    <PackageReference Include="LifeCardGame" Version="8.0.6" />
     <PackageReference Include="LottoDominos" Version="8.0.3" />
     <PackageReference Include="Mancala" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
