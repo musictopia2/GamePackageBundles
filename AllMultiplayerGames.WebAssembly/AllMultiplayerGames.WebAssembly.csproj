@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="9.0.1" />
     <PackageReference Include="Backgammon" Version="9.0.1" />
     <PackageReference Include="BasicBlazorLibrary" Version="9.0.2" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.2" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.11" />
     <PackageReference Include="BattleshipLite" Version="9.0.1" />
     <PackageReference Include="BladesOfSteel" Version="9.0.1" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.1" />
