@@ -83,7 +83,7 @@
     <PackageReference Include="Rook" Version="9.0.2" />
     <PackageReference Include="RoundsCardGame" Version="9.0.2" />
     <PackageReference Include="Rummy500" Version="9.0.2" />
-    <PackageReference Include="RummyDice" Version="9.0.2" />
+    <PackageReference Include="RummyDice" Version="9.0.3" />
     <PackageReference Include="Savannah" Version="9.0.2" />
     <PackageReference Include="SequenceDice" Version="9.0.2" />
     <PackageReference Include="ShipCaptainCrew" Version="9.0.2" />
