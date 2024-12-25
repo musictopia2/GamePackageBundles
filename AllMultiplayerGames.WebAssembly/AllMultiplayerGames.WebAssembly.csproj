@@ -25,7 +25,7 @@
     <PackageReference Include="ConnectFour" Version="9.0.2" />
     <PackageReference Include="ConnectTheDots" Version="9.0.2" />
     <PackageReference Include="CousinRummy" Version="9.0.2" />
-    <PackageReference Include="CoveredUp" Version="9.0.2" />
+    <PackageReference Include="CoveredUp" Version="9.0.3" />
     <PackageReference Include="CrazyEights" Version="9.0.2" />
     <PackageReference Include="Cribbage" Version="9.0.2" />
     <PackageReference Include="DeadDie96" Version="9.0.2" />
