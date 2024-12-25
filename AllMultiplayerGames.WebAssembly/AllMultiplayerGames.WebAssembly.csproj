@@ -107,7 +107,7 @@
     <PackageReference Include="YachtRace" Version="9.0.2" />
     <PackageReference Include="Yahtzee" Version="9.0.2" />
     <PackageReference Include="YahtzeeHandsDown" Version="9.0.2" />
-    <PackageReference Include="MonopolyDicedGame" Version="9.0.1" />
+    <PackageReference Include="MonopolyDicedGame" Version="9.0.3" />
     <PackageReference Include="ClueCardGame" Version="9.0.2" />
     <PackageReference Include="SorryDicedGame" Version="9.0.2" />
     <PackageReference Include="DealCardGame" Version="9.0.3" />
