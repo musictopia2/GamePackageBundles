@@ -11,7 +11,7 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.2" />
     <PackageReference Include="Aggravation" Version="9.0.2" />
     <PackageReference Include="Backgammon" Version="9.0.2" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.4" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.13" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.14" />
     <PackageReference Include="BattleshipLite" Version="9.0.2" />
     <PackageReference Include="BladesOfSteel" Version="9.0.2" />
@@ -97,7 +97,7 @@
     <PackageReference Include="Spades2Player" Version="9.0.2" />
     <PackageReference Include="Spades4Player" Version="9.0.2" />
     <PackageReference Include="TeeItUp" Version="9.0.2" />
-    <PackageReference Include="ThinkTwice" Version="9.0.5" />
+    <PackageReference Include="ThinkTwice" Version="9.0.6" />
     <PackageReference Include="ThreeLetterFun" Version="9.0.2" />
     <PackageReference Include="TileRummy" Version="9.0.2" />
     <PackageReference Include="Trouble" Version="9.0.2" />
