@@ -97,7 +97,7 @@
     <PackageReference Include="Spades2Player" Version="9.0.2" />
     <PackageReference Include="Spades4Player" Version="9.0.2" />
     <PackageReference Include="TeeItUp" Version="9.0.2" />
-    <PackageReference Include="ThinkTwice" Version="9.0.3" />
+    <PackageReference Include="ThinkTwice" Version="9.0.4" />
     <PackageReference Include="ThreeLetterFun" Version="9.0.2" />
     <PackageReference Include="TileRummy" Version="9.0.2" />
     <PackageReference Include="Trouble" Version="9.0.2" />
