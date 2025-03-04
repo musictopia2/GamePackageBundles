@@ -11,14 +11,14 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.2" />
     <PackageReference Include="Aggravation" Version="9.0.2" />
     <PackageReference Include="Backgammon" Version="9.0.2" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.13" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.24" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.14" />
     <PackageReference Include="BattleshipLite" Version="9.0.2" />
     <PackageReference Include="BladesOfSteel" Version="9.0.2" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.2" />
     <PackageReference Include="CaliforniaJack" Version="9.0.2" />
     <PackageReference Include="Candyland" Version="9.0.2" />
-    <PackageReference Include="Chinazo" Version="9.0.2" />
+    <PackageReference Include="Chinazo" Version="9.0.3" />
     <PackageReference Include="ChineseCheckers" Version="9.0.2" />
     <PackageReference Include="ClueBoardGame" Version="9.0.3" />
     <PackageReference Include="Concentration" Version="9.0.2" />
@@ -63,7 +63,7 @@
     <PackageReference Include="MonopolyCardGame" Version="9.0.2" />
     <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="9.0.1" />
     <PackageReference Include="Musictopia.Battleship" Version="9.0.2" />
-    <PackageReference Include="Musictopia.Bingo" Version="9.0.2" />
+    <PackageReference Include="Musictopia.Bingo" Version="9.0.3" />
     <PackageReference Include="Musictopia.Checkers" Version="9.0.2" />
     <PackageReference Include="Musictopia.Chess" Version="9.0.2" />
     <PackageReference Include="Musictopia.Countdown" Version="9.0.2" />
