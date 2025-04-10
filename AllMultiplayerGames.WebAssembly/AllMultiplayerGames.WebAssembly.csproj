@@ -11,7 +11,7 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.2" />
     <PackageReference Include="Aggravation" Version="9.0.2" />
     <PackageReference Include="Backgammon" Version="9.0.2" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.24" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.25" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.14" />
     <PackageReference Include="BattleshipLite" Version="9.0.2" />
     <PackageReference Include="BladesOfSteel" Version="9.0.2" />
@@ -50,7 +50,7 @@
     <PackageReference Include="HorseshoeCardGame" Version="9.0.2" />
     <PackageReference Include="HuseHearts" Version="9.0.2" />
     <PackageReference Include="ItalianDominos" Version="9.0.2" />
-    <PackageReference Include="Kismet" Version="9.0.2" />
+    <PackageReference Include="Kismet" Version="9.0.3" />
     <PackageReference Include="LifeBoardGame" Version="9.0.2" />
     <PackageReference Include="LifeCardGame" Version="9.0.2" />
     <PackageReference Include="LottoDominos" Version="9.0.2" />
