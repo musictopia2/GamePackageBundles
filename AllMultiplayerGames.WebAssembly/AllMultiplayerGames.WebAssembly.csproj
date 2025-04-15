@@ -50,7 +50,7 @@
     <PackageReference Include="HorseshoeCardGame" Version="9.0.2" />
     <PackageReference Include="HuseHearts" Version="9.0.2" />
     <PackageReference Include="ItalianDominos" Version="9.0.2" />
-    <PackageReference Include="Kismet" Version="9.0.3" />
+    <PackageReference Include="Kismet" Version="9.0.4" />
     <PackageReference Include="LifeBoardGame" Version="9.0.2" />
     <PackageReference Include="LifeCardGame" Version="9.0.2" />
     <PackageReference Include="LottoDominos" Version="9.0.2" />
