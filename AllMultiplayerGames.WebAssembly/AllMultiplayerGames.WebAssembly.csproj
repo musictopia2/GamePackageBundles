@@ -110,7 +110,7 @@
     <PackageReference Include="MonopolyDicedGame" Version="9.0.3" />
     <PackageReference Include="ClueCardGame" Version="9.0.2" />
     <PackageReference Include="SorryDicedGame" Version="9.0.2" />
-    <PackageReference Include="DealCardGame" Version="9.0.7" />
+    <PackageReference Include="DealCardGame" Version="9.0.8" />
   </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
