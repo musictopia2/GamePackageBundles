@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="9.0.2" />
     <PackageReference Include="Backgammon" Version="9.0.2" />
     <PackageReference Include="BasicBlazorLibrary" Version="9.0.27" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.16" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.17" />
     <PackageReference Include="BattleshipLite" Version="9.0.2" />
     <PackageReference Include="BladesOfSteel" Version="9.0.2" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.2" />
@@ -77,7 +77,7 @@
     <PackageReference Include="PickelCardGame" Version="9.0.2" />
     <PackageReference Include="Pinochle2Player" Version="9.0.2" />
     <PackageReference Include="Racko" Version="9.0.2" />
-    <PackageReference Include="RageCardGame" Version="9.0.2" />
+    <PackageReference Include="RageCardGame" Version="9.0.3" />
     <PackageReference Include="Risk" Version="9.0.2" />
     <PackageReference Include="RollEm" Version="9.0.2" />
     <PackageReference Include="Rook" Version="9.0.2" />
