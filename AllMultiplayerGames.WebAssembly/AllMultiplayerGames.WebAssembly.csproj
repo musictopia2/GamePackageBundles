@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="9.0.2" />
     <PackageReference Include="Backgammon" Version="9.0.2" />
     <PackageReference Include="BasicBlazorLibrary" Version="9.0.27" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.17" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.18" />
     <PackageReference Include="BattleshipLite" Version="9.0.2" />
     <PackageReference Include="BladesOfSteel" Version="9.0.2" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.2" />
@@ -24,7 +24,7 @@
     <PackageReference Include="Concentration" Version="9.0.2" />
     <PackageReference Include="ConnectFour" Version="9.0.2" />
     <PackageReference Include="ConnectTheDots" Version="9.0.2" />
-    <PackageReference Include="CousinRummy" Version="9.0.2" />
+    <PackageReference Include="CousinRummy" Version="9.0.3" />
     <PackageReference Include="CoveredUp" Version="9.0.3" />
     <PackageReference Include="CrazyEights" Version="9.0.2" />
     <PackageReference Include="Cribbage" Version="9.0.2" />
@@ -36,7 +36,7 @@
     <PackageReference Include="DutchBlitz" Version="9.0.2" />
     <PackageReference Include="FillOrBust" Version="9.0.2" />
     <PackageReference Include="FiveCrowns" Version="9.0.2" />
-    <PackageReference Include="Flinch" Version="9.0.2" />
+    <PackageReference Include="Flinch" Version="9.0.3" />
     <PackageReference Include="Fluxx" Version="9.0.2" />
     <PackageReference Include="FourSuitRummy" Version="9.0.2" />
     <PackageReference Include="GalaxyCardGame" Version="9.0.2" />
@@ -51,8 +51,8 @@
     <PackageReference Include="HuseHearts" Version="9.0.2" />
     <PackageReference Include="ItalianDominos" Version="9.0.2" />
     <PackageReference Include="Kismet" Version="9.0.4" />
-    <PackageReference Include="LifeBoardGame" Version="9.0.2" />
-    <PackageReference Include="LifeCardGame" Version="9.0.2" />
+    <PackageReference Include="LifeBoardGame" Version="9.0.3" />
+    <PackageReference Include="LifeCardGame" Version="9.0.3" />
     <PackageReference Include="LottoDominos" Version="9.0.2" />
     <PackageReference Include="Mancala" Version="9.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.1" />
@@ -84,12 +84,12 @@
     <PackageReference Include="RoundsCardGame" Version="9.0.2" />
     <PackageReference Include="Rummy500" Version="9.0.2" />
     <PackageReference Include="RummyDice" Version="9.0.4" />
-    <PackageReference Include="Savannah" Version="9.0.2" />
+    <PackageReference Include="Savannah" Version="9.0.3" />
     <PackageReference Include="SequenceDice" Version="9.0.2" />
     <PackageReference Include="ShipCaptainCrew" Version="9.0.2" />
     <PackageReference Include="SinisterSix" Version="9.0.2" />
     <PackageReference Include="SixtySix2Player" Version="9.0.2" />
-    <PackageReference Include="Skipbo" Version="9.0.2" />
+    <PackageReference Include="Skipbo" Version="9.0.3" />
     <PackageReference Include="SkuckCardGame" Version="9.0.2" />
     <PackageReference Include="SnagCardGame" Version="9.0.2" />
     <PackageReference Include="Sorry" Version="9.0.2" />
