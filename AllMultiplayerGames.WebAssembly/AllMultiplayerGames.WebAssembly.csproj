@@ -92,7 +92,7 @@
     <PackageReference Include="Skipbo" Version="9.0.4" />
     <PackageReference Include="SkuckCardGame" Version="9.0.4" />
     <PackageReference Include="SnagCardGame" Version="9.0.4" />
-    <PackageReference Include="Sorry" Version="9.0.3" />
+    <PackageReference Include="Sorry" Version="9.0.4" />
     <PackageReference Include="SorryCardGame" Version="9.0.3" />
     <PackageReference Include="Spades2Player" Version="9.0.4" />
     <PackageReference Include="Spades4Player" Version="9.0.4" />
