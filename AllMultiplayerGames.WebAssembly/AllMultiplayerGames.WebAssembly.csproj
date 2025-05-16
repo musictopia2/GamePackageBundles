@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="9.0.3" />
     <PackageReference Include="Backgammon" Version="9.0.3" />
     <PackageReference Include="BasicBlazorLibrary" Version="9.0.27" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.18" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.19" />
     <PackageReference Include="BattleshipLite" Version="9.0.3" />
     <PackageReference Include="BladesOfSteel" Version="9.0.3" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.3" />
@@ -30,8 +30,8 @@
     <PackageReference Include="Cribbage" Version="9.0.3" />
     <PackageReference Include="DeadDie96" Version="9.0.3" />
     <PackageReference Include="DiceDominos" Version="9.0.3" />
-    <PackageReference Include="DominosMexicanTrain" Version="9.0.3" />
-    <PackageReference Include="DominosRegular" Version="9.0.3" />
+    <PackageReference Include="DominosMexicanTrain" Version="9.0.4" />
+    <PackageReference Include="DominosRegular" Version="9.0.4" />
     <PackageReference Include="DummyRummy" Version="9.0.3" />
     <PackageReference Include="DutchBlitz" Version="9.0.3" />
     <PackageReference Include="FillOrBust" Version="9.0.3" />
@@ -49,7 +49,7 @@
     <PackageReference Include="HitTheDeck" Version="9.0.3" />
     <PackageReference Include="HorseshoeCardGame" Version="9.0.3" />
     <PackageReference Include="HuseHearts" Version="9.0.4" />
-    <PackageReference Include="ItalianDominos" Version="9.0.4" />
+    <PackageReference Include="ItalianDominos" Version="9.0.5" />
     <PackageReference Include="Kismet" Version="9.0.5" />
     <PackageReference Include="LifeBoardGame" Version="9.0.4" />
     <PackageReference Include="LifeCardGame" Version="9.0.5" />
@@ -70,7 +70,7 @@
     <PackageReference Include="Musictopia.SnakesAndLadders" Version="9.0.3" />
     <PackageReference Include="Musictopia.TicTacToe" Version="9.0.3" />
     <PackageReference Include="OldMaid" Version="9.0.3" />
-    <PackageReference Include="Opetong" Version="9.0.3" />
+    <PackageReference Include="Opetong" Version="9.0.4" />
     <PackageReference Include="PassOutDiceGame" Version="9.0.3" />
     <PackageReference Include="Payday" Version="9.0.4" />
     <PackageReference Include="Phase10" Version="9.0.4" />
@@ -90,7 +90,7 @@
     <PackageReference Include="SinisterSix" Version="9.0.3" />
     <PackageReference Include="SixtySix2Player" Version="9.0.4" />
     <PackageReference Include="Skipbo" Version="9.0.4" />
-    <PackageReference Include="SkuckCardGame" Version="9.0.3" />
+    <PackageReference Include="SkuckCardGame" Version="9.0.4" />
     <PackageReference Include="SnagCardGame" Version="9.0.4" />
     <PackageReference Include="Sorry" Version="9.0.3" />
     <PackageReference Include="SorryCardGame" Version="9.0.3" />
