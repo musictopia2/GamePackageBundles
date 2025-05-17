@@ -35,7 +35,7 @@
     <PackageReference Include="DummyRummy" Version="9.0.3" />
     <PackageReference Include="DutchBlitz" Version="9.0.3" />
     <PackageReference Include="FillOrBust" Version="9.0.3" />
-    <PackageReference Include="FiveCrowns" Version="9.0.4" />
+    <PackageReference Include="FiveCrowns" Version="9.0.5" />
     <PackageReference Include="Flinch" Version="9.0.4" />
     <PackageReference Include="Fluxx" Version="9.0.4" />
     <PackageReference Include="FourSuitRummy" Version="9.0.4" />
