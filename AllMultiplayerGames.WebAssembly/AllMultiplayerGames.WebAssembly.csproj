@@ -11,7 +11,7 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.4" />
     <PackageReference Include="Aggravation" Version="9.0.3" />
     <PackageReference Include="Backgammon" Version="9.0.3" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.27" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.63" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.22" />
     <PackageReference Include="BattleshipLite" Version="9.0.3" />
     <PackageReference Include="BladesOfSteel" Version="9.0.3" />
@@ -72,7 +72,7 @@
     <PackageReference Include="OldMaid" Version="9.0.3" />
     <PackageReference Include="Opetong" Version="9.0.4" />
     <PackageReference Include="PassOutDiceGame" Version="9.0.3" />
-    <PackageReference Include="Payday" Version="9.0.4" />
+    <PackageReference Include="Payday" Version="9.0.5" />
     <PackageReference Include="Phase10" Version="9.0.4" />
     <PackageReference Include="PickelCardGame" Version="9.0.4" />
     <PackageReference Include="Pinochle2Player" Version="9.0.4" />
