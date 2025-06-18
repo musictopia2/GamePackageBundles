@@ -60,7 +60,7 @@
     <PackageReference Include="MilkRun" Version="9.0.4" />
     <PackageReference Include="Millebournes" Version="9.0.4" />
     <PackageReference Include="MonasteryCardGame" Version="9.0.3" />
-    <PackageReference Include="MonopolyCardGame" Version="9.0.3" />
+    <PackageReference Include="MonopolyCardGame" Version="9.0.4" />
     <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="9.0.1" />
     <PackageReference Include="Musictopia.Battleship" Version="9.0.3" />
     <PackageReference Include="Musictopia.Bingo" Version="9.0.4" />
