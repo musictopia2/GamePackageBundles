@@ -11,8 +11,8 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.6" />
     <PackageReference Include="Aggravation" Version="9.0.5" />
     <PackageReference Include="Backgammon" Version="9.0.5" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.76" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.31" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.79" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.35" />
     <PackageReference Include="BattleshipLite" Version="9.0.5" />
     <PackageReference Include="BladesOfSteel" Version="9.0.5" />
     <PackageReference Include="BowlingDiceGame" Version="9.0.5" />
@@ -40,7 +40,7 @@
     <PackageReference Include="Fluxx" Version="9.0.6" />
     <PackageReference Include="FourSuitRummy" Version="9.0.6" />
     <PackageReference Include="GalaxyCardGame" Version="9.0.6" />
-    <PackageReference Include="GameLoaderBlazorLibrary" Version="9.0.7" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="9.0.24" />
     <PackageReference Include="GamePackageSignalRClasses" Version="9.0.5" />
     <PackageReference Include="GermanWhist" Version="9.0.6" />
     <PackageReference Include="GoFish" Version="9.0.6" />
