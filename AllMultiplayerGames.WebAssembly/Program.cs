@@ -4,8 +4,10 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 bb1.OS = bb1.EnumOS.Wasm;
 ss1.IsWasm = true;
+aa2.AppStyleName = "AllMultiplayerGames.WebAssembly";
+aa2.AdditionalAssembly = typeof(LoaderViewModel).Assembly;
 //start
-GlobalClass.Version = "9.29";
+GlobalClass.Version = "9.30";
 //end
 LoaderGlobalClass.LoadSettingsAsync = GlobalSettingsExtensions.LoadGlobalDataAsync;
 LoaderGlobalClass.SaveSettingsAsync = GlobalSettingsExtensions.SaveGlobalDataAsync;
