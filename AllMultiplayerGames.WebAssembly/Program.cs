@@ -7,7 +7,7 @@ ss1.IsWasm = true;
 aa2.AppStyleName = "AllMultiplayerGames.WebAssembly";
 aa2.AdditionalAssembly = typeof(LoaderViewModel).Assembly;
 //start
-GlobalClass.Version = "9.36";
+GlobalClass.Version = "9.37";
 //end
 LoaderGlobalClass.LoadSettingsAsync = GlobalSettingsExtensions.LoadGlobalDataAsync;
 LoaderGlobalClass.SaveSettingsAsync = GlobalSettingsExtensions.SaveGlobalDataAsync;
