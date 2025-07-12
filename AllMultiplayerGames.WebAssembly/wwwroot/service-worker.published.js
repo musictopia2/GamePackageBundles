@@ -3,7 +3,7 @@
 self.importScripts('./service-worker-assets.js');
 
 //start
-const version = 9.37;
+const version = 9.38;
 //end
 
 const cacheNamePrefix = 'offline-cache-';
@@ -39,7 +39,12 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
     if (event.request.method !== 'GET') return;
-
+    // Bypass caching for SignalR hub requests
+    if (event.request.url.includes('/hub') || event.request.headers.get('Upgrade') === 'websocket') {
+        // Just fetch directly without caching
+        event.respondWith(fetch(event.request));
+        return;
+    }
     event.respondWith((async () => {
         const cache = await caches.open(cacheName);
         const cachedResponse = await cache.match(event.request);
