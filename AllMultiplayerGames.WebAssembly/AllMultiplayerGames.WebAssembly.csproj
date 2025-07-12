@@ -11,7 +11,7 @@
     <PackageReference Include="A8RoundRummy" Version="9.0.6" />
     <PackageReference Include="Aggravation" Version="9.0.5" />
     <PackageReference Include="Backgammon" Version="9.0.5" />
-    <PackageReference Include="BasicBlazorLibrary" Version="9.0.79" />
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.82" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.35" />
     <PackageReference Include="BattleshipLite" Version="9.0.5" />
     <PackageReference Include="BladesOfSteel" Version="9.0.5" />
