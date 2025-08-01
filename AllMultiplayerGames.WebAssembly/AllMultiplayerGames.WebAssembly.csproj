@@ -15,7 +15,7 @@
     <PackageReference Include="BasicGameFrameworkLibrary" Version="9.0.36" />
     <PackageReference Include="BattleshipLite" Version="9.0.5" />
     <PackageReference Include="BladesOfSteel" Version="9.0.5" />
-    <PackageReference Include="BowlingDiceGame" Version="9.0.5" />
+    <PackageReference Include="BowlingDiceGame" Version="9.0.6" />
     <PackageReference Include="CaliforniaJack" Version="9.0.5" />
     <PackageReference Include="Candyland" Version="9.0.5" />
     <PackageReference Include="Chinazo" Version="9.0.6" />
