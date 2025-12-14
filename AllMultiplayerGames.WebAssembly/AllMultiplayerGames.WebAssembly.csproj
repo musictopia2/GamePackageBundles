@@ -25,7 +25,7 @@
     <PackageReference Include="ConnectFour" Version="10.0.4" />
     <PackageReference Include="ConnectTheDots" Version="10.0.4" />
     <PackageReference Include="CousinRummy" Version="10.0.4" />
-    <PackageReference Include="CoveredUp" Version="10.0.4" />
+    <PackageReference Include="CoveredUp" Version="10.0.5" />
     <PackageReference Include="CrazyEights" Version="10.0.4" />
     <PackageReference Include="Cribbage" Version="10.0.4" />
     <PackageReference Include="DeadDie96" Version="10.0.4" />
@@ -55,8 +55,8 @@
     <PackageReference Include="LifeCardGame" Version="10.0.4" />
     <PackageReference Include="LottoDominos" Version="10.0.4" />
     <PackageReference Include="Mancala" Version="10.0.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.1" PrivateAssets="all" />
     <PackageReference Include="MilkRun" Version="10.0.4" />
     <PackageReference Include="Millebournes" Version="10.0.4" />
     <PackageReference Include="MonasteryCardGame" Version="10.0.4" />
