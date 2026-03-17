@@ -12,7 +12,7 @@
     <PackageReference Include="Aggravation" Version="10.0.5" />
     <PackageReference Include="Backgammon" Version="10.0.5" />
     <PackageReference Include="BasicBlazorLibrary" Version="10.0.179" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="10.0.20" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="10.0.21" />
     <PackageReference Include="BattleshipLite" Version="10.0.5" />
     <PackageReference Include="BladesOfSteel" Version="10.0.5" />
     <PackageReference Include="BowlingDiceGame" Version="10.0.5" />
@@ -110,7 +110,7 @@
     <PackageReference Include="MonopolyDicedGame" Version="10.0.5" />
     <PackageReference Include="ClueCardGame" Version="10.0.5" />
     <PackageReference Include="SorryDicedGame" Version="10.0.5" />
-    <PackageReference Include="DealCardGame" Version="10.0.5" />
+    <PackageReference Include="DealCardGame" Version="10.0.6" />
   </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
