@@ -11,8 +11,8 @@
     <PackageReference Include="A8RoundRummy" Version="10.0.5" />
     <PackageReference Include="Aggravation" Version="10.0.5" />
     <PackageReference Include="Backgammon" Version="10.0.5" />
-    <PackageReference Include="BasicBlazorLibrary" Version="10.0.178" />
-    <PackageReference Include="BasicGameFrameworkLibrary" Version="10.0.19" />
+    <PackageReference Include="BasicBlazorLibrary" Version="10.0.179" />
+    <PackageReference Include="BasicGameFrameworkLibrary" Version="10.0.20" />
     <PackageReference Include="BattleshipLite" Version="10.0.5" />
     <PackageReference Include="BladesOfSteel" Version="10.0.5" />
     <PackageReference Include="BowlingDiceGame" Version="10.0.5" />
@@ -40,8 +40,8 @@
     <PackageReference Include="Fluxx" Version="10.0.5" />
     <PackageReference Include="FourSuitRummy" Version="10.0.5" />
     <PackageReference Include="GalaxyCardGame" Version="10.0.5" />
-    <PackageReference Include="GameLoaderBlazorLibrary" Version="10.0.12" />
-    <PackageReference Include="GamePackageSignalRClasses" Version="10.0.11" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="10.0.13" />
+    <PackageReference Include="GamePackageSignalRClasses" Version="10.0.12" />
     <PackageReference Include="GermanWhist" Version="10.0.5" />
     <PackageReference Include="GoFish" Version="10.0.5" />
     <PackageReference Include="GolfCardGame" Version="10.0.5" />
@@ -61,7 +61,7 @@
     <PackageReference Include="Millebournes" Version="10.0.5" />
     <PackageReference Include="MonasteryCardGame" Version="10.0.5" />
     <PackageReference Include="MonopolyCardGame" Version="10.0.5" />
-    <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="10.0.11" />
+    <PackageReference Include="MultiplayerGamesBlazorLoaderLibrary" Version="10.0.12" />
     <PackageReference Include="Musictopia.Battleship" Version="10.0.5" />
     <PackageReference Include="Musictopia.Bingo" Version="10.0.5" />
     <PackageReference Include="Musictopia.Checkers" Version="10.0.5" />
