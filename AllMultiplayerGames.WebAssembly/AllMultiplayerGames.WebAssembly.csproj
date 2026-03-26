@@ -51,7 +51,7 @@
     <PackageReference Include="HuseHearts" Version="10.0.5" />
     <PackageReference Include="ItalianDominos" Version="10.0.5" />
     <PackageReference Include="Kismet" Version="10.0.5" />
-    <PackageReference Include="LifeBoardGame" Version="10.0.5" />
+    <PackageReference Include="LifeBoardGame" Version="10.0.6" />
     <PackageReference Include="LifeCardGame" Version="10.0.5" />
     <PackageReference Include="LottoDominos" Version="10.0.5" />
     <PackageReference Include="Mancala" Version="10.0.5" />
