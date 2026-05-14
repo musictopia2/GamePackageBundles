@@ -11,7 +11,7 @@
     <PackageReference Include="A8RoundRummy" Version="10.0.5" />
     <PackageReference Include="Aggravation" Version="10.0.5" />
     <PackageReference Include="Backgammon" Version="10.0.5" />
-    <PackageReference Include="BasicBlazorLibrary" Version="10.0.179" />
+    <PackageReference Include="BasicBlazorLibrary" Version="10.0.180" />
     <PackageReference Include="BasicGameFrameworkLibrary" Version="10.0.21" />
     <PackageReference Include="BattleshipLite" Version="10.0.5" />
     <PackageReference Include="BladesOfSteel" Version="10.0.5" />
@@ -52,11 +52,11 @@
     <PackageReference Include="ItalianDominos" Version="10.0.5" />
     <PackageReference Include="Kismet" Version="10.0.5" />
     <PackageReference Include="LifeBoardGame" Version="10.0.6" />
-    <PackageReference Include="LifeCardGame" Version="10.0.5" />
+    <PackageReference Include="LifeCardGame" Version="10.0.6" />
     <PackageReference Include="LottoDominos" Version="10.0.5" />
     <PackageReference Include="Mancala" Version="10.0.5" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.5" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.5" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.8" PrivateAssets="all" />
     <PackageReference Include="MilkRun" Version="10.0.5" />
     <PackageReference Include="Millebournes" Version="10.0.5" />
     <PackageReference Include="MonasteryCardGame" Version="10.0.5" />
