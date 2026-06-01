@@ -27,7 +27,7 @@
     <PackageReference Include="CousinRummy" Version="10.0.5" />
     <PackageReference Include="CoveredUp" Version="10.0.6" />
     <PackageReference Include="CrazyEights" Version="10.0.5" />
-    <PackageReference Include="Cribbage" Version="10.0.5" />
+    <PackageReference Include="Cribbage" Version="10.0.6" />
     <PackageReference Include="DeadDie96" Version="10.0.5" />
     <PackageReference Include="DiceDominos" Version="10.0.5" />
     <PackageReference Include="DominosMexicanTrain" Version="10.0.5" />
