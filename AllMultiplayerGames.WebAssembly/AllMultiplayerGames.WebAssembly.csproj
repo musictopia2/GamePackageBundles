@@ -55,8 +55,8 @@
     <PackageReference Include="LifeCardGame" Version="10.0.6" />
     <PackageReference Include="LottoDominos" Version="10.0.5" />
     <PackageReference Include="Mancala" Version="10.0.5" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.10" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.12" PrivateAssets="all" />
     <PackageReference Include="MilkRun" Version="10.0.5" />
     <PackageReference Include="Millebournes" Version="10.0.5" />
     <PackageReference Include="MonasteryCardGame" Version="10.0.5" />
@@ -92,7 +92,7 @@
     <PackageReference Include="Skipbo" Version="10.0.5" />
     <PackageReference Include="SkuckCardGame" Version="10.0.5" />
     <PackageReference Include="SnagCardGame" Version="10.0.5" />
-    <PackageReference Include="Sorry" Version="10.0.6" />
+    <PackageReference Include="Sorry" Version="10.0.7" />
     <PackageReference Include="SorryCardGame" Version="10.0.5" />
     <PackageReference Include="Spades2Player" Version="10.0.5" />
     <PackageReference Include="Spades4Player" Version="10.0.5" />

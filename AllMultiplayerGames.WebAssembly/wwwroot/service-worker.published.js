@@ -3,7 +3,7 @@
 self.importScripts('./service-worker-assets.js');
 
 //start
-const version = 10.13;
+const version = 10.14;
 //end
 
 const cacheNamePrefix = 'offline-cache-';
