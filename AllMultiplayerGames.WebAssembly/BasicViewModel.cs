@@ -312,5 +312,4 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
             _ => throw new CustomBasicException($"Game not found: {GameName}")
         };
     }
-    }
 }
