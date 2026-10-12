@@ -39,7 +39,7 @@
     <PackageReference Include="Fluxx" Version="10.0.6" />
     <PackageReference Include="FourSuitRummy" Version="10.0.6" />
     <PackageReference Include="GalaxyCardGame" Version="10.0.6" />
-    <PackageReference Include="GameLoaderBlazorLibrary" Version="10.0.14" />
+    <PackageReference Include="GameLoaderBlazorLibrary" Version="10.0.15" />
     <PackageReference Include="GamePackageSignalRClasses" Version="10.0.14" />
     <PackageReference Include="GermanWhist" Version="10.0.6" />
     <PackageReference Include="GoFish" Version="10.0.6" />
@@ -88,7 +88,7 @@
     <PackageReference Include="ShipCaptainCrew" Version="10.0.6" />
     <PackageReference Include="SinisterSix" Version="10.0.6" />
     <PackageReference Include="SixtySix2Player" Version="10.0.6" />
-    <PackageReference Include="Skipbo" Version="10.0.6" />
+    <PackageReference Include="Skipbo" Version="10.0.7" />
     <PackageReference Include="SkuckCardGame" Version="10.0.6" />
     <PackageReference Include="SnagCardGame" Version="10.0.6" />
     <PackageReference Include="Sorry" Version="10.0.8" />
