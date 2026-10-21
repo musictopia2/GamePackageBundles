@@ -1,4 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -9,6 +8,109 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.13" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Musictopia2.A21DiceGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.A8RoundRummy" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Aggravation" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Backgammon" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.BattleshipLite" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.BladesOfSteel" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.BowlingDiceGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.CaliforniaJack" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Candyland" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Chinazo" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ChineseCheckers" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ClueBoardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Concentration" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ConnectFour" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ConnectTheDots" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.CousinRummy" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.CoveredUp" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.CrazyEights" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Cribbage" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DeadDie96" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DiceDominos" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DominosRegular" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DummyRummy" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DutchBlitz" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.FillOrBust" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.FiveCrowns" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Flinch" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Fluxx" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.FourSuitRummy" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.GalaxyCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.GameLoaderBlazorLibrary" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.GamePackageSignalRClasses" Version="10.0.3" />
+    <PackageReference Include="Musictopia2.GermanWhist" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.GoFish" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.GolfCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Hearts" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.HitTheDeck" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.HorseshoeCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.HuseHearts" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ItalianDominos" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Kismet" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.LifeBoardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.LifeCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.LottoDominos" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Mancala" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.MilkRun" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Millebournes" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.MonasteryCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.MonopolyCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.MultiplayerGamesBlazorLoaderLibrary" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.Musictopia.Battleship" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.Bingo" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.Checkers" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.Chess" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.Countdown" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.SnakesAndLadders" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Musictopia.TicTacToe" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.OldMaid" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Opetong" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.PassOutDiceGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Payday" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Phase10" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.PickelCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Pinochle2Player" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Racko" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.RageCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Risk" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.RollEm" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Rook" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.RoundsCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Rummy500" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.RummyDice" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Savannah" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SequenceDice" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ShipCaptainCrew" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SinisterSix" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SixtySix2Player" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Skipbo" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SkuckCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SnagCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Sorry" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SorryCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Spades2Player" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Spades4Player" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.TeeItUp" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ThinkTwice" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ThreeLetterFun" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.TileRummy" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Trouble" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Uno" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Xactika" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.YaBlewIt" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.YachtRace" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Yahtzee" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.YahtzeeHandsDown" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.MonopolyDicedGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.ClueCardGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SorryDicedGame" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.DealCardGame" Version="10.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
