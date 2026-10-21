@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -15,7 +16,7 @@
     <PackageReference Include="Musictopia2.Aggravation" Version="10.0.1" />
     <PackageReference Include="Musictopia2.Backgammon" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="10.0.2" />
-    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="10.0.3" />
     <PackageReference Include="Musictopia2.BattleshipLite" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BladesOfSteel" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BowlingDiceGame" Version="10.0.1" />
