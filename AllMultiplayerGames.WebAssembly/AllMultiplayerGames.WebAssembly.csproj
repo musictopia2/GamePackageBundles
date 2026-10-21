@@ -62,13 +62,13 @@
     <PackageReference Include="Musictopia2.MonasteryCardGame" Version="10.0.1" />
     <PackageReference Include="Musictopia2.MonopolyCardGame" Version="10.0.1" />
     <PackageReference Include="Musictopia2.MultiplayerGamesBlazorLoaderLibrary" Version="10.0.2" />
-    <PackageReference Include="Musictopia2.Musictopia.Battleship" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.Bingo" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.Checkers" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.Chess" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.Countdown" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.SnakesAndLadders" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Musictopia.TicTacToe" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Battleship" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Bingo" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Checkers" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Chess" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Countdown" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.SnakesAndLadders" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.TicTacToe" Version="10.0.1" />
     <PackageReference Include="Musictopia2.OldMaid" Version="10.0.1" />
     <PackageReference Include="Musictopia2.Opetong" Version="10.0.1" />
     <PackageReference Include="Musictopia2.PassOutDiceGame" Version="10.0.1" />
