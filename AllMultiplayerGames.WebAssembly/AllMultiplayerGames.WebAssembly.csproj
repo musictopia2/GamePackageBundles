@@ -16,7 +16,7 @@
     <PackageReference Include="Musictopia2.Aggravation" Version="10.0.1" />
     <PackageReference Include="Musictopia2.Backgammon" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="10.0.2" />
-    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="10.0.3" />
+    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="10.0.4" />
     <PackageReference Include="Musictopia2.BattleshipLite" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BladesOfSteel" Version="10.0.1" />
     <PackageReference Include="Musictopia2.BowlingDiceGame" Version="10.0.1" />
@@ -43,7 +43,7 @@
     <PackageReference Include="Musictopia2.Fluxx" Version="10.0.1" />
     <PackageReference Include="Musictopia2.FourSuitRummy" Version="10.0.1" />
     <PackageReference Include="Musictopia2.GalaxyCardGame" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.GameLoaderBlazorLibrary" Version="10.0.4" />
+    <PackageReference Include="Musictopia2.GameLoaderBlazorLibrary" Version="10.0.5" />
     <PackageReference Include="Musictopia2.GamePackageSignalRClasses" Version="10.0.3" />
     <PackageReference Include="Musictopia2.GermanWhist" Version="10.0.1" />
     <PackageReference Include="Musictopia2.GoFish" Version="10.0.1" />
