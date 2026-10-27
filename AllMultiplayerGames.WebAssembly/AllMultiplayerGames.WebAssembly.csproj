@@ -85,7 +85,7 @@
     <PackageReference Include="Musictopia2.RoundsCardGame" Version="10.0.1" />
     <PackageReference Include="Musictopia2.Rummy500" Version="10.0.1" />
     <PackageReference Include="Musictopia2.RummyDice" Version="10.0.1" />
-    <PackageReference Include="Musictopia2.Savannah" Version="10.0.1" />
+    <PackageReference Include="Musictopia2.Savannah" Version="10.0.2" />
     <PackageReference Include="Musictopia2.SequenceDice" Version="10.0.1" />
     <PackageReference Include="Musictopia2.ShipCaptainCrew" Version="10.0.1" />
     <PackageReference Include="Musictopia2.SinisterSix" Version="10.0.1" />
