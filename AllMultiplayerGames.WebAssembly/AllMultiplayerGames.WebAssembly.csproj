@@ -111,7 +111,7 @@
     <PackageReference Include="Musictopia2.MonopolyDicedGame" Version="10.0.2" />
     <PackageReference Include="Musictopia2.ClueCardGame" Version="10.0.2" />
     <PackageReference Include="Musictopia2.SorryDicedGame" Version="10.0.2" />
-    <PackageReference Include="Musictopia2.DealCardGame" Version="10.0.2" />
+    <PackageReference Include="Musictopia2.DealCardGame" Version="10.0.3" />
   </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
