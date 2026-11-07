@@ -1,0 +1,42 @@
+name: Build static site for Render
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-static-publish
+  cancel-in-progress: false
+
+env:
+  DOTNET_VERSION: '10.0.x'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Publish Blazor application
+        run: >
+          dotnet publish ./AllMultiplayerGames.WebAssembly/AllMultiplayerGames.WebAssembly.csproj
+          --configuration Release
+          --output "${{ runner.temp }}/render-publish"
+
+      - name: Update published-files branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: render-published
+          publish_dir: ${{ runner.temp }}/render-publish/wwwroot

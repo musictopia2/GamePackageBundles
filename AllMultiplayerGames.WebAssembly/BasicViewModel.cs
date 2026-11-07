@@ -4,102 +4,1062 @@ public class BasicViewModel(IStartUp starts) : LoaderViewModel(starts)
     public override string Title => "AllMultiplayerGames.WebAssembly";
     protected override void GenerateGameList()
     {
-        RegisterGame(A21DiceGame.Core.Data.A21DiceGameDetailClass.GameName, A21DiceGame.Core.Data.A21DiceGameDetailClass.SupportsCompactLayout);
-        RegisterGame(A8RoundRummy.Core.Data.A8RoundRummyDetailClass.GameName, A8RoundRummy.Core.Data.A8RoundRummyDetailClass.SupportsCompactLayout);
-        RegisterGame(Aggravation.Core.Data.AggravationDetailClass.GameName, Aggravation.Core.Data.AggravationDetailClass.SupportsCompactLayout);
-        RegisterGame(Backgammon.Core.Data.BackgammonDetailClass.GameName, Backgammon.Core.Data.BackgammonDetailClass.SupportsCompactLayout);
-        RegisterGame(Battleship.Core.Data.BattleshipDetailClass.GameName, Battleship.Core.Data.BattleshipDetailClass.SupportsCompactLayout);
-        RegisterGame(BattleshipLite.Core.Data.BattleshipLiteDetailClass.GameName, BattleshipLite.Core.Data.BattleshipLiteDetailClass.SupportsCompactLayout);
-        RegisterGame(Bingo.Core.Data.BingoDetailClass.GameName, Bingo.Core.Data.BingoDetailClass.SupportsCompactLayout);
-        RegisterGame(BladesOfSteel.Core.Data.BladesOfSteelDetailClass.GameName, BladesOfSteel.Core.Data.BladesOfSteelDetailClass.SupportsCompactLayout);
-        RegisterGame(BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.GameName, BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.SupportsCompactLayout);
-        RegisterGame(CaliforniaJack.Core.Data.CaliforniaJackDetailClass.GameName, CaliforniaJack.Core.Data.CaliforniaJackDetailClass.SupportsCompactLayout);
-        RegisterGame(Candyland.Core.Data.CandylandDetailClass.GameName, Candyland.Core.Data.CandylandDetailClass.SupportsCompactLayout);
-        RegisterGame(Checkers.Core.Data.CheckersDetailClass.GameName, Checkers.Core.Data.CheckersDetailClass.SupportsCompactLayout);
-        RegisterGame(Chess.Core.Data.ChessDetailClass.GameName, Chess.Core.Data.ChessDetailClass.SupportsCompactLayout);
-        RegisterGame(Chinazo.Core.Data.ChinazoDetailClass.GameName, Chinazo.Core.Data.ChinazoDetailClass.SupportsCompactLayout);
-        RegisterGame(ChineseCheckers.Core.Data.ChineseCheckersDetailClass.GameName, ChineseCheckers.Core.Data.ChineseCheckersDetailClass.SupportsCompactLayout);
-        RegisterGame(ClueBoardGame.Core.Data.ClueBoardGameDetailClass.GameName, ClueBoardGame.Core.Data.ClueBoardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(ClueCardGame.Core.Data.ClueCardGameDetailClass.GameName, ClueCardGame.Core.Data.ClueCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Concentration.Core.Data.ConcentrationDetailClass.GameName, Concentration.Core.Data.ConcentrationDetailClass.SupportsCompactLayout);
-        RegisterGame(ConnectFour.Core.Data.ConnectFourDetailClass.GameName, ConnectFour.Core.Data.ConnectFourDetailClass.SupportsCompactLayout);
-        RegisterGame(ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.GameName, ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.SupportsCompactLayout);
-        RegisterGame(Countdown.Core.Data.CountdownDetailClass.GameName, Countdown.Core.Data.CountdownDetailClass.SupportsCompactLayout);
-        RegisterGame(CousinRummy.Core.Data.CousinRummyDetailClass.GameName, CousinRummy.Core.Data.CousinRummyDetailClass.SupportsCompactLayout);
-        RegisterGame(CoveredUp.Core.Data.CoveredUpDetailClass.GameName, CoveredUp.Core.Data.CoveredUpDetailClass.SupportsCompactLayout);
-        RegisterGame(CrazyEights.Core.Data.CrazyEightsDetailClass.GameName, CrazyEights.Core.Data.CrazyEightsDetailClass.SupportsCompactLayout);
-        RegisterGame(Cribbage.Core.Data.CribbageDetailClass.GameName, Cribbage.Core.Data.CribbageDetailClass.SupportsCompactLayout);
-        RegisterGame(DeadDie96.Core.Data.DeadDie96DetailClass.GameName, DeadDie96.Core.Data.DeadDie96DetailClass.SupportsCompactLayout);
-        RegisterGame(DealCardGame.Core.Data.DealCardGameDetailClass.GameName, DealCardGame.Core.Data.DealCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(DiceDominos.Core.Data.DiceDominosDetailClass.GameName, DiceDominos.Core.Data.DiceDominosDetailClass.SupportsCompactLayout);
-        RegisterGame(DominosRegular.Core.Data.DominosRegularDetailClass.GameName, DominosRegular.Core.Data.DominosRegularDetailClass.SupportsCompactLayout);
-        RegisterGame(DummyRummy.Core.Data.DummyRummyDetailClass.GameName, DummyRummy.Core.Data.DummyRummyDetailClass.SupportsCompactLayout);
-        RegisterGame(DutchBlitz.Core.Data.DutchBlitzDetailClass.GameName, DutchBlitz.Core.Data.DutchBlitzDetailClass.SupportsCompactLayout);
-        RegisterGame(FillOrBust.Core.Data.FillOrBustDetailClass.GameName, FillOrBust.Core.Data.FillOrBustDetailClass.SupportsCompactLayout);
-        RegisterGame(FiveCrowns.Core.Data.FiveCrownsDetailClass.GameName, FiveCrowns.Core.Data.FiveCrownsDetailClass.SupportsCompactLayout);
-        RegisterGame(Flinch.Core.Data.FlinchDetailClass.GameName, Flinch.Core.Data.FlinchDetailClass.SupportsCompactLayout);
-        RegisterGame(Fluxx.Core.Data.FluxxDetailClass.GameName, Fluxx.Core.Data.FluxxDetailClass.SupportsCompactLayout);
-        RegisterGame(FourSuitRummy.Core.Data.FourSuitRummyDetailClass.GameName, FourSuitRummy.Core.Data.FourSuitRummyDetailClass.SupportsCompactLayout);
-        RegisterGame(GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.GameName, GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(GermanWhist.Core.Data.GermanWhistDetailClass.GameName, GermanWhist.Core.Data.GermanWhistDetailClass.SupportsCompactLayout);
-        RegisterGame(GoFish.Core.Data.GoFishDetailClass.GameName, GoFish.Core.Data.GoFishDetailClass.SupportsCompactLayout);
-        RegisterGame(GolfCardGame.Core.Data.GolfCardGameDetailClass.GameName, GolfCardGame.Core.Data.GolfCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Hearts.Core.Data.HeartsDetailClass.GameName, Hearts.Core.Data.HeartsDetailClass.SupportsCompactLayout);
-        RegisterGame(HitTheDeck.Core.Data.HitTheDeckDetailClass.GameName, HitTheDeck.Core.Data.HitTheDeckDetailClass.SupportsCompactLayout);
-        RegisterGame(HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.GameName, HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(HuseHearts.Core.Data.HuseHeartsDetailClass.GameName, HuseHearts.Core.Data.HuseHeartsDetailClass.SupportsCompactLayout);
-        RegisterGame(ItalianDominos.Core.Data.ItalianDominosDetailClass.GameName, ItalianDominos.Core.Data.ItalianDominosDetailClass.SupportsCompactLayout);
-        RegisterGame(Kismet.Core.Data.KismetDetailClass.GameName, Kismet.Core.Data.KismetDetailClass.SupportsCompactLayout);
-        RegisterGame(LifeBoardGame.Core.Data.LifeBoardGameDetailClass.GameName, LifeBoardGame.Core.Data.LifeBoardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(LifeCardGame.Core.Data.LifeCardGameDetailClass.GameName, LifeCardGame.Core.Data.LifeCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(LottoDominos.Core.Data.LottoDominosDetailClass.GameName, LottoDominos.Core.Data.LottoDominosDetailClass.SupportsCompactLayout);
-        RegisterGame(Mancala.Core.Data.MancalaDetailClass.GameName, Mancala.Core.Data.MancalaDetailClass.SupportsCompactLayout);
-        RegisterGame(MilkRun.Core.Data.MilkRunDetailClass.GameName, MilkRun.Core.Data.MilkRunDetailClass.SupportsCompactLayout);
-        RegisterGame(Millebournes.Core.Data.MillebournesDetailClass.GameName, Millebournes.Core.Data.MillebournesDetailClass.SupportsCompactLayout);
-        RegisterGame(MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.GameName, MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.GameName, MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.GameName, MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.SupportsCompactLayout);
-        RegisterGame(OldMaid.Core.Data.OldMaidDetailClass.GameName, OldMaid.Core.Data.OldMaidDetailClass.SupportsCompactLayout);
-        RegisterGame(Opetong.Core.Data.OpetongDetailClass.GameName, Opetong.Core.Data.OpetongDetailClass.SupportsCompactLayout);
-        RegisterGame(PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.GameName, PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Payday.Core.Data.PaydayDetailClass.GameName, Payday.Core.Data.PaydayDetailClass.SupportsCompactLayout);
-        RegisterGame(Phase10.Core.Data.Phase10DetailClass.GameName, Phase10.Core.Data.Phase10DetailClass.SupportsCompactLayout);
-        RegisterGame(PickelCardGame.Core.Data.PickelCardGameDetailClass.GameName, PickelCardGame.Core.Data.PickelCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.GameName, Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.SupportsCompactLayout);
-        RegisterGame(Racko.Core.Data.RackoDetailClass.GameName, Racko.Core.Data.RackoDetailClass.SupportsCompactLayout);
-        RegisterGame(RageCardGame.Core.Data.RageCardGameDetailClass.GameName, RageCardGame.Core.Data.RageCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Risk.Core.Data.RiskDetailClass.GameName, Risk.Core.Data.RiskDetailClass.SupportsCompactLayout);
-        RegisterGame(RollEm.Core.Data.RollEmDetailClass.GameName, RollEm.Core.Data.RollEmDetailClass.SupportsCompactLayout);
-        RegisterGame(Rook.Core.Data.RookDetailClass.GameName, Rook.Core.Data.RookDetailClass.SupportsCompactLayout);
-        RegisterGame(RoundsCardGame.Core.Data.RoundsCardGameDetailClass.GameName, RoundsCardGame.Core.Data.RoundsCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(RummyDice.Core.Data.RummyDiceDetailClass.GameName, RummyDice.Core.Data.RummyDiceDetailClass.SupportsCompactLayout);
-        RegisterGame(Rummy500.Core.Data.Rummy500DetailClass.GameName, Rummy500.Core.Data.Rummy500DetailClass.SupportsCompactLayout);
-        RegisterGame(Savannah.Core.Data.SavannahDetailClass.GameName, Savannah.Core.Data.SavannahDetailClass.SupportsCompactLayout);
-        RegisterGame(SequenceDice.Core.Data.SequenceDiceDetailClass.GameName, SequenceDice.Core.Data.SequenceDiceDetailClass.SupportsCompactLayout);
-        RegisterGame(ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.GameName, ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.SupportsCompactLayout);
-        RegisterGame(SinisterSix.Core.Data.SinisterSixDetailClass.GameName, SinisterSix.Core.Data.SinisterSixDetailClass.SupportsCompactLayout);
-        RegisterGame(SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.GameName, SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.SupportsCompactLayout);
-        RegisterGame(Skipbo.Core.Data.SkipboDetailClass.GameName, Skipbo.Core.Data.SkipboDetailClass.SupportsCompactLayout);
-        RegisterGame(SkuckCardGame.Core.Data.SkuckCardGameDetailClass.GameName, SkuckCardGame.Core.Data.SkuckCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(SnagCardGame.Core.Data.SnagCardGameDetailClass.GameName, SnagCardGame.Core.Data.SnagCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.GameName, SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.SupportsCompactLayout);
-        RegisterGame(Sorry.Core.Data.SorryDetailClass.GameName, Sorry.Core.Data.SorryDetailClass.SupportsCompactLayout);
-        RegisterGame(SorryCardGame.Core.Data.SorryCardGameDetailClass.GameName, SorryCardGame.Core.Data.SorryCardGameDetailClass.SupportsCompactLayout);
-        RegisterGame(SorryDicedGame.Core.Data.SorryDicedGameDetailClass.GameName, SorryDicedGame.Core.Data.SorryDicedGameDetailClass.SupportsCompactLayout);
-        RegisterGame(Spades2Player.Core.Data.Spades2PlayerDetailClass.GameName, Spades2Player.Core.Data.Spades2PlayerDetailClass.SupportsCompactLayout);
-        RegisterGame(Spades4Player.Core.Data.Spades4PlayerDetailClass.GameName, Spades4Player.Core.Data.Spades4PlayerDetailClass.SupportsCompactLayout);
-        RegisterGame(TeeItUp.Core.Data.TeeItUpDetailClass.GameName, TeeItUp.Core.Data.TeeItUpDetailClass.SupportsCompactLayout);
-        RegisterGame(ThinkTwice.Core.Data.ThinkTwiceDetailClass.GameName, ThinkTwice.Core.Data.ThinkTwiceDetailClass.SupportsCompactLayout);
-        RegisterGame(ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.GameName, ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.SupportsCompactLayout);
-        RegisterGame(TicTacToe.Core.Data.TicTacToeDetailClass.GameName, TicTacToe.Core.Data.TicTacToeDetailClass.SupportsCompactLayout);
-        RegisterGame(TileRummy.Core.Data.TileRummyDetailClass.GameName, TileRummy.Core.Data.TileRummyDetailClass.SupportsCompactLayout);
-        RegisterGame(Trouble.Core.Data.TroubleDetailClass.GameName, Trouble.Core.Data.TroubleDetailClass.SupportsCompactLayout);
-        RegisterGame(Uno.Core.Data.UnoDetailClass.GameName, Uno.Core.Data.UnoDetailClass.SupportsCompactLayout);
-        RegisterGame(Xactika.Core.Data.XactikaDetailClass.GameName, Xactika.Core.Data.XactikaDetailClass.SupportsCompactLayout);
-        RegisterGame(YaBlewIt.Core.Data.YaBlewItDetailClass.GameName, YaBlewIt.Core.Data.YaBlewItDetailClass.SupportsCompactLayout);
-        RegisterGame(YachtRace.Core.Data.YachtRaceDetailClass.GameName, YachtRace.Core.Data.YachtRaceDetailClass.SupportsCompactLayout);
-        RegisterGame(Yahtzee.Core.Data.YahtzeeDetailClass.GameName, Yahtzee.Core.Data.YahtzeeDetailClass.SupportsCompactLayout);
-        RegisterGame(YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.GameName, YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.SupportsCompactLayout);
+        RegisterGame(new GameRegistration
+        {
+            GameName = A21DiceGame.Core.Data.A21DiceGameDetailClass.GameName,
+            SupportsCompactLayout = A21DiceGame.Core.Data.A21DiceGameDetailClass.SupportsCompactLayout,
+            MinPlayers = A21DiceGame.Core.Data.A21DiceGameDetailClass.MinPlayers,
+            MaxPlayers = A21DiceGame.Core.Data.A21DiceGameDetailClass.MaxPlayers,
+            NoPlayers = A21DiceGame.Core.Data.A21DiceGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = A21DiceGame.Core.Data.A21DiceGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = A21DiceGame.Core.Data.A21DiceGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.GameName,
+            SupportsCompactLayout = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.SupportsCompactLayout,
+            MinPlayers = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.MinPlayers,
+            MaxPlayers = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.MaxPlayers,
+            NoPlayers = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = A8RoundRummy.Core.Data.A8RoundRummyDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Aggravation.Core.Data.AggravationDetailClass.GameName,
+            SupportsCompactLayout = Aggravation.Core.Data.AggravationDetailClass.SupportsCompactLayout,
+            MinPlayers = Aggravation.Core.Data.AggravationDetailClass.MinPlayers,
+            MaxPlayers = Aggravation.Core.Data.AggravationDetailClass.MaxPlayers,
+            NoPlayers = Aggravation.Core.Data.AggravationDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Aggravation.Core.Data.AggravationDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Aggravation.Core.Data.AggravationDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Backgammon.Core.Data.BackgammonDetailClass.GameName,
+            SupportsCompactLayout = Backgammon.Core.Data.BackgammonDetailClass.SupportsCompactLayout,
+            MinPlayers = Backgammon.Core.Data.BackgammonDetailClass.MinPlayers,
+            MaxPlayers = Backgammon.Core.Data.BackgammonDetailClass.MaxPlayers,
+            NoPlayers = Backgammon.Core.Data.BackgammonDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Backgammon.Core.Data.BackgammonDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Backgammon.Core.Data.BackgammonDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Battleship.Core.Data.BattleshipDetailClass.GameName,
+            SupportsCompactLayout = Battleship.Core.Data.BattleshipDetailClass.SupportsCompactLayout,
+            MinPlayers = Battleship.Core.Data.BattleshipDetailClass.MinPlayers,
+            MaxPlayers = Battleship.Core.Data.BattleshipDetailClass.MaxPlayers,
+            NoPlayers = Battleship.Core.Data.BattleshipDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Battleship.Core.Data.BattleshipDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Battleship.Core.Data.BattleshipDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = BattleshipLite.Core.Data.BattleshipLiteDetailClass.GameName,
+            SupportsCompactLayout = BattleshipLite.Core.Data.BattleshipLiteDetailClass.SupportsCompactLayout,
+            MinPlayers = BattleshipLite.Core.Data.BattleshipLiteDetailClass.MinPlayers,
+            MaxPlayers = BattleshipLite.Core.Data.BattleshipLiteDetailClass.MaxPlayers,
+            NoPlayers = BattleshipLite.Core.Data.BattleshipLiteDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = BattleshipLite.Core.Data.BattleshipLiteDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = BattleshipLite.Core.Data.BattleshipLiteDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Bingo.Core.Data.BingoDetailClass.GameName,
+            SupportsCompactLayout = Bingo.Core.Data.BingoDetailClass.SupportsCompactLayout,
+            MinPlayers = Bingo.Core.Data.BingoDetailClass.MinPlayers,
+            MaxPlayers = Bingo.Core.Data.BingoDetailClass.MaxPlayers,
+            NoPlayers = Bingo.Core.Data.BingoDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Bingo.Core.Data.BingoDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Bingo.Core.Data.BingoDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.GameName,
+            SupportsCompactLayout = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.SupportsCompactLayout,
+            MinPlayers = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.MinPlayers,
+            MaxPlayers = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.MaxPlayers,
+            NoPlayers = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = BladesOfSteel.Core.Data.BladesOfSteelDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.GameName,
+            SupportsCompactLayout = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.SupportsCompactLayout,
+            MinPlayers = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.MinPlayers,
+            MaxPlayers = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.MaxPlayers,
+            NoPlayers = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = BowlingDiceGame.Core.Data.BowlingDiceGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.GameName,
+            SupportsCompactLayout = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.SupportsCompactLayout,
+            MinPlayers = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.MinPlayers,
+            MaxPlayers = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.MaxPlayers,
+            NoPlayers = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = CaliforniaJack.Core.Data.CaliforniaJackDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Candyland.Core.Data.CandylandDetailClass.GameName,
+            SupportsCompactLayout = Candyland.Core.Data.CandylandDetailClass.SupportsCompactLayout,
+            MinPlayers = Candyland.Core.Data.CandylandDetailClass.MinPlayers,
+            MaxPlayers = Candyland.Core.Data.CandylandDetailClass.MaxPlayers,
+            NoPlayers = Candyland.Core.Data.CandylandDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Candyland.Core.Data.CandylandDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Candyland.Core.Data.CandylandDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Checkers.Core.Data.CheckersDetailClass.GameName,
+            SupportsCompactLayout = Checkers.Core.Data.CheckersDetailClass.SupportsCompactLayout,
+            MinPlayers = Checkers.Core.Data.CheckersDetailClass.MinPlayers,
+            MaxPlayers = Checkers.Core.Data.CheckersDetailClass.MaxPlayers,
+            NoPlayers = Checkers.Core.Data.CheckersDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Checkers.Core.Data.CheckersDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Checkers.Core.Data.CheckersDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Chess.Core.Data.ChessDetailClass.GameName,
+            SupportsCompactLayout = Chess.Core.Data.ChessDetailClass.SupportsCompactLayout,
+            MinPlayers = Chess.Core.Data.ChessDetailClass.MinPlayers,
+            MaxPlayers = Chess.Core.Data.ChessDetailClass.MaxPlayers,
+            NoPlayers = Chess.Core.Data.ChessDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Chess.Core.Data.ChessDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Chess.Core.Data.ChessDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Chinazo.Core.Data.ChinazoDetailClass.GameName,
+            SupportsCompactLayout = Chinazo.Core.Data.ChinazoDetailClass.SupportsCompactLayout,
+            MinPlayers = Chinazo.Core.Data.ChinazoDetailClass.MinPlayers,
+            MaxPlayers = Chinazo.Core.Data.ChinazoDetailClass.MaxPlayers,
+            NoPlayers = Chinazo.Core.Data.ChinazoDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Chinazo.Core.Data.ChinazoDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Chinazo.Core.Data.ChinazoDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.GameName,
+            SupportsCompactLayout = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.SupportsCompactLayout,
+            MinPlayers = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.MinPlayers,
+            MaxPlayers = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.MaxPlayers,
+            NoPlayers = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ChineseCheckers.Core.Data.ChineseCheckersDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.GameName,
+            SupportsCompactLayout = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.MinPlayers,
+            MaxPlayers = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.MaxPlayers,
+            NoPlayers = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ClueBoardGame.Core.Data.ClueBoardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ClueCardGame.Core.Data.ClueCardGameDetailClass.GameName,
+            SupportsCompactLayout = ClueCardGame.Core.Data.ClueCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = ClueCardGame.Core.Data.ClueCardGameDetailClass.MinPlayers,
+            MaxPlayers = ClueCardGame.Core.Data.ClueCardGameDetailClass.MaxPlayers,
+            NoPlayers = ClueCardGame.Core.Data.ClueCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ClueCardGame.Core.Data.ClueCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ClueCardGame.Core.Data.ClueCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Concentration.Core.Data.ConcentrationDetailClass.GameName,
+            SupportsCompactLayout = Concentration.Core.Data.ConcentrationDetailClass.SupportsCompactLayout,
+            MinPlayers = Concentration.Core.Data.ConcentrationDetailClass.MinPlayers,
+            MaxPlayers = Concentration.Core.Data.ConcentrationDetailClass.MaxPlayers,
+            NoPlayers = Concentration.Core.Data.ConcentrationDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Concentration.Core.Data.ConcentrationDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Concentration.Core.Data.ConcentrationDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ConnectFour.Core.Data.ConnectFourDetailClass.GameName,
+            SupportsCompactLayout = ConnectFour.Core.Data.ConnectFourDetailClass.SupportsCompactLayout,
+            MinPlayers = ConnectFour.Core.Data.ConnectFourDetailClass.MinPlayers,
+            MaxPlayers = ConnectFour.Core.Data.ConnectFourDetailClass.MaxPlayers,
+            NoPlayers = ConnectFour.Core.Data.ConnectFourDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ConnectFour.Core.Data.ConnectFourDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ConnectFour.Core.Data.ConnectFourDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.GameName,
+            SupportsCompactLayout = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.SupportsCompactLayout,
+            MinPlayers = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.MinPlayers,
+            MaxPlayers = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.MaxPlayers,
+            NoPlayers = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ConnectTheDots.Core.Data.ConnectTheDotsDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Countdown.Core.Data.CountdownDetailClass.GameName,
+            SupportsCompactLayout = Countdown.Core.Data.CountdownDetailClass.SupportsCompactLayout,
+            MinPlayers = Countdown.Core.Data.CountdownDetailClass.MinPlayers,
+            MaxPlayers = Countdown.Core.Data.CountdownDetailClass.MaxPlayers,
+            NoPlayers = Countdown.Core.Data.CountdownDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Countdown.Core.Data.CountdownDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Countdown.Core.Data.CountdownDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = CousinRummy.Core.Data.CousinRummyDetailClass.GameName,
+            SupportsCompactLayout = CousinRummy.Core.Data.CousinRummyDetailClass.SupportsCompactLayout,
+            MinPlayers = CousinRummy.Core.Data.CousinRummyDetailClass.MinPlayers,
+            MaxPlayers = CousinRummy.Core.Data.CousinRummyDetailClass.MaxPlayers,
+            NoPlayers = CousinRummy.Core.Data.CousinRummyDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = CousinRummy.Core.Data.CousinRummyDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = CousinRummy.Core.Data.CousinRummyDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = CoveredUp.Core.Data.CoveredUpDetailClass.GameName,
+            SupportsCompactLayout = CoveredUp.Core.Data.CoveredUpDetailClass.SupportsCompactLayout,
+            MinPlayers = CoveredUp.Core.Data.CoveredUpDetailClass.MinPlayers,
+            MaxPlayers = CoveredUp.Core.Data.CoveredUpDetailClass.MaxPlayers,
+            NoPlayers = CoveredUp.Core.Data.CoveredUpDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = CoveredUp.Core.Data.CoveredUpDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = CoveredUp.Core.Data.CoveredUpDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = CrazyEights.Core.Data.CrazyEightsDetailClass.GameName,
+            SupportsCompactLayout = CrazyEights.Core.Data.CrazyEightsDetailClass.SupportsCompactLayout,
+            MinPlayers = CrazyEights.Core.Data.CrazyEightsDetailClass.MinPlayers,
+            MaxPlayers = CrazyEights.Core.Data.CrazyEightsDetailClass.MaxPlayers,
+            NoPlayers = CrazyEights.Core.Data.CrazyEightsDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = CrazyEights.Core.Data.CrazyEightsDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = CrazyEights.Core.Data.CrazyEightsDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Cribbage.Core.Data.CribbageDetailClass.GameName,
+            SupportsCompactLayout = Cribbage.Core.Data.CribbageDetailClass.SupportsCompactLayout,
+            MinPlayers = Cribbage.Core.Data.CribbageDetailClass.MinPlayers,
+            MaxPlayers = Cribbage.Core.Data.CribbageDetailClass.MaxPlayers,
+            NoPlayers = Cribbage.Core.Data.CribbageDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Cribbage.Core.Data.CribbageDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Cribbage.Core.Data.CribbageDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DeadDie96.Core.Data.DeadDie96DetailClass.GameName,
+            SupportsCompactLayout = DeadDie96.Core.Data.DeadDie96DetailClass.SupportsCompactLayout,
+            MinPlayers = DeadDie96.Core.Data.DeadDie96DetailClass.MinPlayers,
+            MaxPlayers = DeadDie96.Core.Data.DeadDie96DetailClass.MaxPlayers,
+            NoPlayers = DeadDie96.Core.Data.DeadDie96DetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DeadDie96.Core.Data.DeadDie96DetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DeadDie96.Core.Data.DeadDie96DetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DealCardGame.Core.Data.DealCardGameDetailClass.GameName,
+            SupportsCompactLayout = DealCardGame.Core.Data.DealCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = DealCardGame.Core.Data.DealCardGameDetailClass.MinPlayers,
+            MaxPlayers = DealCardGame.Core.Data.DealCardGameDetailClass.MaxPlayers,
+            NoPlayers = DealCardGame.Core.Data.DealCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DealCardGame.Core.Data.DealCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DealCardGame.Core.Data.DealCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DiceDominos.Core.Data.DiceDominosDetailClass.GameName,
+            SupportsCompactLayout = DiceDominos.Core.Data.DiceDominosDetailClass.SupportsCompactLayout,
+            MinPlayers = DiceDominos.Core.Data.DiceDominosDetailClass.MinPlayers,
+            MaxPlayers = DiceDominos.Core.Data.DiceDominosDetailClass.MaxPlayers,
+            NoPlayers = DiceDominos.Core.Data.DiceDominosDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DiceDominos.Core.Data.DiceDominosDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DiceDominos.Core.Data.DiceDominosDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DominosRegular.Core.Data.DominosRegularDetailClass.GameName,
+            SupportsCompactLayout = DominosRegular.Core.Data.DominosRegularDetailClass.SupportsCompactLayout,
+            MinPlayers = DominosRegular.Core.Data.DominosRegularDetailClass.MinPlayers,
+            MaxPlayers = DominosRegular.Core.Data.DominosRegularDetailClass.MaxPlayers,
+            NoPlayers = DominosRegular.Core.Data.DominosRegularDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DominosRegular.Core.Data.DominosRegularDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DominosRegular.Core.Data.DominosRegularDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DummyRummy.Core.Data.DummyRummyDetailClass.GameName,
+            SupportsCompactLayout = DummyRummy.Core.Data.DummyRummyDetailClass.SupportsCompactLayout,
+            MinPlayers = DummyRummy.Core.Data.DummyRummyDetailClass.MinPlayers,
+            MaxPlayers = DummyRummy.Core.Data.DummyRummyDetailClass.MaxPlayers,
+            NoPlayers = DummyRummy.Core.Data.DummyRummyDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DummyRummy.Core.Data.DummyRummyDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DummyRummy.Core.Data.DummyRummyDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = DutchBlitz.Core.Data.DutchBlitzDetailClass.GameName,
+            SupportsCompactLayout = DutchBlitz.Core.Data.DutchBlitzDetailClass.SupportsCompactLayout,
+            MinPlayers = DutchBlitz.Core.Data.DutchBlitzDetailClass.MinPlayers,
+            MaxPlayers = DutchBlitz.Core.Data.DutchBlitzDetailClass.MaxPlayers,
+            NoPlayers = DutchBlitz.Core.Data.DutchBlitzDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = DutchBlitz.Core.Data.DutchBlitzDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = DutchBlitz.Core.Data.DutchBlitzDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = FillOrBust.Core.Data.FillOrBustDetailClass.GameName,
+            SupportsCompactLayout = FillOrBust.Core.Data.FillOrBustDetailClass.SupportsCompactLayout,
+            MinPlayers = FillOrBust.Core.Data.FillOrBustDetailClass.MinPlayers,
+            MaxPlayers = FillOrBust.Core.Data.FillOrBustDetailClass.MaxPlayers,
+            NoPlayers = FillOrBust.Core.Data.FillOrBustDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = FillOrBust.Core.Data.FillOrBustDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = FillOrBust.Core.Data.FillOrBustDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = FiveCrowns.Core.Data.FiveCrownsDetailClass.GameName,
+            SupportsCompactLayout = FiveCrowns.Core.Data.FiveCrownsDetailClass.SupportsCompactLayout,
+            MinPlayers = FiveCrowns.Core.Data.FiveCrownsDetailClass.MinPlayers,
+            MaxPlayers = FiveCrowns.Core.Data.FiveCrownsDetailClass.MaxPlayers,
+            NoPlayers = FiveCrowns.Core.Data.FiveCrownsDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = FiveCrowns.Core.Data.FiveCrownsDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = FiveCrowns.Core.Data.FiveCrownsDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Flinch.Core.Data.FlinchDetailClass.GameName,
+            SupportsCompactLayout = Flinch.Core.Data.FlinchDetailClass.SupportsCompactLayout,
+            MinPlayers = Flinch.Core.Data.FlinchDetailClass.MinPlayers,
+            MaxPlayers = Flinch.Core.Data.FlinchDetailClass.MaxPlayers,
+            NoPlayers = Flinch.Core.Data.FlinchDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Flinch.Core.Data.FlinchDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Flinch.Core.Data.FlinchDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Fluxx.Core.Data.FluxxDetailClass.GameName,
+            SupportsCompactLayout = Fluxx.Core.Data.FluxxDetailClass.SupportsCompactLayout,
+            MinPlayers = Fluxx.Core.Data.FluxxDetailClass.MinPlayers,
+            MaxPlayers = Fluxx.Core.Data.FluxxDetailClass.MaxPlayers,
+            NoPlayers = Fluxx.Core.Data.FluxxDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Fluxx.Core.Data.FluxxDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Fluxx.Core.Data.FluxxDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.GameName,
+            SupportsCompactLayout = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.SupportsCompactLayout,
+            MinPlayers = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.MinPlayers,
+            MaxPlayers = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.MaxPlayers,
+            NoPlayers = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = FourSuitRummy.Core.Data.FourSuitRummyDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.GameName,
+            SupportsCompactLayout = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.MinPlayers,
+            MaxPlayers = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.MaxPlayers,
+            NoPlayers = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = GalaxyCardGame.Core.Data.GalaxyCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = GermanWhist.Core.Data.GermanWhistDetailClass.GameName,
+            SupportsCompactLayout = GermanWhist.Core.Data.GermanWhistDetailClass.SupportsCompactLayout,
+            MinPlayers = GermanWhist.Core.Data.GermanWhistDetailClass.MinPlayers,
+            MaxPlayers = GermanWhist.Core.Data.GermanWhistDetailClass.MaxPlayers,
+            NoPlayers = GermanWhist.Core.Data.GermanWhistDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = GermanWhist.Core.Data.GermanWhistDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = GermanWhist.Core.Data.GermanWhistDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = GoFish.Core.Data.GoFishDetailClass.GameName,
+            SupportsCompactLayout = GoFish.Core.Data.GoFishDetailClass.SupportsCompactLayout,
+            MinPlayers = GoFish.Core.Data.GoFishDetailClass.MinPlayers,
+            MaxPlayers = GoFish.Core.Data.GoFishDetailClass.MaxPlayers,
+            NoPlayers = GoFish.Core.Data.GoFishDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = GoFish.Core.Data.GoFishDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = GoFish.Core.Data.GoFishDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = GolfCardGame.Core.Data.GolfCardGameDetailClass.GameName,
+            SupportsCompactLayout = GolfCardGame.Core.Data.GolfCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = GolfCardGame.Core.Data.GolfCardGameDetailClass.MinPlayers,
+            MaxPlayers = GolfCardGame.Core.Data.GolfCardGameDetailClass.MaxPlayers,
+            NoPlayers = GolfCardGame.Core.Data.GolfCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = GolfCardGame.Core.Data.GolfCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = GolfCardGame.Core.Data.GolfCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Hearts.Core.Data.HeartsDetailClass.GameName,
+            SupportsCompactLayout = Hearts.Core.Data.HeartsDetailClass.SupportsCompactLayout,
+            MinPlayers = Hearts.Core.Data.HeartsDetailClass.MinPlayers,
+            MaxPlayers = Hearts.Core.Data.HeartsDetailClass.MaxPlayers,
+            NoPlayers = Hearts.Core.Data.HeartsDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Hearts.Core.Data.HeartsDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Hearts.Core.Data.HeartsDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = HitTheDeck.Core.Data.HitTheDeckDetailClass.GameName,
+            SupportsCompactLayout = HitTheDeck.Core.Data.HitTheDeckDetailClass.SupportsCompactLayout,
+            MinPlayers = HitTheDeck.Core.Data.HitTheDeckDetailClass.MinPlayers,
+            MaxPlayers = HitTheDeck.Core.Data.HitTheDeckDetailClass.MaxPlayers,
+            NoPlayers = HitTheDeck.Core.Data.HitTheDeckDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = HitTheDeck.Core.Data.HitTheDeckDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = HitTheDeck.Core.Data.HitTheDeckDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.GameName,
+            SupportsCompactLayout = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.MinPlayers,
+            MaxPlayers = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.MaxPlayers,
+            NoPlayers = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = HorseshoeCardGame.Core.Data.HorseshoeCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = HuseHearts.Core.Data.HuseHeartsDetailClass.GameName,
+            SupportsCompactLayout = HuseHearts.Core.Data.HuseHeartsDetailClass.SupportsCompactLayout,
+            MinPlayers = HuseHearts.Core.Data.HuseHeartsDetailClass.MinPlayers,
+            MaxPlayers = HuseHearts.Core.Data.HuseHeartsDetailClass.MaxPlayers,
+            NoPlayers = HuseHearts.Core.Data.HuseHeartsDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = HuseHearts.Core.Data.HuseHeartsDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = HuseHearts.Core.Data.HuseHeartsDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ItalianDominos.Core.Data.ItalianDominosDetailClass.GameName,
+            SupportsCompactLayout = ItalianDominos.Core.Data.ItalianDominosDetailClass.SupportsCompactLayout,
+            MinPlayers = ItalianDominos.Core.Data.ItalianDominosDetailClass.MinPlayers,
+            MaxPlayers = ItalianDominos.Core.Data.ItalianDominosDetailClass.MaxPlayers,
+            NoPlayers = ItalianDominos.Core.Data.ItalianDominosDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ItalianDominos.Core.Data.ItalianDominosDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ItalianDominos.Core.Data.ItalianDominosDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Kismet.Core.Data.KismetDetailClass.GameName,
+            SupportsCompactLayout = Kismet.Core.Data.KismetDetailClass.SupportsCompactLayout,
+            MinPlayers = Kismet.Core.Data.KismetDetailClass.MinPlayers,
+            MaxPlayers = Kismet.Core.Data.KismetDetailClass.MaxPlayers,
+            NoPlayers = Kismet.Core.Data.KismetDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Kismet.Core.Data.KismetDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Kismet.Core.Data.KismetDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.GameName,
+            SupportsCompactLayout = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.MinPlayers,
+            MaxPlayers = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.MaxPlayers,
+            NoPlayers = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = LifeBoardGame.Core.Data.LifeBoardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = LifeCardGame.Core.Data.LifeCardGameDetailClass.GameName,
+            SupportsCompactLayout = LifeCardGame.Core.Data.LifeCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = LifeCardGame.Core.Data.LifeCardGameDetailClass.MinPlayers,
+            MaxPlayers = LifeCardGame.Core.Data.LifeCardGameDetailClass.MaxPlayers,
+            NoPlayers = LifeCardGame.Core.Data.LifeCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = LifeCardGame.Core.Data.LifeCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = LifeCardGame.Core.Data.LifeCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = LottoDominos.Core.Data.LottoDominosDetailClass.GameName,
+            SupportsCompactLayout = LottoDominos.Core.Data.LottoDominosDetailClass.SupportsCompactLayout,
+            MinPlayers = LottoDominos.Core.Data.LottoDominosDetailClass.MinPlayers,
+            MaxPlayers = LottoDominos.Core.Data.LottoDominosDetailClass.MaxPlayers,
+            NoPlayers = LottoDominos.Core.Data.LottoDominosDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = LottoDominos.Core.Data.LottoDominosDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = LottoDominos.Core.Data.LottoDominosDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Mancala.Core.Data.MancalaDetailClass.GameName,
+            SupportsCompactLayout = Mancala.Core.Data.MancalaDetailClass.SupportsCompactLayout,
+            MinPlayers = Mancala.Core.Data.MancalaDetailClass.MinPlayers,
+            MaxPlayers = Mancala.Core.Data.MancalaDetailClass.MaxPlayers,
+            NoPlayers = Mancala.Core.Data.MancalaDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Mancala.Core.Data.MancalaDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Mancala.Core.Data.MancalaDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = MilkRun.Core.Data.MilkRunDetailClass.GameName,
+            SupportsCompactLayout = MilkRun.Core.Data.MilkRunDetailClass.SupportsCompactLayout,
+            MinPlayers = MilkRun.Core.Data.MilkRunDetailClass.MinPlayers,
+            MaxPlayers = MilkRun.Core.Data.MilkRunDetailClass.MaxPlayers,
+            NoPlayers = MilkRun.Core.Data.MilkRunDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = MilkRun.Core.Data.MilkRunDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = MilkRun.Core.Data.MilkRunDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Millebournes.Core.Data.MillebournesDetailClass.GameName,
+            SupportsCompactLayout = Millebournes.Core.Data.MillebournesDetailClass.SupportsCompactLayout,
+            MinPlayers = Millebournes.Core.Data.MillebournesDetailClass.MinPlayers,
+            MaxPlayers = Millebournes.Core.Data.MillebournesDetailClass.MaxPlayers,
+            NoPlayers = Millebournes.Core.Data.MillebournesDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Millebournes.Core.Data.MillebournesDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Millebournes.Core.Data.MillebournesDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.GameName,
+            SupportsCompactLayout = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.MinPlayers,
+            MaxPlayers = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.MaxPlayers,
+            NoPlayers = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = MonasteryCardGame.Core.Data.MonasteryCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.GameName,
+            SupportsCompactLayout = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.MinPlayers,
+            MaxPlayers = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.MaxPlayers,
+            NoPlayers = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = MonopolyCardGame.Core.Data.MonopolyCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.GameName,
+            SupportsCompactLayout = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.SupportsCompactLayout,
+            MinPlayers = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.MinPlayers,
+            MaxPlayers = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.MaxPlayers,
+            NoPlayers = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = MonopolyDicedGame.Core.Data.MonopolyDicedGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = OldMaid.Core.Data.OldMaidDetailClass.GameName,
+            SupportsCompactLayout = OldMaid.Core.Data.OldMaidDetailClass.SupportsCompactLayout,
+            MinPlayers = OldMaid.Core.Data.OldMaidDetailClass.MinPlayers,
+            MaxPlayers = OldMaid.Core.Data.OldMaidDetailClass.MaxPlayers,
+            NoPlayers = OldMaid.Core.Data.OldMaidDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = OldMaid.Core.Data.OldMaidDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = OldMaid.Core.Data.OldMaidDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Opetong.Core.Data.OpetongDetailClass.GameName,
+            SupportsCompactLayout = Opetong.Core.Data.OpetongDetailClass.SupportsCompactLayout,
+            MinPlayers = Opetong.Core.Data.OpetongDetailClass.MinPlayers,
+            MaxPlayers = Opetong.Core.Data.OpetongDetailClass.MaxPlayers,
+            NoPlayers = Opetong.Core.Data.OpetongDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Opetong.Core.Data.OpetongDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Opetong.Core.Data.OpetongDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.GameName,
+            SupportsCompactLayout = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.SupportsCompactLayout,
+            MinPlayers = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.MinPlayers,
+            MaxPlayers = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.MaxPlayers,
+            NoPlayers = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = PassOutDiceGame.Core.Data.PassOutDiceGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Payday.Core.Data.PaydayDetailClass.GameName,
+            SupportsCompactLayout = Payday.Core.Data.PaydayDetailClass.SupportsCompactLayout,
+            MinPlayers = Payday.Core.Data.PaydayDetailClass.MinPlayers,
+            MaxPlayers = Payday.Core.Data.PaydayDetailClass.MaxPlayers,
+            NoPlayers = Payday.Core.Data.PaydayDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Payday.Core.Data.PaydayDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Payday.Core.Data.PaydayDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Phase10.Core.Data.Phase10DetailClass.GameName,
+            SupportsCompactLayout = Phase10.Core.Data.Phase10DetailClass.SupportsCompactLayout,
+            MinPlayers = Phase10.Core.Data.Phase10DetailClass.MinPlayers,
+            MaxPlayers = Phase10.Core.Data.Phase10DetailClass.MaxPlayers,
+            NoPlayers = Phase10.Core.Data.Phase10DetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Phase10.Core.Data.Phase10DetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Phase10.Core.Data.Phase10DetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = PickelCardGame.Core.Data.PickelCardGameDetailClass.GameName,
+            SupportsCompactLayout = PickelCardGame.Core.Data.PickelCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = PickelCardGame.Core.Data.PickelCardGameDetailClass.MinPlayers,
+            MaxPlayers = PickelCardGame.Core.Data.PickelCardGameDetailClass.MaxPlayers,
+            NoPlayers = PickelCardGame.Core.Data.PickelCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = PickelCardGame.Core.Data.PickelCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = PickelCardGame.Core.Data.PickelCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.GameName,
+            SupportsCompactLayout = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.SupportsCompactLayout,
+            MinPlayers = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.MinPlayers,
+            MaxPlayers = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.MaxPlayers,
+            NoPlayers = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Pinochle2Player.Core.Data.Pinochle2PlayerDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Racko.Core.Data.RackoDetailClass.GameName,
+            SupportsCompactLayout = Racko.Core.Data.RackoDetailClass.SupportsCompactLayout,
+            MinPlayers = Racko.Core.Data.RackoDetailClass.MinPlayers,
+            MaxPlayers = Racko.Core.Data.RackoDetailClass.MaxPlayers,
+            NoPlayers = Racko.Core.Data.RackoDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Racko.Core.Data.RackoDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Racko.Core.Data.RackoDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = RageCardGame.Core.Data.RageCardGameDetailClass.GameName,
+            SupportsCompactLayout = RageCardGame.Core.Data.RageCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = RageCardGame.Core.Data.RageCardGameDetailClass.MinPlayers,
+            MaxPlayers = RageCardGame.Core.Data.RageCardGameDetailClass.MaxPlayers,
+            NoPlayers = RageCardGame.Core.Data.RageCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = RageCardGame.Core.Data.RageCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = RageCardGame.Core.Data.RageCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Risk.Core.Data.RiskDetailClass.GameName,
+            SupportsCompactLayout = Risk.Core.Data.RiskDetailClass.SupportsCompactLayout,
+            MinPlayers = Risk.Core.Data.RiskDetailClass.MinPlayers,
+            MaxPlayers = Risk.Core.Data.RiskDetailClass.MaxPlayers,
+            NoPlayers = Risk.Core.Data.RiskDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Risk.Core.Data.RiskDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Risk.Core.Data.RiskDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = RollEm.Core.Data.RollEmDetailClass.GameName,
+            SupportsCompactLayout = RollEm.Core.Data.RollEmDetailClass.SupportsCompactLayout,
+            MinPlayers = RollEm.Core.Data.RollEmDetailClass.MinPlayers,
+            MaxPlayers = RollEm.Core.Data.RollEmDetailClass.MaxPlayers,
+            NoPlayers = RollEm.Core.Data.RollEmDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = RollEm.Core.Data.RollEmDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = RollEm.Core.Data.RollEmDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Rook.Core.Data.RookDetailClass.GameName,
+            SupportsCompactLayout = Rook.Core.Data.RookDetailClass.SupportsCompactLayout,
+            MinPlayers = Rook.Core.Data.RookDetailClass.MinPlayers,
+            MaxPlayers = Rook.Core.Data.RookDetailClass.MaxPlayers,
+            NoPlayers = Rook.Core.Data.RookDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Rook.Core.Data.RookDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Rook.Core.Data.RookDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.GameName,
+            SupportsCompactLayout = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.MinPlayers,
+            MaxPlayers = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.MaxPlayers,
+            NoPlayers = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = RoundsCardGame.Core.Data.RoundsCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = RummyDice.Core.Data.RummyDiceDetailClass.GameName,
+            SupportsCompactLayout = RummyDice.Core.Data.RummyDiceDetailClass.SupportsCompactLayout,
+            MinPlayers = RummyDice.Core.Data.RummyDiceDetailClass.MinPlayers,
+            MaxPlayers = RummyDice.Core.Data.RummyDiceDetailClass.MaxPlayers,
+            NoPlayers = RummyDice.Core.Data.RummyDiceDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = RummyDice.Core.Data.RummyDiceDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = RummyDice.Core.Data.RummyDiceDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Rummy500.Core.Data.Rummy500DetailClass.GameName,
+            SupportsCompactLayout = Rummy500.Core.Data.Rummy500DetailClass.SupportsCompactLayout,
+            MinPlayers = Rummy500.Core.Data.Rummy500DetailClass.MinPlayers,
+            MaxPlayers = Rummy500.Core.Data.Rummy500DetailClass.MaxPlayers,
+            NoPlayers = Rummy500.Core.Data.Rummy500DetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Rummy500.Core.Data.Rummy500DetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Rummy500.Core.Data.Rummy500DetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Savannah.Core.Data.SavannahDetailClass.GameName,
+            SupportsCompactLayout = Savannah.Core.Data.SavannahDetailClass.SupportsCompactLayout,
+            MinPlayers = Savannah.Core.Data.SavannahDetailClass.MinPlayers,
+            MaxPlayers = Savannah.Core.Data.SavannahDetailClass.MaxPlayers,
+            NoPlayers = Savannah.Core.Data.SavannahDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Savannah.Core.Data.SavannahDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Savannah.Core.Data.SavannahDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SequenceDice.Core.Data.SequenceDiceDetailClass.GameName,
+            SupportsCompactLayout = SequenceDice.Core.Data.SequenceDiceDetailClass.SupportsCompactLayout,
+            MinPlayers = SequenceDice.Core.Data.SequenceDiceDetailClass.MinPlayers,
+            MaxPlayers = SequenceDice.Core.Data.SequenceDiceDetailClass.MaxPlayers,
+            NoPlayers = SequenceDice.Core.Data.SequenceDiceDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SequenceDice.Core.Data.SequenceDiceDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SequenceDice.Core.Data.SequenceDiceDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.GameName,
+            SupportsCompactLayout = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.SupportsCompactLayout,
+            MinPlayers = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.MinPlayers,
+            MaxPlayers = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.MaxPlayers,
+            NoPlayers = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ShipCaptainCrew.Core.Data.ShipCaptainCrewDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SinisterSix.Core.Data.SinisterSixDetailClass.GameName,
+            SupportsCompactLayout = SinisterSix.Core.Data.SinisterSixDetailClass.SupportsCompactLayout,
+            MinPlayers = SinisterSix.Core.Data.SinisterSixDetailClass.MinPlayers,
+            MaxPlayers = SinisterSix.Core.Data.SinisterSixDetailClass.MaxPlayers,
+            NoPlayers = SinisterSix.Core.Data.SinisterSixDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SinisterSix.Core.Data.SinisterSixDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SinisterSix.Core.Data.SinisterSixDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.GameName,
+            SupportsCompactLayout = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.SupportsCompactLayout,
+            MinPlayers = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.MinPlayers,
+            MaxPlayers = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.MaxPlayers,
+            NoPlayers = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SixtySix2Player.Core.Data.SixtySix2PlayerDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Skipbo.Core.Data.SkipboDetailClass.GameName,
+            SupportsCompactLayout = Skipbo.Core.Data.SkipboDetailClass.SupportsCompactLayout,
+            MinPlayers = Skipbo.Core.Data.SkipboDetailClass.MinPlayers,
+            MaxPlayers = Skipbo.Core.Data.SkipboDetailClass.MaxPlayers,
+            NoPlayers = Skipbo.Core.Data.SkipboDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Skipbo.Core.Data.SkipboDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Skipbo.Core.Data.SkipboDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.GameName,
+            SupportsCompactLayout = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.MinPlayers,
+            MaxPlayers = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.MaxPlayers,
+            NoPlayers = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SkuckCardGame.Core.Data.SkuckCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SnagCardGame.Core.Data.SnagCardGameDetailClass.GameName,
+            SupportsCompactLayout = SnagCardGame.Core.Data.SnagCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = SnagCardGame.Core.Data.SnagCardGameDetailClass.MinPlayers,
+            MaxPlayers = SnagCardGame.Core.Data.SnagCardGameDetailClass.MaxPlayers,
+            NoPlayers = SnagCardGame.Core.Data.SnagCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SnagCardGame.Core.Data.SnagCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SnagCardGame.Core.Data.SnagCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.GameName,
+            SupportsCompactLayout = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.SupportsCompactLayout,
+            MinPlayers = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.MinPlayers,
+            MaxPlayers = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.MaxPlayers,
+            NoPlayers = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SnakesAndLadders.Core.Data.SnakesAndLaddersDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Sorry.Core.Data.SorryDetailClass.GameName,
+            SupportsCompactLayout = Sorry.Core.Data.SorryDetailClass.SupportsCompactLayout,
+            MinPlayers = Sorry.Core.Data.SorryDetailClass.MinPlayers,
+            MaxPlayers = Sorry.Core.Data.SorryDetailClass.MaxPlayers,
+            NoPlayers = Sorry.Core.Data.SorryDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Sorry.Core.Data.SorryDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Sorry.Core.Data.SorryDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SorryCardGame.Core.Data.SorryCardGameDetailClass.GameName,
+            SupportsCompactLayout = SorryCardGame.Core.Data.SorryCardGameDetailClass.SupportsCompactLayout,
+            MinPlayers = SorryCardGame.Core.Data.SorryCardGameDetailClass.MinPlayers,
+            MaxPlayers = SorryCardGame.Core.Data.SorryCardGameDetailClass.MaxPlayers,
+            NoPlayers = SorryCardGame.Core.Data.SorryCardGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SorryCardGame.Core.Data.SorryCardGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SorryCardGame.Core.Data.SorryCardGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.GameName,
+            SupportsCompactLayout = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.SupportsCompactLayout,
+            MinPlayers = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.MinPlayers,
+            MaxPlayers = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.MaxPlayers,
+            NoPlayers = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = SorryDicedGame.Core.Data.SorryDicedGameDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Spades2Player.Core.Data.Spades2PlayerDetailClass.GameName,
+            SupportsCompactLayout = Spades2Player.Core.Data.Spades2PlayerDetailClass.SupportsCompactLayout,
+            MinPlayers = Spades2Player.Core.Data.Spades2PlayerDetailClass.MinPlayers,
+            MaxPlayers = Spades2Player.Core.Data.Spades2PlayerDetailClass.MaxPlayers,
+            NoPlayers = Spades2Player.Core.Data.Spades2PlayerDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Spades2Player.Core.Data.Spades2PlayerDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Spades2Player.Core.Data.Spades2PlayerDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Spades4Player.Core.Data.Spades4PlayerDetailClass.GameName,
+            SupportsCompactLayout = Spades4Player.Core.Data.Spades4PlayerDetailClass.SupportsCompactLayout,
+            MinPlayers = Spades4Player.Core.Data.Spades4PlayerDetailClass.MinPlayers,
+            MaxPlayers = Spades4Player.Core.Data.Spades4PlayerDetailClass.MaxPlayers,
+            NoPlayers = Spades4Player.Core.Data.Spades4PlayerDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Spades4Player.Core.Data.Spades4PlayerDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Spades4Player.Core.Data.Spades4PlayerDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = TeeItUp.Core.Data.TeeItUpDetailClass.GameName,
+            SupportsCompactLayout = TeeItUp.Core.Data.TeeItUpDetailClass.SupportsCompactLayout,
+            MinPlayers = TeeItUp.Core.Data.TeeItUpDetailClass.MinPlayers,
+            MaxPlayers = TeeItUp.Core.Data.TeeItUpDetailClass.MaxPlayers,
+            NoPlayers = TeeItUp.Core.Data.TeeItUpDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = TeeItUp.Core.Data.TeeItUpDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = TeeItUp.Core.Data.TeeItUpDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ThinkTwice.Core.Data.ThinkTwiceDetailClass.GameName,
+            SupportsCompactLayout = ThinkTwice.Core.Data.ThinkTwiceDetailClass.SupportsCompactLayout,
+            MinPlayers = ThinkTwice.Core.Data.ThinkTwiceDetailClass.MinPlayers,
+            MaxPlayers = ThinkTwice.Core.Data.ThinkTwiceDetailClass.MaxPlayers,
+            NoPlayers = ThinkTwice.Core.Data.ThinkTwiceDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ThinkTwice.Core.Data.ThinkTwiceDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ThinkTwice.Core.Data.ThinkTwiceDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.GameName,
+            SupportsCompactLayout = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.SupportsCompactLayout,
+            MinPlayers = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.MinPlayers,
+            MaxPlayers = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.MaxPlayers,
+            NoPlayers = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = ThreeLetterFun.Core.Data.ThreeLetterFunDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = TicTacToe.Core.Data.TicTacToeDetailClass.GameName,
+            SupportsCompactLayout = TicTacToe.Core.Data.TicTacToeDetailClass.SupportsCompactLayout,
+            MinPlayers = TicTacToe.Core.Data.TicTacToeDetailClass.MinPlayers,
+            MaxPlayers = TicTacToe.Core.Data.TicTacToeDetailClass.MaxPlayers,
+            NoPlayers = TicTacToe.Core.Data.TicTacToeDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = TicTacToe.Core.Data.TicTacToeDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = TicTacToe.Core.Data.TicTacToeDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = TileRummy.Core.Data.TileRummyDetailClass.GameName,
+            SupportsCompactLayout = TileRummy.Core.Data.TileRummyDetailClass.SupportsCompactLayout,
+            MinPlayers = TileRummy.Core.Data.TileRummyDetailClass.MinPlayers,
+            MaxPlayers = TileRummy.Core.Data.TileRummyDetailClass.MaxPlayers,
+            NoPlayers = TileRummy.Core.Data.TileRummyDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = TileRummy.Core.Data.TileRummyDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = TileRummy.Core.Data.TileRummyDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Trouble.Core.Data.TroubleDetailClass.GameName,
+            SupportsCompactLayout = Trouble.Core.Data.TroubleDetailClass.SupportsCompactLayout,
+            MinPlayers = Trouble.Core.Data.TroubleDetailClass.MinPlayers,
+            MaxPlayers = Trouble.Core.Data.TroubleDetailClass.MaxPlayers,
+            NoPlayers = Trouble.Core.Data.TroubleDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Trouble.Core.Data.TroubleDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Trouble.Core.Data.TroubleDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Uno.Core.Data.UnoDetailClass.GameName,
+            SupportsCompactLayout = Uno.Core.Data.UnoDetailClass.SupportsCompactLayout,
+            MinPlayers = Uno.Core.Data.UnoDetailClass.MinPlayers,
+            MaxPlayers = Uno.Core.Data.UnoDetailClass.MaxPlayers,
+            NoPlayers = Uno.Core.Data.UnoDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Uno.Core.Data.UnoDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Uno.Core.Data.UnoDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Xactika.Core.Data.XactikaDetailClass.GameName,
+            SupportsCompactLayout = Xactika.Core.Data.XactikaDetailClass.SupportsCompactLayout,
+            MinPlayers = Xactika.Core.Data.XactikaDetailClass.MinPlayers,
+            MaxPlayers = Xactika.Core.Data.XactikaDetailClass.MaxPlayers,
+            NoPlayers = Xactika.Core.Data.XactikaDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Xactika.Core.Data.XactikaDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Xactika.Core.Data.XactikaDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = YaBlewIt.Core.Data.YaBlewItDetailClass.GameName,
+            SupportsCompactLayout = YaBlewIt.Core.Data.YaBlewItDetailClass.SupportsCompactLayout,
+            MinPlayers = YaBlewIt.Core.Data.YaBlewItDetailClass.MinPlayers,
+            MaxPlayers = YaBlewIt.Core.Data.YaBlewItDetailClass.MaxPlayers,
+            NoPlayers = YaBlewIt.Core.Data.YaBlewItDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = YaBlewIt.Core.Data.YaBlewItDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = YaBlewIt.Core.Data.YaBlewItDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = YachtRace.Core.Data.YachtRaceDetailClass.GameName,
+            SupportsCompactLayout = YachtRace.Core.Data.YachtRaceDetailClass.SupportsCompactLayout,
+            MinPlayers = YachtRace.Core.Data.YachtRaceDetailClass.MinPlayers,
+            MaxPlayers = YachtRace.Core.Data.YachtRaceDetailClass.MaxPlayers,
+            NoPlayers = YachtRace.Core.Data.YachtRaceDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = YachtRace.Core.Data.YachtRaceDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = YachtRace.Core.Data.YachtRaceDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = Yahtzee.Core.Data.YahtzeeDetailClass.GameName,
+            SupportsCompactLayout = Yahtzee.Core.Data.YahtzeeDetailClass.SupportsCompactLayout,
+            MinPlayers = Yahtzee.Core.Data.YahtzeeDetailClass.MinPlayers,
+            MaxPlayers = Yahtzee.Core.Data.YahtzeeDetailClass.MaxPlayers,
+            NoPlayers = Yahtzee.Core.Data.YahtzeeDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = Yahtzee.Core.Data.YahtzeeDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = Yahtzee.Core.Data.YahtzeeDetailClass.PlayerType
+        });
+
+        RegisterGame(new GameRegistration
+        {
+            GameName = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.GameName,
+            SupportsCompactLayout = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.SupportsCompactLayout,
+            MinPlayers = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.MinPlayers,
+            MaxPlayers = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.MaxPlayers,
+            NoPlayers = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.NoPlayers,
+            CanHaveExtraComputerPlayers = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.CanHaveExtraComputerPlayers,
+            PlayerType = YahtzeeHandsDown.Core.Data.YahtzeeHandsDownDetailClass.PlayerType
+        });
+
     }
 
     protected override IGameBootstrapper ChooseGame()
