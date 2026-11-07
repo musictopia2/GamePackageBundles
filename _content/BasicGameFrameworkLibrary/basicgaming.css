@@ -1,0 +1,157 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: content-box !important;
+}
+
+html, body, div {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: normal;
+}
+
+.beginning {
+    flex: 1;
+    user-select: none;
+}
+
+button:disabled {
+    color: lightgray;
+}
+
+.layout {
+    flex: 1;
+}
+
+.horizontalDiv {
+    display: inline;
+}
+
+fieldset {
+    border-color: white;
+    border-width: 2px;
+    border-radius: 4px;
+    min-width: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    width: initial;
+    max-width: initial;
+    margin-bottom: initial;
+    font-size: initial;
+    line-height: initial;
+    white-space: initial;
+    border-bottom: none;
+    padding: 0;
+}
+
+.scrollableField {
+    overflow: auto;
+}
+
+.fullframe {
+    display: block;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centeredflex{
+    display: flex;
+    align-items: center;
+}
+.blankrectangle {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.multiplepilesrelative {
+    position: relative;
+}
+
+.multiplepilesabsolute {
+    position: absolute;
+    left: 2px;
+}
+
+.vertical {
+    display: block;
+    margin-top: -1px;
+    padding-right: 3px; /* slightly less to tighten */
+    line-height: 1;
+    font-weight: normal;
+    user-select: none;
+}
+
+th > div {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.trick-area-relative {
+    position: relative;
+}
+.basicbutton {
+    border-color: white;
+    border-width: 2px;
+    border-radius: 2px;
+}
+
+
+.navigation-button {
+    background-color: aqua;
+    color: navy;
+}
+
+.top-button {
+    padding: 2px;
+    margin: 6px;
+    font-size: 1.2rem;
+}
+.action-button{
+    padding: 2px;
+    margin: 2px;
+}
+
+.selection-button{
+    width: 95%;
+}
+
+
+.top-bar {
+    height: 44px;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: indigo;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+.game-shell {
+    position: fixed;
+    inset: 0;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.game-content {
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+}
+.deck-count {
+    display: inline-block;
+    width: 3ch;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}

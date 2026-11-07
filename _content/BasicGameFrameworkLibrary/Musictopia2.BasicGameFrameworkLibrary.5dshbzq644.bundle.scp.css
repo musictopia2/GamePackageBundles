@@ -1,0 +1,36 @@
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SimpleControls/Grids/LabelGridComponent.razor.rz.scp.css */
+.main[b-ce51t2llzh]{
+    overflow:auto;
+    display: inline-block;
+}
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SolitaireClasses/MainClockBlazor.razor.rz.scp.css */
+.mainclockrelative[b-ss4q9up6ih]{
+    position: relative;
+}
+.mainclockabsolute[b-ss4q9up6ih]{
+    position: absolute;
+}
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SpecializedFrames/BoneyardPiles/BaseBoneyardPileBlazor.razor.rz.scp.css */
+.boneyardrelative[b-21ov1p47gt]{
+    position: relative;
+}
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SpecializedFrames/CardBoards/TextCardBoardBlazor.razor.rz.scp.css */
+.cardItem[b-8kusepy4of] {
+    border-color: white !important;
+    color: aqua;
+    border: 1px;
+    border-style: solid;
+    width: 100%;
+}
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SpecializedFrames/DrawPiles/BaseDrawPileBlazor.razor.rz.scp.css */
+.drawabsolute[b-l7tbq90c1s]{
+    position: absolute;
+}
+.drawrelative[b-l7tbq90c1s]{
+    position: relative;
+}
+/* _content/BasicGameFrameworkLibrary/Blazor/BasicControls/SpecializedFrames/MainRummySets/BaseIndividualRummySetBlazor.razor.rz.scp.css */
+.baserummymain[b-ycksmpqbnh]{
+    display: inline-block;
+    margin: 0px;
+}

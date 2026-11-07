@@ -1,0 +1,648 @@
+/* _content/BasicBlazorLibrary/Components/AutoCompleteHelpers/ManuelTextBoxComponent.razor.rz.scp.css */
+input[b-8711w2m3lf]{
+    line-height: 1.5;
+    width: 99.5%;
+}
+/* _content/BasicBlazorLibrary/Components/BaseClasses/ScrollableTableComponentBase.razor.rz.scp.css */
+th[b-6jv516t6u2] {
+    text-align: left;
+    top: 0px;
+    background-color: white;
+    position: sticky;
+}
+/* _content/BasicBlazorLibrary/Components/Basic/CenteredSvgText.razor.rz.scp.css */
+.maxSize[b-59k9z1yxuj] {
+    width: 100%;
+    height: 100%;
+}
+.bold[b-59k9z1yxuj]{
+    font-weight: bold;
+}
+/* _content/BasicBlazorLibrary/Components/Basic/ChanceRing.razor.rz.scp.css */
+.chance-ring-container[b-npkzbtphs4] {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    isolation: isolate; /* prevents parent stacking weirdness */
+}
+
+/* Both layers occupy the same grid cell */
+.chance-ring-svg[b-npkzbtphs4] {
+    grid-area: 1 / 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.chance-ring-content[b-npkzbtphs4] {
+    grid-area: 1 / 1;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    overflow: visible; /* do NOT clip content */
+}
+/* _content/BasicBlazorLibrary/Components/Basic/FrameSimpleComponent.razor.rz.scp.css */
+fieldset[b-815ck1i71s] {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: groove;
+    display: inline-block;
+    box-sizing: initial;
+    border-image: initial;
+}
+
+legend[b-815ck1i71s] {
+    width: initial;
+    max-width: initial;
+    margin-bottom: initial;
+    font-size: initial;
+    line-height: initial;
+    white-space: initial;
+    border-bottom: none;
+    margin-left: 2px;
+    float: none;
+}
+/* _content/BasicBlazorLibrary/Components/Basic/RawTextViewerComponent.razor.rz.scp.css */
+div[b-csex6luy8n] {
+    white-space: pre-line;
+}
+
+.overflow[b-csex6luy8n] {
+    overflow: auto;
+}
+/* _content/BasicBlazorLibrary/Components/Basic/ReaderComponent.razor.rz.scp.css */
+.customscroll[b-jehhd3wfhx] {
+    overflow:auto;
+}
+
+div:focus[b-jehhd3wfhx] {
+    outline: none;
+}
+.customdiv[b-jehhd3wfhx]{
+    cursor:pointer;
+    user-select:none;
+    line-height: 1.5;
+}
+.noscroll[b-jehhd3wfhx]{
+    overflow: hidden;
+/*
+    attempting to have a case where i can't scroll it.  can be helpful in some cases to keep me from making mistakes.
+    in this case attempt to make arrowing down do what it needs to (?)
+*/
+}
+/* _content/BasicBlazorLibrary/Components/Basic/ScreenReaderOnlyComponent.razor.rz.scp.css */
+span[b-ztpd553rd5] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0px;
+}
+/* _content/BasicBlazorLibrary/Components/CalendarPopups/CalendarSimpleModal.razor.rz.scp.css */
+
+.monthheader[b-mj1nmnwst8] {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.daysofweek[b-mj1nmnwst8] {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.dayoncalendar[b-mj1nmnwst8] {
+    border: solid black 1px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.smallheader[b-mj1nmnwst8] {
+    font-size: 2vmin;
+    display: inline;
+}
+
+.textdisplay[b-mj1nmnwst8] {
+    font-size: 2vmin;
+    margin: 2px;
+    width: 10vw;
+}
+/* _content/BasicBlazorLibrary/Components/Carousels/CarouselBasicContainer.razor.rz.scp.css */
+.simple-slider-container[b-wqwrfnvooy] {
+    margin: 0;
+    height: 100%;
+    display: inline-flex;
+    overflow-x: hidden;
+    transform: translateX(0);
+    transition: .3s ease-out;
+    cursor: grab;
+}
+/* _content/BasicBlazorLibrary/Components/Carousels/CarouselBasicItem.razor.rz.scp.css */
+.simple-slide[b-q9oxvcbzj5] {
+    max-height: 100%;
+    overflow-y: auto;
+    min-width: 100vw;
+    user-select: none;
+}
+/* _content/BasicBlazorLibrary/Components/ComboTextboxes/ComboBoxStringList.razor.rz.scp.css */
+.customtextbox[b-dd076dc9m5] {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.customscroll[b-dd076dc9m5] {
+    overflow-x: auto;
+    border: 1px solid;
+}
+
+.customdiv[b-dd076dc9m5]{
+    padding: 2px;
+    line-height: 1.5;
+}
+/* _content/BasicBlazorLibrary/Components/Divs/HiddenDiv.razor.rz.scp.css */
+.hiddendiv[b-hkofs0iuep]{
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+}
+/* _content/BasicBlazorLibrary/Components/Divs/ScrollableTableDiv.razor.rz.scp.css */
+th[b-nzk3e30upn] {
+    text-align: left;
+    top: 0px;
+    background-color: white;
+    position: sticky;
+}
+[b-nzk3e30upn] td {
+    padding-left: 0;
+    padding-right: .5rem;
+}
+/* _content/BasicBlazorLibrary/Components/Layouts/CanvasItem.razor.rz.scp.css */
+.absolute[b-nx58id2vf1] {
+    position: absolute;
+}
+/* _content/BasicBlazorLibrary/Components/Layouts/CanvasLayout.razor.rz.scp.css */
+.relative[b-7efcz6vx0m] {
+    position: relative;
+}
+/* _content/BasicBlazorLibrary/Components/Layouts/SelectableComponent.razor.rz.scp.css */
+.selected[b-ajnjg8s5ri] {
+    background-color: aqua;
+}
+
+.regular[b-ajnjg8s5ri] {
+    background-color: white;
+}
+
+.borders[b-ajnjg8s5ri] {
+    border: 2px solid black;
+}
+/* _content/BasicBlazorLibrary/Components/Modals/ConfirmationBlazor.razor.rz.scp.css */
+.buttondiv[b-ldso3kpcpf]{
+    margin-top: 10px;
+}
+/* _content/BasicBlazorLibrary/Components/Modals/IntegerInputModal.razor.rz.scp.css */
+
+.cell[b-eh0fsc343t] {
+    width: 21.5vmin;
+    height: 21.5vmin;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.action[b-eh0fsc343t] {
+    width: 21.5vmin;
+    height: 43vmin;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 7vmin;
+}
+
+.singlelarge[b-eh0fsc343t] {
+    width: 21.5vmin;
+    height: 21.5vmin;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 7vmin;
+}
+.number[b-eh0fsc343t] {
+    font-size: 19vmin;
+    line-height: 1;
+}
+
+.hidden[b-eh0fsc343t] {
+    display: none;
+}
+
+.center[b-eh0fsc343t] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.minus[b-eh0fsc343t] {
+    background-color: black;
+    width: 95%;
+    height: 30%;
+}
+.side[b-eh0fsc343t] {
+    font-size: 5vmin;
+}
+.finaldisplay[b-eh0fsc343t] {
+    box-sizing: border-box;
+    /* VISUALS */
+    padding: 0 1.5vmin;
+    font-size: 15vmin; /* your large font */
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1vmin;
+    /* 🔒 LOCK THE SIZE */
+    height: 18vmin; /* MUST be >= font-size */
+    line-height: 1;
+    /* SCROLL WITHOUT SHIFTING */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-gutter: stable;
+    /* ALIGN TEXT PROPERLY */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* _content/BasicBlazorLibrary/Components/Modals/MessageBoxBlazor.razor.rz.scp.css */
+.blackdiv[b-27iyja9bv0]{
+    color:black;
+}
+/* _content/BasicBlazorLibrary/Components/Modals/PopupFullScreen.razor.rz.scp.css */
+.topmodal[b-c7qjgjyg6o] {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.hidden[b-c7qjgjyg6o] {
+    display: none;
+}
+/* _content/BasicBlazorLibrary/Components/Modals/PopupViewport.razor.rz.scp.css */
+.pfs-inset[b-6dky0mxr8o] {
+    position: fixed;
+    box-sizing: border-box;
+    overflow: auto; /* important: scroll inside the popup, not the page */
+}
+/* _content/BasicBlazorLibrary/Components/NavigationMenus/MenuModal.razor.rz.scp.css */
+.clickable[b-aa7virhg43] {
+    cursor: pointer;
+}
+/* _content/BasicBlazorLibrary/Components/NavigationMenus/NavigationBarContainer.razor.rz.scp.css */
+
+.chrome[b-2annhe7f34] {
+    position: relative;
+    z-index: 5000; /* or your chosen chrome z */
+    width: 100vw;
+    overflow-x: clip;
+}
+.subheader[b-2annhe7f34] {
+    position: relative;
+    z-index: 1;
+}
+.main[b-2annhe7f34] {
+    width: 100vw;
+    overflow-x: clip;
+}
+
+.firstflex[b-2annhe7f34] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerdiv[b-2annhe7f34] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select:none;
+}
+
+
+.hidden[b-2annhe7f34] {
+    display: none;
+}
+.inline[b-2annhe7f34] {
+    display: inline-block;
+}
+
+.barcontent[b-2annhe7f34]{
+    margin-right: 10px;
+}
+.nav-title-wrap[b-2annhe7f34] {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-title-anchor[b-2annhe7f34] {
+    display: inline-flex; /* shrink-to-fit */
+    align-items: center;
+    gap: 30px; /* EXACT spacing you want */
+    position: relative;
+}
+
+.nav-title-indicator[b-2annhe7f34] {
+    display: inline-flex;
+    align-items: center;
+    pointer-events: none;
+}
+/* _content/BasicBlazorLibrary/Components/NumericMobileHelpers/WholeCurrencyPopup.razor.rz.scp.css */
+.single-large[b-smhapz0rvd] {
+    width: 21vmin;
+    height: 21vmin;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 6vmin;
+}
+.number[b-smhapz0rvd] {
+    font-size: 25vmin;
+}
+.double-number[b-smhapz0rvd]{
+    font-size: 19vmin;
+}
+.triple-number[b-smhapz0rvd]{
+    font-size: 12vmin;
+}
+.cell[b-smhapz0rvd] {
+    width: 21vmin;
+    height: 21vmin;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.value[b-smhapz0rvd] {
+    font-size: 15vmin;
+}
+.container[b-smhapz0rvd]{
+    width: 95vmin;
+    height: 95vmin;
+}
+/* _content/BasicBlazorLibrary/Components/SimpleSearchBoxes/SearchStringList.razor.rz.scp.css */
+.customtextbox[b-js01mp4rms] {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.customscroll[b-js01mp4rms] {
+    overflow-x: auto;
+    border: 1px solid;
+}
+/* _content/BasicBlazorLibrary/Components/Tabs/InternalBarHelper.razor.rz.scp.css */
+.clickable[b-6buwhvntz4] {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.main[b-6buwhvntz4] {
+    width: 100%;
+    white-space: nowrap;
+}
+/* _content/BasicBlazorLibrary/Components/Toasts/BlazoredToast.razor.rz.scp.css */
+.closemodal[b-nezq0hulli] {
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.blazored-toast[b-nezq0hulli] {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    animation: fadein-b-nezq0hulli 1.5s;
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    color: #fff;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0,0.25) 0px 10px 40px;
+}
+
+.blazored-toast-info[b-nezq0hulli] {
+    background-color: #34a9ad;
+}
+
+.blazored-toast-success[b-nezq0hulli] {
+    background-color: #5fba7d;
+}
+
+.blazored-toast-warning[b-nezq0hulli] {
+    background-color: #c1c13e;
+}
+
+.blazored-toast-error[b-nezq0hulli] {
+    background-color: #ba5e5e;
+}
+
+.blazored-toast-icon[b-nezq0hulli] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem 0 0;
+    font-size: 2.5rem;
+}
+
+.blazored-toast-body[b-nezq0hulli] {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.blazored-message[b-nezq0hulli] {
+    margin-top: 5px;
+}
+
+.blazored-toast-body .blazored-toast-header[b-nezq0hulli] {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+    .blazored-toast-body .blazored-toast-header .customheading[b-nezq0hulli] {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        line-height: 32px;
+        margin-top: -5px;
+    }
+
+    .blazored-toast-body .blazored-toast-header .blazored-toast-close[b-nezq0hulli] {
+        background-color: transparent;
+        border: 0;
+        -webkit-appearance: none;
+        color: inherit;
+        font-size: 1.25rem;
+    }
+
+.blazored-toast-body p[b-nezq0hulli] {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.blazored-toast-progressbar[b-nezq0hulli] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.blazored-toast-info .blazored-toast-progressbar > span[b-nezq0hulli] {
+    background-color: #34a9ad;
+}
+
+.blazored-toast-success .blazored-toast-progressbar > span[b-nezq0hulli] {
+    background-color: #5fba7d;
+}
+
+.blazored-toast-warning .blazored-toast-progressbar > span[b-nezq0hulli] {
+    background-color: #c1c13e;
+}
+
+.blazored-toast-error .blazored-toast-progressbar > span[b-nezq0hulli] {
+    background-color: #ba5e5e;
+}
+
+.blazored-toast-progressbar > span[b-nezq0hulli] {
+    position: absolute;
+    filter: brightness(75%);
+    height: 8px;
+    border-bottom-left-radius: .25rem;
+}
+
+@keyframes fadein-b-nezq0hulli {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .blazored-toast[b-nezq0hulli] {
+        width: 60vw;
+        border-radius: .25rem;
+    }
+}
+
+@media (min-width: 601px) {
+    .blazored-toast[b-nezq0hulli] {
+        width: 30rem;
+        border-radius: .25rem;
+    }
+}
+/* _content/BasicBlazorLibrary/Components/Toasts/BlazoredToasts.razor.rz.scp.css */
+.mainposition[b-z6xkz7q597] {
+    right: 2rem;
+}
+
+.blazored-toast-container[b-z6xkz7q597] {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 60000;
+}
+
+@media (max-width: 500px){
+    .blazored-toast[b-z6xkz7q597] {
+        width: 30rem;
+        border-radius: .25rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .blazored-toast[b-z6xkz7q597] {
+        width: 30rem;
+        border-radius: .25rem;
+    }
+}
+/* _content/BasicBlazorLibrary/Components/XML/InternalHelpers/AttributeComponent.razor.rz.scp.css */
+.attribute-name[b-akcm8cd8ci] {
+    color: rgb(153, 69, 0);
+}
+
+.attribute-value[b-akcm8cd8ci] {
+    color: rgb(26, 26, 166);
+}
+
+.customspan[b-akcm8cd8ci] {
+    display: inline-block;
+}
+/* _content/BasicBlazorLibrary/Components/XML/InternalHelpers/CommentComponent.razor.rz.scp.css */
+div[b-pe31jvkdv6] {
+    color: rgb(35, 110, 37);
+    white-space: pre;
+}
+/* _content/BasicBlazorLibrary/Components/XML/InternalHelpers/HtmlTagComponent.razor.rz.scp.css */
+div[b-vpn3orvgxh] {
+    color: rgb(136, 18, 128);
+}
+/* _content/BasicBlazorLibrary/Components/XML/InternalHelpers/ValueSpan.razor.rz.scp.css */
+span[b-f23vc0yj72] {
+    color: black;
+    display: inline-block;
+}
+/* _content/BasicBlazorLibrary/Components/XML/XMLViewerComponent.razor.rz.scp.css */
+span[b-wx9kechetb]::deep {
+    display: inline-block;
+}
+div[b-wx9kechetb]{
+    overflow: auto;
+}
