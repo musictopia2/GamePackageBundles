@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "Y+lFxIwO",
+  "version": "LLQmtTw4",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -102,7 +102,7 @@ self.assetsManifest = {
       "url": "_content/BasicGameFrameworkLibrary/basicgaming.css"
     },
     {
-      "hash": "sha256-2KLr3fzeYYJH35QCMgPrLvEx+wQ5TCIWF5Qgu+qKiqs=",
+      "hash": "sha256-o7oBe1HXVeGO727e3eRIA6AUsV5f3gk/rx9Lph5f+V8=",
       "url": "_content/GameLoaderBlazorLibrary/serviceWorkerInterop.js"
     },
     {
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.kfkl13qwae.wasm"
     },
     {
-      "hash": "sha256-jIOonX+f4W5KUQjfjF11Zd/hflQcLO9cfrnnDdMhvz4=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.4qm2w9wza5.wasm"
+      "hash": "sha256-TEN8mKjXVFHYYR0daFdZOgf7mvKtj2bpIgHPGJy7uHA=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.ce71hcgyun.wasm"
     },
     {
       "hash": "sha256-qyKMU93IdgaNw564NvnlZ9B7gjeWADshjuM8oZQ6UWg=",
@@ -130,8 +130,8 @@ self.assetsManifest = {
       "url": "_framework/BasicBlazorLibrary.3d87ixninj.wasm"
     },
     {
-      "hash": "sha256-EMvY+GVqjETJXkeZhzbZaYvtreAA6fO97D2vyjTkr6Y=",
-      "url": "_framework/BasicGameFrameworkLibrary.s9hqrkdbvf.wasm"
+      "hash": "sha256-JvJ6lJsIEel9yekOa7teWi7xvDV8NYQjIiK4HmObnEg=",
+      "url": "_framework/BasicGameFrameworkLibrary.qnlq6v6o44.wasm"
     },
     {
       "hash": "sha256-v6AVVNDoLj++IW2adj9oPBm+USqeJyHf3EXaR9MTI10=",
@@ -270,8 +270,8 @@ self.assetsManifest = {
       "url": "_framework/GalaxyCardGame.inmpadtf8i.wasm"
     },
     {
-      "hash": "sha256-gYn4skWAzom+KMvaCH7qKr+v6R72RzuNNkhG0Wsl0ag=",
-      "url": "_framework/GameLoaderBlazorLibrary.v8gdjk6bzq.wasm"
+      "hash": "sha256-aQdiQLpQRW8FrSA7ZGd9m8fsTgj/dkeUOijnknB0/rY=",
+      "url": "_framework/GameLoaderBlazorLibrary.hyp0ojwpmx.wasm"
     },
     {
       "hash": "sha256-DHIrjNVE0OwYxuU3/baVFZS75z63dK7GEpkyhXrR4JQ=",
@@ -862,7 +862,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-nXutkqJZmzuKmd03cF/uFTa6TG0WNRsh8epeLc53h6o=",
+      "hash": "sha256-Lh9/IF6qylqLGNrC34DGOfgUcOw0B5eu7HVyv0rFzQ4=",
       "url": "_framework/dotnet.js"
     },
     {

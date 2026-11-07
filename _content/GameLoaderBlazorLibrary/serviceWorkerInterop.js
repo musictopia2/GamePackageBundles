@@ -11,6 +11,12 @@ export function registerAndListen(dotNetHelper) {
                     }
                 });
             });
+
+            setInterval(() => {
+                reg.update().catch(error => {
+                    console.debug('Update check unavailable; keeping the current version.', error);
+                });
+            }, 60_000);
         });
     }
 }
