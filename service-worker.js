@@ -1,10 +1,10 @@
-/* Manifest version: LLQmtTw4 */
+/* Manifest version: GqJj/969 */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 self.importScripts('./service-worker-assets.js');
 
 //start
-const version = 10.32;
+const version = 11.0;
 //end
 
 const cacheNamePrefix = 'offline-cache-';
