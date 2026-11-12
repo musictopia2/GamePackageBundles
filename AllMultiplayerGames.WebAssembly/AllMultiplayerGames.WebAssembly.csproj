@@ -15,7 +15,7 @@
     <PackageReference Include="Musictopia2.A8RoundRummy" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Aggravation" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Backgammon" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.4" />
     <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="11.0.1" />
     <PackageReference Include="Musictopia2.BattleshipLite" Version="11.0.1" />
     <PackageReference Include="Musictopia2.BladesOfSteel" Version="11.0.1" />
