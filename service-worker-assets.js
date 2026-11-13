@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "DHQVUTbz",
+  "version": "vnet3pct",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.ikexbdgstm.wasm"
     },
     {
-      "hash": "sha256-p4ijZwEkcbDctEa02r0oJMvngaKQ6jIjRMz2CA+Gruw=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.51f50nma2m.wasm"
+      "hash": "sha256-8P9RYZYFcfSOiIOYmnr6chIncGuf0a8QJRqjQciGnI0=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.chuvsyr13u.wasm"
     },
     {
       "hash": "sha256-9j6T1sayKY1KeI7YAHpSbqTJQE7PfIGs9RDqMWB2tbs=",
@@ -598,8 +598,8 @@ self.assetsManifest = {
       "url": "_framework/Sorry.64iwziidjm.wasm"
     },
     {
-      "hash": "sha256-WTZ8ZbvI5/rFGfF6OLZP4Zg+bQ12m55mL2GOiPk3kAs=",
-      "url": "_framework/SorryCardGame.z98zpfi9b0.wasm"
+      "hash": "sha256-lEuwoQim2SaXXCVONhvqfhwgNwg8VnqSUSCOzVqVCYk=",
+      "url": "_framework/SorryCardGame.4ur6i0pgh8.wasm"
     },
     {
       "hash": "sha256-+CISRrR1ZMfQhNf2MdfjeH2w9a9zjWsr2/j2SbduhXI=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js.map"
     },
     {
-      "hash": "sha256-gxWc7D0hMrKDnO/yuU99lDHtN/7I0fNzIq+m1ExfunY=",
+      "hash": "sha256-X+UuIktg528dOTny7t/VtWoz/92Z58jhqMP/SCxiboU=",
       "url": "_framework/dotnet.js"
     },
     {
