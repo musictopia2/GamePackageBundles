@@ -94,7 +94,7 @@
     <PackageReference Include="Musictopia2.SkuckCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.SnagCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Sorry" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.SorryCardGame" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.SorryCardGame" Version="11.0.2" />
     <PackageReference Include="Musictopia2.Spades2Player" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Spades4Player" Version="11.0.1" />
     <PackageReference Include="Musictopia2.TeeItUp" Version="11.0.1" />
