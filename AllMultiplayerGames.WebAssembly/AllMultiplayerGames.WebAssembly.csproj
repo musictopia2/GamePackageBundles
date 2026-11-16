@@ -15,7 +15,7 @@
     <PackageReference Include="Musictopia2.A8RoundRummy" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Aggravation" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Backgammon" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.4" />
+    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.5" />
     <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="11.0.3" />
     <PackageReference Include="Musictopia2.BattleshipLite" Version="11.0.1" />
     <PackageReference Include="Musictopia2.BladesOfSteel" Version="11.0.1" />
@@ -93,7 +93,7 @@
     <PackageReference Include="Musictopia2.Skipbo" Version="11.0.1" />
     <PackageReference Include="Musictopia2.SkuckCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.SnagCardGame" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.Sorry" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.Sorry" Version="11.0.2" />
     <PackageReference Include="Musictopia2.SorryCardGame" Version="11.0.2" />
     <PackageReference Include="Musictopia2.Spades2Player" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Spades4Player" Version="11.0.1" />
