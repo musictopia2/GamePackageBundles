@@ -61,7 +61,7 @@
     <PackageReference Include="Musictopia2.MilkRun" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Millebournes" Version="11.0.1" />
     <PackageReference Include="Musictopia2.MonasteryCardGame" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.MonopolyCardGame" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.MonopolyCardGame" Version="11.0.2" />
     <PackageReference Include="Musictopia2.MultiplayerGamesBlazorLoaderLibrary" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Battleship" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Bingo" Version="11.0.1" />
