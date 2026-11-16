@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "B/5VFaTu",
+  "version": "7nRmj35T",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.ikexbdgstm.wasm"
     },
     {
-      "hash": "sha256-mqu9O3uzCcPzI8UuL36/Is/6Y0wrB9kwekH1PJ7CuVI=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.qn108hytf5.wasm"
+      "hash": "sha256-37Pzt/Q/sC9Owi7DwYrFWRhBKxcGZvzb1kzEYjjknfY=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.bxvdtlayk9.wasm"
     },
     {
       "hash": "sha256-9j6T1sayKY1KeI7YAHpSbqTJQE7PfIGs9RDqMWB2tbs=",
@@ -486,8 +486,8 @@ self.assetsManifest = {
       "url": "_framework/MonasteryCardGame.9fbgph4u33.wasm"
     },
     {
-      "hash": "sha256-w7UdmPO9wXmvDVSGSYME3VS3KPH0V7HyON/H0et+jpA=",
-      "url": "_framework/MonopolyCardGame.tcve8fhcww.wasm"
+      "hash": "sha256-zhjmcQEzJIK9wFY8ZoD0aAJj3b8dE2LOPCRi+JIXjHE=",
+      "url": "_framework/MonopolyCardGame.2wbss0i4k7.wasm"
     },
     {
       "hash": "sha256-wdVPaNCGamQDh3tCPDpdNOGJ8qLnqXup259p2LJ9+jY=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js.map"
     },
     {
-      "hash": "sha256-dPN2ghvcw2Pwld+EAO87VkDFtovYjfLGtO98rwXZZyE=",
+      "hash": "sha256-MTYFB7ljPxnyLDBfZorjiNdRZit4nyqA375FsHLa9Ck=",
       "url": "_framework/dotnet.js"
     },
     {
