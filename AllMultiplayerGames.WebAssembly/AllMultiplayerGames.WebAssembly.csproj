@@ -49,7 +49,7 @@
     <PackageReference Include="Musictopia2.GoFish" Version="11.0.1" />
     <PackageReference Include="Musictopia2.GolfCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Hearts" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.HitTheDeck" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.HitTheDeck" Version="11.0.2" />
     <PackageReference Include="Musictopia2.HorseshoeCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.HuseHearts" Version="11.0.1" />
     <PackageReference Include="Musictopia2.ItalianDominos" Version="11.0.1" />
