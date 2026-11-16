@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "uTcI/EM/",
+  "version": "B/5VFaTu",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.ikexbdgstm.wasm"
     },
     {
-      "hash": "sha256-M73FiHzrmM782qpk4ywTglfUwUo7WtX4XHEWn7RqlYA=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.phpvkb9unt.wasm"
+      "hash": "sha256-mqu9O3uzCcPzI8UuL36/Is/6Y0wrB9kwekH1PJ7CuVI=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.qn108hytf5.wasm"
     },
     {
       "hash": "sha256-9j6T1sayKY1KeI7YAHpSbqTJQE7PfIGs9RDqMWB2tbs=",
@@ -298,8 +298,8 @@ self.assetsManifest = {
       "url": "_framework/Hearts.zm2mcm79ha.wasm"
     },
     {
-      "hash": "sha256-LQFDCZmwwtWYsokauhjzCuq+2EU2cHBPit/nSjevL0g=",
-      "url": "_framework/HitTheDeck.bu9095j77m.wasm"
+      "hash": "sha256-01CMgrNr5A9ditaB4J8wyslrsGKiE8QmePWaEZz/9Q4=",
+      "url": "_framework/HitTheDeck.vty6v3blcg.wasm"
     },
     {
       "hash": "sha256-AJGeVU4fwyNgkvlM/0W6YFkrCojaAn5s0VurAOBJEik=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js.map"
     },
     {
-      "hash": "sha256-4fXRVfG3cK8mMYid0RrU1+jMD7NyyfMBoE/0OcuK6jo=",
+      "hash": "sha256-dPN2ghvcw2Pwld+EAO87VkDFtovYjfLGtO98rwXZZyE=",
       "url": "_framework/dotnet.js"
     },
     {
