@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "vnet3pct",
+  "version": "uTcI/EM/",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -118,16 +118,16 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.ikexbdgstm.wasm"
     },
     {
-      "hash": "sha256-8P9RYZYFcfSOiIOYmnr6chIncGuf0a8QJRqjQciGnI0=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.chuvsyr13u.wasm"
+      "hash": "sha256-M73FiHzrmM782qpk4ywTglfUwUo7WtX4XHEWn7RqlYA=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.phpvkb9unt.wasm"
     },
     {
       "hash": "sha256-9j6T1sayKY1KeI7YAHpSbqTJQE7PfIGs9RDqMWB2tbs=",
       "url": "_framework/Backgammon.2dig274uay.wasm"
     },
     {
-      "hash": "sha256-aTHdECEUQzs4J0cugLkg9WNIb7g6bPjIiRTe3m8CPgo=",
-      "url": "_framework/BasicBlazorLibrary.59epptx7hs.wasm"
+      "hash": "sha256-f2sYVXx6+I4egyMSTQmy1ixtBa0KlDs85BtHfiOYq84=",
+      "url": "_framework/BasicBlazorLibrary.7y754wv7nf.wasm"
     },
     {
       "hash": "sha256-i4EhxxEVP4UUVIwC+zwagOn+6stp5Px7MXLbai27UEg=",
@@ -594,8 +594,8 @@ self.assetsManifest = {
       "url": "_framework/SnakesAndLadders.uy1a9zbg6y.wasm"
     },
     {
-      "hash": "sha256-SvFkGUW3t8meZ6X9TtK0KnBLa3ByzV8zJoENDGlCezI=",
-      "url": "_framework/Sorry.64iwziidjm.wasm"
+      "hash": "sha256-agMBcY/T1LNdk9yuDxcYCiFcKCqUaUFHnVN5EITnpHw=",
+      "url": "_framework/Sorry.ev007umgfg.wasm"
     },
     {
       "hash": "sha256-lEuwoQim2SaXXCVONhvqfhwgNwg8VnqSUSCOzVqVCYk=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js.map"
     },
     {
-      "hash": "sha256-X+UuIktg528dOTny7t/VtWoz/92Z58jhqMP/SCxiboU=",
+      "hash": "sha256-4fXRVfG3cK8mMYid0RrU1+jMD7NyyfMBoE/0OcuK6jo=",
       "url": "_framework/dotnet.js"
     },
     {
