@@ -15,8 +15,8 @@
     <PackageReference Include="Musictopia2.A8RoundRummy" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Aggravation" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Backgammon" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.5" />
-    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="11.0.3" />
+    <PackageReference Include="Musictopia2.BasicBlazorLibrary" Version="11.0.6" />
+    <PackageReference Include="Musictopia2.BasicGameFrameworkLibrary" Version="11.0.4" />
     <PackageReference Include="Musictopia2.BattleshipLite" Version="11.0.1" />
     <PackageReference Include="Musictopia2.BladesOfSteel" Version="11.0.1" />
     <PackageReference Include="Musictopia2.BowlingDiceGame" Version="11.0.1" />
@@ -43,8 +43,8 @@
     <PackageReference Include="Musictopia2.Fluxx" Version="11.0.1" />
     <PackageReference Include="Musictopia2.FourSuitRummy" Version="11.0.1" />
     <PackageReference Include="Musictopia2.GalaxyCardGame" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.GameLoaderBlazorLibrary" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.GamePackageSignalRClasses" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.GameLoaderBlazorLibrary" Version="11.0.3" />
+    <PackageReference Include="Musictopia2.GamePackageSignalRClasses" Version="11.0.3" />
     <PackageReference Include="Musictopia2.GermanWhist" Version="11.0.1" />
     <PackageReference Include="Musictopia2.GoFish" Version="11.0.1" />
     <PackageReference Include="Musictopia2.GolfCardGame" Version="11.0.1" />
@@ -62,7 +62,7 @@
     <PackageReference Include="Musictopia2.Millebournes" Version="11.0.1" />
     <PackageReference Include="Musictopia2.MonasteryCardGame" Version="11.0.1" />
     <PackageReference Include="Musictopia2.MonopolyCardGame" Version="11.0.2" />
-    <PackageReference Include="Musictopia2.MultiplayerGamesBlazorLoaderLibrary" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.MultiplayerGamesBlazorLoaderLibrary" Version="11.0.3" />
     <PackageReference Include="Musictopia2.Battleship" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Bingo" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Checkers" Version="11.0.1" />
@@ -103,8 +103,8 @@
     <PackageReference Include="Musictopia2.TileRummy" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Trouble" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Uno" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.Xactika" Version="11.0.1" />
-    <PackageReference Include="Musictopia2.YaBlewIt" Version="11.0.1" />
+    <PackageReference Include="Musictopia2.Xactika" Version="11.0.2" />
+    <PackageReference Include="Musictopia2.YaBlewIt" Version="11.0.2" />
     <PackageReference Include="Musictopia2.YachtRace" Version="11.0.1" />
     <PackageReference Include="Musictopia2.Yahtzee" Version="11.0.1" />
     <PackageReference Include="Musictopia2.YahtzeeHandsDown" Version="11.0.1" />
