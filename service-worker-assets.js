@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "jUwD1jlt",
+  "version": "P8yCCF29",
   "assets": [
     {
       "hash": "sha256-KKzzxJ3vh+sTIHPoyQWt71TOUvoXiCOa8xwO7okCVsY=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/Aggravation.ikexbdgstm.wasm"
     },
     {
-      "hash": "sha256-EQOwFbxErXqtFESjHm3MfbHwzrURiVnWlkpBU3ZMjfo=",
-      "url": "_framework/AllMultiplayerGames.WebAssembly.bh02y3su6k.wasm"
+      "hash": "sha256-gOfe3oMuvmDrFd5+BfuY5vuf++YKhpqs6+QuKLwMTEg=",
+      "url": "_framework/AllMultiplayerGames.WebAssembly.cda4ffsxqi.wasm"
     },
     {
       "hash": "sha256-9j6T1sayKY1KeI7YAHpSbqTJQE7PfIGs9RDqMWB2tbs=",
@@ -270,8 +270,8 @@ self.assetsManifest = {
       "url": "_framework/GalaxyCardGame.g30jse4bov.wasm"
     },
     {
-      "hash": "sha256-T6Mz5Lbn/xVLarTu54g4BzEhNGVqfo2neRU1nbPBm8w=",
-      "url": "_framework/GameLoaderBlazorLibrary.7utlpkp02t.wasm"
+      "hash": "sha256-bvcMWHnYaFIO2iadqe9cwR2HEvF20I6wfYt13Nzeqnk=",
+      "url": "_framework/GameLoaderBlazorLibrary.yvf4qt6qmm.wasm"
     },
     {
       "hash": "sha256-/pIbDgHpTBh4GwcAYnBwA8ZY/lw9eMAmReccob8DXKA=",
@@ -494,8 +494,8 @@ self.assetsManifest = {
       "url": "_framework/MonopolyDicedGame.l3gtr9e948.wasm"
     },
     {
-      "hash": "sha256-C0D/nU7/GmG58isgXKym/IY16hbUiZuqxh0XurhjGRQ=",
-      "url": "_framework/MultiplayerGamesBlazorLoaderLibrary.prh0yxyrxu.wasm"
+      "hash": "sha256-1PjnEVgcbgkQXQ4kPZ00Z/VMawF9VGGcFcGlSptjFh4=",
+      "url": "_framework/MultiplayerGamesBlazorLoaderLibrary.83u2w1ba73.wasm"
     },
     {
       "hash": "sha256-6xX35z9FhpuYgnwi/00TrgQiMwWJ47Kvmy4CCRt+HVQ=",
@@ -630,8 +630,8 @@ self.assetsManifest = {
       "url": "_framework/System.Collections.NonGeneric.ag9nzj9s85.wasm"
     },
     {
-      "hash": "sha256-1fWMZm6cu1ZVxmVugNuso5IOyR3tD8yuV21jW+W0YYo=",
-      "url": "_framework/System.Collections.Specialized.1xfxbngu2i.wasm"
+      "hash": "sha256-BSyVsBpcz6JvBfzJF3hmEQtGiLa95l6UyCaSmWqaWyo=",
+      "url": "_framework/System.Collections.Specialized.9fyf4fnp50.wasm"
     },
     {
       "hash": "sha256-RlZyuN9OVbCblkhSyK621H4JYqTUjqkBvBOsRCD++EA=",
@@ -762,8 +762,8 @@ self.assetsManifest = {
       "url": "_framework/System.ObjectModel.7kgla4n2ny.wasm"
     },
     {
-      "hash": "sha256-O+MR57Xp25w/6oDvXR1uDZpM4u0DD3pfhJG/3iRZcnA=",
-      "url": "_framework/System.Private.CoreLib.f3wffdl2j0.wasm"
+      "hash": "sha256-Svmjpha7I/PSb041ea2I6VfI7c3dUd3HSew60PZFEI4=",
+      "url": "_framework/System.Private.CoreLib.emdbd8a0vz.wasm"
     },
     {
       "hash": "sha256-h/j4UEW2Raxzftvvj8h13YBBlNl8oYeSuI3sqpZkqjE=",
@@ -812,6 +812,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-jWjyYwGNENFVuOJLHXR3ZRscaI/bC4CrT6kUn8vg8u4=",
       "url": "_framework/System.Threading.Channels.9hammd2hgh.wasm"
+    },
+    {
+      "hash": "sha256-4Sv80Vb9x5jYl+vfVYFrALlhScLkoVrMHvQ/rie5/zw=",
+      "url": "_framework/System.Web.HttpUtility.j3ev3uyxnh.wasm"
     },
     {
       "hash": "sha256-Yue7a3j8L0A300dI+FSbE9aWjzz0C7n1n3cYfwSb/as=",
@@ -886,7 +890,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js.map"
     },
     {
-      "hash": "sha256-Vq6+UXU1bZDuPiXzk3Gh1DnVuK4KfhTg6q9cYEpzLrw=",
+      "hash": "sha256-KY43T5vUuy9PDJ3jK0ohcCYR/GTzDz9UbxBwfgkXqKs=",
       "url": "_framework/dotnet.js"
     },
     {
